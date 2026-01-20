@@ -1,0 +1,319 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UpscalerController_get_RenderScale_m8154C7DFE19980111DF67ACE2D2DA854EE536E2C (void);
+extern void UpscalerController_get_UpscalerContext_m8130AF820BE276B46B7F98FADFB143ED10F67AEF (void);
+extern void UpscalerController_set_UpscalerContext_m9DF728C306709278D2793A378C2B7521647A5262 (void);
+extern void UpscalerController_get_EnableOpaqueOnlyCopy_mD16CB0E177D115C7655206927CDB1F090038AB36 (void);
+extern void UpscalerController_set_EnableOpaqueOnlyCopy_mCAA503BD1741EAD255DA22D5A88B7FDAB23F3C13 (void);
+extern void UpscalerController_get_OpaqueOnlyTexture_mB106B586A9C28BEA1CFC66888C3568E2E62FE2A8 (void);
+extern void UpscalerController_get_EnableCustomReactiveMask_mC0A0AEBE0D36B47B5BE9B402E3A2E510E79CE936 (void);
+extern void UpscalerController_get_CustomReactiveMask_mBC118B32D48A00B37CCEDA8BDA259DBBE8C12F2C (void);
+extern void UpscalerController_get_ResetHistory_m554769F371186A79C08F25DFEAE7308ED2FB723D (void);
+extern void UpscalerController_Awake_m28A46B0544F8E7B826AF3E3AA43A89D49EF8903F (void);
+extern void UpscalerController_OnValidate_m7E36D5DB8E9C635C5581ABC25B3C2893DF2D3654 (void);
+extern void UpscalerController_OnEnable_mDBAF091D77CD6B7BE9E19E3A4A6265A271551947 (void);
+extern void UpscalerController_OnDisable_m3436F9D1F98B5C600A2B76B228655FE7566FE934 (void);
+extern void UpscalerController_Update_m9DDAB4571F1E4A6E2ECECF64F1890058D76663D6 (void);
+extern void UpscalerController_LateUpdate_m3486F2024587CA316C55AF3EE9DEEE50273E3BCF (void);
+extern void UpscalerController_ValidateQualityMode_mE0B0F59339B7D3F4BF9D104F3AA78075BC325995 (void);
+extern void UpscalerController_GetPrimaryUpscalerName_m73DBBFB86C491F3E6C14EA42BA2420A686DD0F47 (void);
+extern void UpscalerController_GetPrimaryUpscalerIdentifier_mD49550FDBD3365D4979ED580DB508205C10AD824 (void);
+extern void UpscalerController_SetPrimaryUpscaler_m8B4D317300E9C9E1ACAA456FBEC07890D114985D (void);
+extern void UpscalerController_SetPrimaryUpscaler_mAB3A5F804420A0A0D09F68156F56F1D684354F1F (void);
+extern void UpscalerController_GetCurrentlyActiveUpscalerPlugin_mE50D7B59AE785D6CC6EA68C8B4C136E12BDE33DB (void);
+extern void UpscalerController_ForEachUpscalerPlugin_mA1AE2EC97B96410DC86B00A527112C3088F16CE4 (void);
+extern void UpscalerController_TryGetUpscalerSettings_m45FB380DFE4356EC8C43060B67A9EE05981E4506 (void);
+extern void UpscalerController_EnumerateUpscalerChain_m5A985E9433AED95307B50C01E08A8FD62880902D (void);
+extern void UpscalerController_GetScaleFactor_m6F4C08496880678F15FD5187BE996D4BB2AD4F6B (void);
+extern void UpscalerController_CUpdateSettingsCaches_m1CB2C14AAD204212715B3D5D3AE4BC34EF4DA728 (void);
+extern void UpscalerController__ctor_mA631A84488374272B373615F02CCC5F389920B21 (void);
+extern void U3CCUpdateSettingsCachesU3Ed__44__ctor_mA2CBBCE0DF76F611AE6FF9F42A2591687995CE98 (void);
+extern void U3CCUpdateSettingsCachesU3Ed__44_System_IDisposable_Dispose_m524AA6AC48C410AF8E2722393F540512D220AEC8 (void);
+extern void U3CCUpdateSettingsCachesU3Ed__44_MoveNext_m288040F1B8057468E561064337BC7DFB07154016 (void);
+extern void U3CCUpdateSettingsCachesU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE1596E3F87C1202204E7F73977A7CDF7E883AC6A (void);
+extern void U3CCUpdateSettingsCachesU3Ed__44_System_Collections_IEnumerator_Reset_m850FBA7E2AEFCA4859841282FDEFA7CDAAAA1CE9 (void);
+extern void U3CCUpdateSettingsCachesU3Ed__44_System_Collections_IEnumerator_get_Current_mF3F24087218BCFC042EDBD080F7168EDCB77CF5E (void);
+extern void U3CEnumerateUpscalerChainU3Ed__42__ctor_mF6B133C47F07BE0AB0B84C3FBAE8461CA987863D (void);
+extern void U3CEnumerateUpscalerChainU3Ed__42_System_IDisposable_Dispose_m4FB108BA2D306830DC28564AE99006482BDAEB9C (void);
+extern void U3CEnumerateUpscalerChainU3Ed__42_MoveNext_mCBE96FB55BEE4DF8871FD57BD137101615245BA8 (void);
+extern void U3CEnumerateUpscalerChainU3Ed__42_System_Collections_Generic_IEnumeratorU3CTND_Upscaling_Framework_IUpscalerPluginU3E_get_Current_m428163A7076A670C9901E61561A9035675A969A0 (void);
+extern void U3CEnumerateUpscalerChainU3Ed__42_System_Collections_IEnumerator_Reset_m74C30D4DCA55214C35D8D62DFBA48D6BE61332EB (void);
+extern void U3CEnumerateUpscalerChainU3Ed__42_System_Collections_IEnumerator_get_Current_mE58FCFF8CDD5BB073073C92D9109019C59299D00 (void);
+extern void TextureRef_get_Width_m6D00D45A38599895577C7127A914C46A7EC5C97F (void);
+extern void TextureRef_get_Height_mA0810E43D41492C83346C8F3D89F2D0A2EBD6812 (void);
+extern void TextureRef_get_GraphicsFormat_m61A1AA448C10C9374974B5AE18B49926C2E4ECB3 (void);
+extern void TextureRef__ctor_mB08DF07FAF545DFED805D8DC9F76ED277CFA5EE3 (void);
+extern void TextureRef_GetRenderTargetIdentifier_m7D52AC1CACF7EB92EA6CEC8E2D51D98AB68B7BD1 (void);
+extern void TextureRef__cctor_mA97C55C3A9D72F13B76BDD4EEF00115B9807BB3A (void);
+extern void BlitterDelegate__ctor_m06586A0B05D39E8CB33631D9D38F08CA46895EE4 (void);
+extern void BlitterDelegate_Invoke_mFF0A1FF29865169E8AF796EC0BCB9174D97359A3 (void);
+extern void UpscalerBase_get_RequiresOpaqueOnlyInput_m5B94B5569893617934293D9075BDE0C3F524BC27 (void);
+extern void UpscalerBase_get_RequiresRandomWriteOutput_m90DE0527A3CD974B04107D4B899ACEB6755621FB (void);
+extern void UpscalerBase_Destroy_mB1575C36313CB0B3C70C11DE0EEFEA01B89DF240 (void);
+extern void UpscalerBase_SharpenPass_m0C8F87349ADC4690DABFC3FAE95557202E4316E9 (void);
+extern void UpscalerBase__ctor_m00D4D4260E0168B19FEDBBAEDA2C463C8CB927EE (void);
+extern void UpscalerBase__cctor_m5CAA74025BC819428C253D43D3CC3D506F0876D8 (void);
+extern void UpscalerContext_get_ActiveUpscalerPlugin_m140D4AFE4818AE9C8C0B3E5DF5C1088D41F35AB4 (void);
+extern void UpscalerContext__ctor_m7B6C05D22B4E0135EA49E244BE450308466EEB3B (void);
+extern void UpscalerContext__cctor_m28FBDEC72BB35CD7BF232E8923EB8A09FE96A998 (void);
+extern void UpscalerPluginRegistry_GetUpscalerPlugins_m86C0383992EB51FCA2995C09FDA2A36F93E101AE (void);
+extern void UpscalerPluginRegistry_RegisterUpscalerPlugin_mCB22EF283B484AB3682EC7CF34214E0492F504DF (void);
+extern void UpscalerPluginRegistry_FindUpscalerPlugin_mF6FB2E13BBDC0500AF584F28D01CD166D42F71C3 (void);
+extern void UpscalerPluginRegistry__cctor_m99FF1023D2ED0EBDB0496DD33061DBA211250F73 (void);
+extern void UpscalerSettingsBase_RestartRequired_m9D6A98ADE1005029D03F91FE6D001AF8E3D0CFD1 (void);
+extern void UpscalerSettingsBase_UpdateCachedValues_m35F10F949D8471948ACD4E48C6E55CB436A70CAD (void);
+extern void UpscalerSettingsBase_Awake_mA8C68E9C0B11AC2D7C69569A19BAEAEFEB7676A4 (void);
+extern void UpscalerSettingsBase__ctor_m8BFDED1CB810BF10AFB4ABF439DF4E909F3A4AC2 (void);
+extern void AutoReactiveSettings__cctor_mF5FACED9CA490336C5B9B5CA88C9D8825231F1DB (void);
+extern void UpscalerUtils_TryLoadMaterial_m5FAA5D334F9C0AF4B420187AD6FBF46B9F375242 (void);
+extern void UpscalerUtils_UnloadMaterial_m61C929B43B373F72ECEE88AB2B044B4972E6A458 (void);
+extern void UpscalerUtils_GetMatchingTemporaryRT_m9DCDE14309A8945EE2B418F6318B80DD2422AF8E (void);
+extern void UpscalerUtils_DestroyObject_m450975D9E81974FA2397952CCA0005A237206A20 (void);
+extern void UpscalerUtils__cctor_m0ACF48BF1C3C96385EB8952FEB479B483BBE2847 (void);
+static Il2CppMethodPointer s_methodPointers[90] = 
+{
+	UpscalerController_get_RenderScale_m8154C7DFE19980111DF67ACE2D2DA854EE536E2C,
+	UpscalerController_get_UpscalerContext_m8130AF820BE276B46B7F98FADFB143ED10F67AEF,
+	UpscalerController_set_UpscalerContext_m9DF728C306709278D2793A378C2B7521647A5262,
+	UpscalerController_get_EnableOpaqueOnlyCopy_mD16CB0E177D115C7655206927CDB1F090038AB36,
+	UpscalerController_set_EnableOpaqueOnlyCopy_mCAA503BD1741EAD255DA22D5A88B7FDAB23F3C13,
+	UpscalerController_get_OpaqueOnlyTexture_mB106B586A9C28BEA1CFC66888C3568E2E62FE2A8,
+	UpscalerController_get_EnableCustomReactiveMask_mC0A0AEBE0D36B47B5BE9B402E3A2E510E79CE936,
+	UpscalerController_get_CustomReactiveMask_mBC118B32D48A00B37CCEDA8BDA259DBBE8C12F2C,
+	UpscalerController_get_ResetHistory_m554769F371186A79C08F25DFEAE7308ED2FB723D,
+	UpscalerController_Awake_m28A46B0544F8E7B826AF3E3AA43A89D49EF8903F,
+	UpscalerController_OnValidate_m7E36D5DB8E9C635C5581ABC25B3C2893DF2D3654,
+	UpscalerController_OnEnable_mDBAF091D77CD6B7BE9E19E3A4A6265A271551947,
+	UpscalerController_OnDisable_m3436F9D1F98B5C600A2B76B228655FE7566FE934,
+	UpscalerController_Update_m9DDAB4571F1E4A6E2ECECF64F1890058D76663D6,
+	UpscalerController_LateUpdate_m3486F2024587CA316C55AF3EE9DEEE50273E3BCF,
+	UpscalerController_ValidateQualityMode_mE0B0F59339B7D3F4BF9D104F3AA78075BC325995,
+	UpscalerController_GetPrimaryUpscalerName_m73DBBFB86C491F3E6C14EA42BA2420A686DD0F47,
+	UpscalerController_GetPrimaryUpscalerIdentifier_mD49550FDBD3365D4979ED580DB508205C10AD824,
+	UpscalerController_SetPrimaryUpscaler_m8B4D317300E9C9E1ACAA456FBEC07890D114985D,
+	UpscalerController_SetPrimaryUpscaler_mAB3A5F804420A0A0D09F68156F56F1D684354F1F,
+	UpscalerController_GetCurrentlyActiveUpscalerPlugin_mE50D7B59AE785D6CC6EA68C8B4C136E12BDE33DB,
+	UpscalerController_ForEachUpscalerPlugin_mA1AE2EC97B96410DC86B00A527112C3088F16CE4,
+	UpscalerController_TryGetUpscalerSettings_m45FB380DFE4356EC8C43060B67A9EE05981E4506,
+	UpscalerController_EnumerateUpscalerChain_m5A985E9433AED95307B50C01E08A8FD62880902D,
+	UpscalerController_GetScaleFactor_m6F4C08496880678F15FD5187BE996D4BB2AD4F6B,
+	UpscalerController_CUpdateSettingsCaches_m1CB2C14AAD204212715B3D5D3AE4BC34EF4DA728,
+	UpscalerController__ctor_mA631A84488374272B373615F02CCC5F389920B21,
+	U3CCUpdateSettingsCachesU3Ed__44__ctor_mA2CBBCE0DF76F611AE6FF9F42A2591687995CE98,
+	U3CCUpdateSettingsCachesU3Ed__44_System_IDisposable_Dispose_m524AA6AC48C410AF8E2722393F540512D220AEC8,
+	U3CCUpdateSettingsCachesU3Ed__44_MoveNext_m288040F1B8057468E561064337BC7DFB07154016,
+	U3CCUpdateSettingsCachesU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE1596E3F87C1202204E7F73977A7CDF7E883AC6A,
+	U3CCUpdateSettingsCachesU3Ed__44_System_Collections_IEnumerator_Reset_m850FBA7E2AEFCA4859841282FDEFA7CDAAAA1CE9,
+	U3CCUpdateSettingsCachesU3Ed__44_System_Collections_IEnumerator_get_Current_mF3F24087218BCFC042EDBD080F7168EDCB77CF5E,
+	U3CEnumerateUpscalerChainU3Ed__42__ctor_mF6B133C47F07BE0AB0B84C3FBAE8461CA987863D,
+	U3CEnumerateUpscalerChainU3Ed__42_System_IDisposable_Dispose_m4FB108BA2D306830DC28564AE99006482BDAEB9C,
+	U3CEnumerateUpscalerChainU3Ed__42_MoveNext_mCBE96FB55BEE4DF8871FD57BD137101615245BA8,
+	U3CEnumerateUpscalerChainU3Ed__42_System_Collections_Generic_IEnumeratorU3CTND_Upscaling_Framework_IUpscalerPluginU3E_get_Current_m428163A7076A670C9901E61561A9035675A969A0,
+	U3CEnumerateUpscalerChainU3Ed__42_System_Collections_IEnumerator_Reset_m74C30D4DCA55214C35D8D62DFBA48D6BE61332EB,
+	U3CEnumerateUpscalerChainU3Ed__42_System_Collections_IEnumerator_get_Current_mE58FCFF8CDD5BB073073C92D9109019C59299D00,
+	TextureRef_get_Width_m6D00D45A38599895577C7127A914C46A7EC5C97F,
+	TextureRef_get_Height_mA0810E43D41492C83346C8F3D89F2D0A2EBD6812,
+	TextureRef_get_GraphicsFormat_m61A1AA448C10C9374974B5AE18B49926C2E4ECB3,
+	TextureRef__ctor_mB08DF07FAF545DFED805D8DC9F76ED277CFA5EE3,
+	TextureRef_GetRenderTargetIdentifier_m7D52AC1CACF7EB92EA6CEC8E2D51D98AB68B7BD1,
+	TextureRef__cctor_mA97C55C3A9D72F13B76BDD4EEF00115B9807BB3A,
+	BlitterDelegate__ctor_m06586A0B05D39E8CB33631D9D38F08CA46895EE4,
+	BlitterDelegate_Invoke_mFF0A1FF29865169E8AF796EC0BCB9174D97359A3,
+	UpscalerBase_get_RequiresOpaqueOnlyInput_m5B94B5569893617934293D9075BDE0C3F524BC27,
+	UpscalerBase_get_RequiresRandomWriteOutput_m90DE0527A3CD974B04107D4B899ACEB6755621FB,
+	NULL,
+	NULL,
+	UpscalerBase_Destroy_mB1575C36313CB0B3C70C11DE0EEFEA01B89DF240,
+	UpscalerBase_SharpenPass_m0C8F87349ADC4690DABFC3FAE95557202E4316E9,
+	UpscalerBase__ctor_m00D4D4260E0168B19FEDBBAEDA2C463C8CB927EE,
+	UpscalerBase__cctor_m5CAA74025BC819428C253D43D3CC3D506F0876D8,
+	NULL,
+	NULL,
+	UpscalerContext_get_ActiveUpscalerPlugin_m140D4AFE4818AE9C8C0B3E5DF5C1088D41F35AB4,
+	UpscalerContext__ctor_m7B6C05D22B4E0135EA49E244BE450308466EEB3B,
+	UpscalerContext__cctor_m28FBDEC72BB35CD7BF232E8923EB8A09FE96A998,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	UpscalerPluginRegistry_GetUpscalerPlugins_m86C0383992EB51FCA2995C09FDA2A36F93E101AE,
+	UpscalerPluginRegistry_RegisterUpscalerPlugin_mCB22EF283B484AB3682EC7CF34214E0492F504DF,
+	UpscalerPluginRegistry_FindUpscalerPlugin_mF6FB2E13BBDC0500AF584F28D01CD166D42F71C3,
+	UpscalerPluginRegistry__cctor_m99FF1023D2ED0EBDB0496DD33061DBA211250F73,
+	UpscalerSettingsBase_RestartRequired_m9D6A98ADE1005029D03F91FE6D001AF8E3D0CFD1,
+	UpscalerSettingsBase_UpdateCachedValues_m35F10F949D8471948ACD4E48C6E55CB436A70CAD,
+	UpscalerSettingsBase_Awake_mA8C68E9C0B11AC2D7C69569A19BAEAEFEB7676A4,
+	UpscalerSettingsBase__ctor_m8BFDED1CB810BF10AFB4ABF439DF4E909F3A4AC2,
+	AutoReactiveSettings__cctor_mF5FACED9CA490336C5B9B5CA88C9D8825231F1DB,
+	UpscalerUtils_TryLoadMaterial_m5FAA5D334F9C0AF4B420187AD6FBF46B9F375242,
+	UpscalerUtils_UnloadMaterial_m61C929B43B373F72ECEE88AB2B044B4972E6A458,
+	UpscalerUtils_GetMatchingTemporaryRT_m9DCDE14309A8945EE2B418F6318B80DD2422AF8E,
+	UpscalerUtils_DestroyObject_m450975D9E81974FA2397952CCA0005A237206A20,
+	UpscalerUtils__cctor_m0ACF48BF1C3C96385EB8952FEB479B483BBE2847,
+};
+extern void TextureRef_get_Width_m6D00D45A38599895577C7127A914C46A7EC5C97F_AdjustorThunk (void);
+extern void TextureRef_get_Height_mA0810E43D41492C83346C8F3D89F2D0A2EBD6812_AdjustorThunk (void);
+extern void TextureRef_get_GraphicsFormat_m61A1AA448C10C9374974B5AE18B49926C2E4ECB3_AdjustorThunk (void);
+extern void TextureRef__ctor_mB08DF07FAF545DFED805D8DC9F76ED277CFA5EE3_AdjustorThunk (void);
+extern void TextureRef_GetRenderTargetIdentifier_m7D52AC1CACF7EB92EA6CEC8E2D51D98AB68B7BD1_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[5] = 
+{
+	{ 0x06000028, TextureRef_get_Width_m6D00D45A38599895577C7127A914C46A7EC5C97F_AdjustorThunk },
+	{ 0x06000029, TextureRef_get_Height_mA0810E43D41492C83346C8F3D89F2D0A2EBD6812_AdjustorThunk },
+	{ 0x0600002A, TextureRef_get_GraphicsFormat_m61A1AA448C10C9374974B5AE18B49926C2E4ECB3_AdjustorThunk },
+	{ 0x0600002B, TextureRef__ctor_mB08DF07FAF545DFED805D8DC9F76ED277CFA5EE3_AdjustorThunk },
+	{ 0x0600002C, TextureRef_GetRenderTargetIdentifier_m7D52AC1CACF7EB92EA6CEC8E2D51D98AB68B7BD1_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[90] = 
+{
+	18208,
+	18092,
+	14245,
+	17864,
+	14003,
+	18092,
+	17864,
+	18092,
+	17864,
+	18321,
+	18321,
+	18321,
+	18321,
+	18321,
+	18321,
+	18321,
+	18013,
+	18092,
+	10336,
+	10405,
+	18092,
+	28323,
+	4927,
+	18092,
+	28089,
+	18092,
+	18321,
+	14145,
+	18321,
+	17864,
+	18092,
+	18321,
+	18092,
+	14145,
+	18321,
+	17864,
+	18092,
+	18321,
+	18092,
+	18013,
+	18013,
+	18013,
+	7731,
+	12580,
+	28971,
+	7734,
+	3102,
+	17864,
+	17864,
+	-1,
+	-1,
+	14245,
+	2607,
+	18321,
+	28971,
+	-1,
+	-1,
+	18092,
+	18321,
+	28971,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	28883,
+	28323,
+	27960,
+	28971,
+	17864,
+	18321,
+	18321,
+	18321,
+	28971,
+	22431,
+	25627,
+	19528,
+	28323,
+	28971,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[2] = 
+{
+	{ 0x0200000A, { 0, 2 } },
+	{ 0x02000010, { 2, 4 } },
+};
+extern const uint32_t g_rgctx_UpscalerBase_1_tDECC49DC054B38347F3759DB28EC8BC0DDC6116E;
+extern const uint32_t g_rgctx_TSettings_tCBA25F0C21AE63C59B8C01F4B9D8E9B3412433BA;
+extern const uint32_t g_rgctx_ScriptableObject_CreateInstance_TisTSettings_t304A6141A6C39980AA1767052D2A27F0943B273C_m1FF3962DBFAFD02675D07DA8802C4DD4B1891488;
+extern const uint32_t g_rgctx_TSettings_t304A6141A6C39980AA1767052D2A27F0943B273C;
+extern const uint32_t g_rgctx_UpscalerPlugin_2_t049EC39616DA1CA9A5387BEFC0D2715D8ABD25F0;
+extern const uint32_t g_rgctx_UpscalerPlugin_2_get_Priority_mCB1A53A12092AA59F8F54F9D803CD3791FD2652C;
+static const Il2CppRGCTXDefinition s_rgctxValues[6] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UpscalerBase_1_tDECC49DC054B38347F3759DB28EC8BC0DDC6116E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TSettings_tCBA25F0C21AE63C59B8C01F4B9D8E9B3412433BA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ScriptableObject_CreateInstance_TisTSettings_t304A6141A6C39980AA1767052D2A27F0943B273C_m1FF3962DBFAFD02675D07DA8802C4DD4B1891488 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TSettings_t304A6141A6C39980AA1767052D2A27F0943B273C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UpscalerPlugin_2_t049EC39616DA1CA9A5387BEFC0D2715D8ABD25F0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UpscalerPlugin_2_get_Priority_mCB1A53A12092AA59F8F54F9D803CD3791FD2652C },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_TND_Upscaling_Framework_Runtime_Core_CodeGenModule;
+const Il2CppCodeGenModule g_TND_Upscaling_Framework_Runtime_Core_CodeGenModule = 
+{
+	"TND.Upscaling.Framework.Runtime.Core.dll",
+	90,
+	s_methodPointers,
+	5,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	2,
+	s_rgctxIndices,
+	6,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

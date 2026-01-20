@@ -1,0 +1,22 @@
+# macOS junk
+.DS_Store
+
+# Xcode User Data (Σημαντικό! Αυτά αλλάζουν κάθε φορά που ανοίγεις το Xcode)
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.opex
+*.pbxuser
+*.auth
+*.xcuserstate
+xcuserdata/
+
+# Derived Data (Τα προσωρινά αρχεία του build)
+DerivedData/
+build/
+
+# Άλλα αρχεία που ίσως δημιουργούνται
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
