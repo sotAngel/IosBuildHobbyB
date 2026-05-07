@@ -1,7 +1,7 @@
 #pragma once
 
-#if _MSC_VER < 1900
-    #error "Baselib requires C++11 support, i.e. MSVC 2015 or newer"
+#if defined(__cplusplus) && __cplusplus < 201703L
+    #error "Baselib requires C++17 support"
 #endif
 
 #define COMPILER_MSVC 1

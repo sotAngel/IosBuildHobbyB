@@ -72,7 +72,11 @@ __attribute__ ((visibility("default")))
 
 // this one is called at at the very end of didFinishLaunchingWithOptions:
 // it will start showing unity view and rendering unity content
-- (void)startUnity:(UIApplication*)application;
+- (void)initUnityWithScene:(UIWindowScene*)scene;
+
+// this one is called at at the very end of didFinishLaunchingWithOptions:
+// it will start showing unity view and rendering unity content
+- (void)startUnity;
 
 // override it if you want to have custom logic for the decision to use CAMetalDisplayLink or not
 // in any case, CAMetalDisplayLink will be used only if actually supported by the device

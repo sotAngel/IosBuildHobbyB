@@ -3,13 +3,13 @@
 #include <cstring>
 
 static NSString* bundleIdWithData = nil;
-extern "C" void UnitySetDataBundleDirWithBundleId(const char* bundleId)
+UNITY_EXPORT extern "C" void UnitySetDataBundleDirWithBundleId(const char* bundleId)
 {
     if (bundleId) bundleIdWithData = [NSString stringWithUTF8String: bundleId];
     else bundleIdWithData = nil;
 }
 
-extern "C" const char* UnityDataBundleDir()
+UNITY_EXPORT extern "C" const char* UnityDataBundleDir()
 {
     static const char* dir = NULL;
     if (dir == NULL)
@@ -30,31 +30,31 @@ extern "C" const char* UnityDataBundleDir()
         return var;                         \
     } while (0)
 
-extern "C" const char* UnityDocumentsDir()
+UNITY_EXPORT extern "C" const char* UnityDocumentsDir()
 {
     RETURN_SPECIAL_DIR(NSDocumentDirectory);
 }
 
-extern "C" const char* UnityLibraryDir()
+UNITY_EXPORT extern "C" const char* UnityLibraryDir()
 {
     RETURN_SPECIAL_DIR(NSLibraryDirectory);
 }
 
-extern "C" const char* UnityCachesDir()
+UNITY_EXPORT extern "C" const char* UnityCachesDir()
 {
     RETURN_SPECIAL_DIR(NSCachesDirectory);
 }
 
 #undef RETURN_SPECIAL_DIR
 
-extern "C" int UnityUpdateNoBackupFlag(const char* path, int setFlag)
+UNITY_EXPORT extern "C" int UnityUpdateNoBackupFlag(const char* path, int setFlag)
 {
     NSURL* url = [NSURL fileURLWithPath: [NSString stringWithUTF8String: path]];
     NSError* err = nil;
     return [url setResourceValue: (setFlag ? @YES : @NO) forKey: NSURLIsExcludedFromBackupKey error: &err] == YES ? 1 : 0;
 }
 
-extern "C" const char* const* UnityFontFallbacks()
+UNITY_EXPORT extern "C" const char* const* UnityFontFallbacks()
 {
     /*  The following is the family names of fonts that are used as fallbacks
         for characters that were not fount in user-specified fonts. Add more

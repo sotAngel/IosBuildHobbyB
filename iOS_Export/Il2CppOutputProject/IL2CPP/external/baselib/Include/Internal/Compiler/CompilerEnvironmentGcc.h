@@ -7,8 +7,8 @@
 #if (__cplusplus == 1) && defined(LINUX)
     #error "This version of GCC is not supported. Please update to a more recent one."
 #endif
-#if defined(__cplusplus) && __cplusplus < 201103L
-    #error "Baselib requires C++11 support"
+#if defined(__cplusplus) && __cplusplus < 201703L
+    #error "Baselib requires C++17 support"
 #endif
 
 #define COMPILER_GCC 1

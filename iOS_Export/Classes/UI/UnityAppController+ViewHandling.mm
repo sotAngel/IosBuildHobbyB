@@ -12,8 +12,6 @@
 #include "UI/Keyboard.h"
 #include <utility>
 
-extern bool _skipPresent;
-
 static BOOL _shouldUseDefaultViewControllerForFixedOrientations = NO;
 
 @implementation UnityAppController (ViewHandling)
@@ -188,6 +186,11 @@ static BOOL _shouldUseDefaultViewControllerForFixedOrientations = NO;
     [self checkOrientationRequest];
 #endif
 
+    // recreateRenderingSurface expects layer's drawableSize to be set to proper value
+    //   and updateLayerDrawableSizeFromBounds does exactly that
+    // note that normally we go through recreateRenderingSurfaceIfNeeded
+    //   which does call updateLayerDrawableSizeFromBounds
+    [_unityView updateLayerDrawableSizeFromBounds];
     [_unityView updateUnityBackbufferSize];
     [_unityView recreateRenderingSurface];
 
@@ -220,12 +223,9 @@ static BOOL _shouldUseDefaultViewControllerForFixedOrientations = NO;
         // and we want to properly handle resolution request in Start (which might trigger surface recreate)
         // NB: we want to draw right after showing window, to avoid black frame creeping in
 
-        _skipPresent = true;
-
         if (!UnityIsPaused())
             UnityRepaint();
 
-        _skipPresent = false;
         [self repaint];
     }
 
@@ -273,7 +273,7 @@ static BOOL _shouldUseDefaultViewControllerForFixedOrientations = NO;
     // not call -viewWillTransitionToSize:.
     UIInterfaceOrientation newOrientation = UIViewControllerInterfaceOrientation(vc);
     BOOL orientationChangedToSupported = vc.supportedInterfaceOrientations & (1 << newOrientation);
-    if (!UnityiOS160orNewer() || orientationChangedToSupported)
+    if (!UnityiOSVersionIsAtLeast(16) || orientationChangedToSupported)
     {
         [self didTransitionToViewController: vc fromViewController: _rootController];
     }
@@ -464,12 +464,12 @@ static BOOL _shouldUseDefaultViewControllerForFixedOrientations = NO;
 
 #endif
 
-extern "C" void UnityNotifyHideHomeButtonChange()
+UNITY_EXPORT extern "C" void UnityNotifyHideHomeButtonChange()
 {
     [GetAppController() notifyHideHomeButtonChange];
 }
 
-extern "C" void UnityNotifyDeferSystemGesturesChange()
+UNITY_EXPORT extern "C" void UnityNotifyDeferSystemGesturesChange()
 {
     [GetAppController() notifyDeferSystemGesturesChange];
 }

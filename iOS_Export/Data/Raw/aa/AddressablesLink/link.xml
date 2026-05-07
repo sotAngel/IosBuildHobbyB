@@ -1,10 +1,6 @@
 <linker>
   <assembly fullname="AdvancedCullingSystem.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="NGS.AdvancedCullingSystem.Static.CameraZone" preserve="all" />
     <type fullname="NGS.AdvancedCullingSystem.Static.StaticCullingCamera" preserve="all" />
-    <type fullname="NGS.AdvancedCullingSystem.Static.StaticCullingController" preserve="all" />
-    <type fullname="NGS.AdvancedCullingSystem.Static.VisibilityTree" preserve="nothing" serialized="true" />
-    <type fullname="NGS.AdvancedCullingSystem.Static.VisibilityTreeNode" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AnimationEventChannelSO" preserve="all" />
@@ -33,8 +29,6 @@
     <type fullname="InstrumentTransitionParticles" preserve="all" />
     <type fullname="lib.SceneLoader" preserve="all" />
     <type fullname="MegaManager" preserve="all" />
-    <type fullname="MTAssets.EasyMinimapSystem.MinimapCamera" preserve="all" />
-    <type fullname="MTAssets.EasyMinimapSystem.MinimapItem" preserve="all" />
     <type fullname="MTAssets.EasyMinimapSystem.MinimapRenderer" preserve="all" />
     <type fullname="MusicClubManager" preserve="all" />
     <type fullname="MusicClubReset" preserve="all" />
@@ -139,26 +133,6 @@
     <type fullname="AssetKits.ParticleImage.SeparatedMinMaxCurve" preserve="nothing" serialized="true" />
     <type fullname="AssetKits.ParticleImage.SpeedRange" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Tayx.Graphy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Graphy.Runtime.UI.G_SafeArea" preserve="all" />
-    <type fullname="Tayx.Graphy.Advanced.G_AdvancedData" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioGraph" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioMonitor" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioText" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsGraph" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsMonitor" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsText" preserve="all" />
-    <type fullname="Tayx.Graphy.GraphyDebugger" preserve="all" />
-    <type fullname="Tayx.Graphy.GraphyManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamGraph" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamMonitor" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamText" preserve="all" />
-    <type fullname="Tayx.Graphy.GraphyDebugger/DebugCondition" preserve="nothing" serialized="true" />
-    <type fullname="Tayx.Graphy.GraphyDebugger/DebugPacket" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
@@ -228,6 +202,7 @@
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.BloomFilterModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.HDRACESPresetParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.MotionBlurModeParameter" preserve="nothing" serialized="true" />
@@ -314,6 +289,7 @@
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RenderingLayerMask" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
@@ -353,7 +329,6 @@
     <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
-    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
@@ -373,6 +348,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Mathematics">

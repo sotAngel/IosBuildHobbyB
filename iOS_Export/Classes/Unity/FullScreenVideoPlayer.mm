@@ -217,7 +217,7 @@ static bool prefersStatusBarHidden_DefaultImpl(id self_, SEL _cmd)
 
 @end
 
-extern "C" void UnityPlayFullScreenVideo(const char* path, const float* color, unsigned controls, unsigned scaling)
+UNITY_EXPORT extern "C" void UnityPlayFullScreenVideo(const char* path, const float* color, unsigned controls, unsigned scaling)
 {
     const BOOL  cancelOnTouch[] = { NO, NO, YES, NO };
     UIColor*    bgColor         = [UIColor colorWithRed: color[0] green: color[1] blue: color[2] alpha: color[3]];
@@ -250,18 +250,18 @@ extern "C" void UnityPlayFullScreenVideo(const char* path, const float* color, u
                            showControls: showControls[controls] videoGravity: videoGravity[scaling] cancelOnTouch: cancelOnTouch[controls]];
 }
 
-extern "C" void UnityStopFullScreenVideoIfPlaying()
+UNITY_EXPORT extern "C" void UnityStopFullScreenVideoIfPlaying()
 {
     if (_AVKitVideoPlayback)
         [_AVKitVideoPlayback finish];
 }
 
-extern "C" int UnityIsFullScreenPlaying()
+UNITY_EXPORT extern "C" int UnityIsFullScreenPlaying()
 {
     return _AVKitVideoPlayback ? 1 : 0;
 }
 
-extern "C" void TryResumeFullScreenVideo()
+UNITY_EXPORT extern "C" void TryResumeFullScreenVideo()
 {
     if (_AVKitVideoPlayback)
         [_AVKitVideoPlayback onPlayerTryResume];

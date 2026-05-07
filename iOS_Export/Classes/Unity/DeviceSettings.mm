@@ -29,7 +29,6 @@ static id QueryASIdentifierManager()
     return nil;
 }
 
-API_AVAILABLE(ios(14))
 static bool QueryAttTrackingAuthorization()
 {
     static bool _status = false;
@@ -67,7 +66,7 @@ static bool QueryAttTrackingAuthorization()
 
 #endif
 
-extern "C" const char* UnityAdIdentifier()
+UNITY_EXPORT extern "C" const char* UnityAdIdentifier()
 {
     static const char* _ADID = NULL;
 
@@ -92,12 +91,12 @@ extern "C" const char* UnityAdIdentifier()
     return _ADID;
 }
 
-extern "C" int UnityGetLowPowerModeEnabled()
+UNITY_EXPORT extern "C" int UnityGetLowPowerModeEnabled()
 {
     return [NSProcessInfo processInfo].lowPowerModeEnabled ? 1 : 0;
 }
 
-extern "C" int UnityGetWantsSoftwareDimming()
+UNITY_EXPORT extern "C" int UnityGetWantsSoftwareDimming()
 {
 #if !PLATFORM_TVOS && !PLATFORM_VISIONOS
     UIScreen* mainScreen = [UIScreen mainScreen];
@@ -107,7 +106,7 @@ extern "C" int UnityGetWantsSoftwareDimming()
 #endif
 }
 
-extern "C" void UnitySetWantsSoftwareDimming(int enabled)
+UNITY_EXPORT extern "C" void UnitySetWantsSoftwareDimming(int enabled)
 {
 #if !PLATFORM_TVOS && !PLATFORM_VISIONOS
     UIScreen* mainScreen = [UIScreen mainScreen];
@@ -115,35 +114,22 @@ extern "C" void UnitySetWantsSoftwareDimming(int enabled)
 #endif
 }
 
-extern "C" int UnityGetIosAppOnMac()
+UNITY_EXPORT extern "C" int UnityGetIosAppOnMac()
 {
-    if (@available(iOS 14, tvOS 14, *))
-        return [NSProcessInfo processInfo].iOSAppOnMac ? 1 : 0;
+    return [NSProcessInfo processInfo].iOSAppOnMac ? 1 : 0;
+}
+
+UNITY_EXPORT extern "C" int UnityAdTrackingEnabled()
+{
+
+#if UNITY_USES_IAD
+    return QueryAttTrackingAuthorization() ? 1 : 0;
+#endif
+
     return 0;
 }
 
-extern "C" int UnityAdTrackingEnabled()
-{
-    bool _AdTrackingEnabled = false;
-
-#if UNITY_USES_IAD
-    if (@available(iOS 14.0, tvOS 14.0, *))
-    {
-        _AdTrackingEnabled = QueryAttTrackingAuthorization();
-    }
-    else
-    {
-        // ad tracking can be changed during app lifetime
-        id manager = QueryASIdentifierManager();
-        if (manager)
-            _AdTrackingEnabled = [manager performSelector: @selector(isAdvertisingTrackingEnabled)];
-    }
-#endif
-
-    return _AdTrackingEnabled ? 1 : 0;
-}
-
-extern "C" const char* UnityVendorIdentifier()
+UNITY_EXPORT extern "C" const char* UnityVendorIdentifier()
 {
     static const char*  _VendorID           = NULL;
 
@@ -164,15 +150,15 @@ extern "C" const char* UnityVendorIdentifier()
         return value;                                                               \
     }
 
-QUERY_UIDEVICE_PROPERTY(UnityDeviceName, name)
-QUERY_UIDEVICE_PROPERTY(UnitySystemName, systemName)
-QUERY_UIDEVICE_PROPERTY(UnitySystemVersion, systemVersion)
+UNITY_EXPORT QUERY_UIDEVICE_PROPERTY(UnityDeviceName, name)
+UNITY_EXPORT QUERY_UIDEVICE_PROPERTY(UnitySystemName, systemName)
+UNITY_EXPORT QUERY_UIDEVICE_PROPERTY(UnitySystemVersion, systemVersion)
 
 #undef QUERY_UIDEVICE_PROPERTY
 
 // hw info
 
-extern "C" const char* UnityDeviceModel()
+UNITY_EXPORT extern "C" const char* UnityDeviceModel()
 {
     static const char* _DeviceModel = NULL;
 
@@ -205,7 +191,7 @@ extern "C" const char* UnityDeviceModel()
     return _DeviceModel;
 }
 
-extern "C" int UnityDeviceCPUCount()
+UNITY_EXPORT extern "C" int UnityDeviceCPUCount()
 {
     static int _DeviceCPUCount = -1;
 
@@ -220,13 +206,13 @@ extern "C" int UnityDeviceCPUCount()
     return _DeviceCPUCount;
 }
 
-extern "C" int UnityGetPhysicalMemory()
+UNITY_EXPORT extern "C" int UnityGetPhysicalMemory()
 {
     return (int)(NSProcessInfo.processInfo.physicalMemory / (1024ULL * 1024ULL));
 }
 
 // misc
-extern "C" const char* UnitySystemLanguage()
+UNITY_EXPORT extern "C" const char* UnitySystemLanguage()
 {
     static const char* _SystemLanguage = NULL;
 
@@ -361,7 +347,7 @@ DeviceTableEntry DeviceTable[] =
     { AppleTV, 14, 1, 1, deviceAppleTV4K3Gen },
 };
 
-extern "C" int ParseDeviceGeneration(const char* model)
+UNITY_EXPORT extern "C" int ParseDeviceGeneration(const char* model)
 {
     DeviceType deviceType = deviceTypeUnknown;
 
@@ -414,7 +400,7 @@ extern "C" int ParseDeviceGeneration(const char* model)
     return deviceUnknown;
 }
 
-extern "C" int UnityDeviceGeneration()
+UNITY_EXPORT extern "C" int UnityDeviceGeneration()
 {
     static int _DeviceGeneration = deviceUnknown;
 
@@ -427,7 +413,7 @@ extern "C" int UnityDeviceGeneration()
 }
 
 // Currently a manual process to add devices that have a cutout (notch). If you add one here you need to also update UnityView GetCutoutToScreenRatio()
-extern "C" int UnityDeviceHasCutout()
+UNITY_EXPORT extern "C" int UnityDeviceHasCutout()
 {
     switch (UnityDeviceGeneration())
     {
@@ -438,7 +424,7 @@ extern "C" int UnityDeviceHasCutout()
         case deviceiPhone14: case deviceiPhone14Plus: case deviceiPhone14Pro: case deviceiPhone14ProMax:
         case deviceiPhone15: case deviceiPhone15Plus: case deviceiPhone15Pro: case deviceiPhone15ProMax:
         case deviceiPhone16: case deviceiPhone16Plus: case deviceiPhone16Pro: case deviceiPhone16ProMax: case deviceiPhone16e:
-        case deviceiPhone17: case deviceiPhoneAir: case deviceiPhone17Pro: case deviceiPhone17ProMax:
+        case deviceiPhone17: case deviceiPhoneAir:    case deviceiPhone17Pro: case deviceiPhone17ProMax:
             return 1;
         default:
             return 0;
@@ -446,12 +432,12 @@ extern "C" int UnityDeviceHasCutout()
 }
 
 // Devices with a cutout do not support Portrait UpsideDown orientation.
-extern "C" int UnityDeviceSupportsUpsideDown()
+UNITY_EXPORT extern "C" int UnityDeviceSupportsUpsideDown()
 {
     return UnityDeviceHasCutout() ? 0 : 1;
 }
 
-extern "C" int UnityDeviceSupportedOrientations()
+UNITY_EXPORT extern "C" int UnityDeviceSupportedOrientations()
 {
     int orientations = (1 << portrait) | (1 << landscapeLeft) | (1 << landscapeRight);
     if (UnityDeviceSupportsUpsideDown())
@@ -460,12 +446,12 @@ extern "C" int UnityDeviceSupportedOrientations()
     return orientations;
 }
 
-extern "C" int UnityDeviceIsForceTouchSupported()
+UNITY_EXPORT extern "C" int UnityDeviceIsForceTouchSupported()
 {
     return UnityGetUnityView().traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable;
 }
 
-extern "C" int UnityDeviceIsStylusTouchSupported()
+UNITY_EXPORT extern "C" int UnityDeviceIsStylusTouchSupported()
 {
     const int deviceGen = UnityDeviceGeneration();
     return (deviceGen == deviceiPadPro1Gen ||
@@ -477,7 +463,7 @@ extern "C" int UnityDeviceIsStylusTouchSupported()
         deviceGen == deviceiPad6Gen) ? 1 : 0;
 }
 
-extern "C" int UnityDeviceCanShowWideColor()
+UNITY_EXPORT extern "C" int UnityDeviceCanShowWideColor()
 {
 #if PLATFORM_VISIONOS
     return 1;
@@ -486,7 +472,7 @@ extern "C" int UnityDeviceCanShowWideColor()
 #endif
 }
 
-extern "C" float UnityDeviceDPI()
+UNITY_EXPORT extern "C" float UnityDeviceDPI()
 {
     static float _DeviceDPI = -1.0f;
 
@@ -618,7 +604,7 @@ extern "C" float UnityDeviceDPI()
 
 // device id with fallback for pre-ios7
 
-extern "C" const char* UnityDeviceUniqueIdentifier()
+UNITY_EXPORT extern "C" const char* UnityDeviceUniqueIdentifier()
 {
     static const char* _DeviceID = NULL;
 

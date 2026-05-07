@@ -9,10 +9,6 @@ void UnityInitTrampoline();
 // WARNING: this MUST be c decl (NSString ctor will be called after +load, so we cant really change its value)
 const char* AppControllerClassName = "UnityAppController";
 
-#if UNITY_USES_DYNAMIC_PLAYER_LIB
-extern "C" void SetAllUnityFunctionsForDynamicPlayerLib();
-#endif
-
 extern "C" void UnitySetExecuteMachHeader(const MachHeader* header);
 
 extern "C" __attribute__((visibility("default"))) NSString* const kUnityDidUnload;
@@ -73,11 +69,6 @@ if([obj respondsToSelector:sel])                        \
 
 - (void)frameworkWarmup:(int)argc argv:(char*[])argv
 {
-#if UNITY_USES_DYNAMIC_PLAYER_LIB
-    SetAllUnityFunctionsForDynamicPlayerLib();
-#endif
-
-
     UnityInitTrampoline();
     UnityInitRuntime(argc, argv);
 

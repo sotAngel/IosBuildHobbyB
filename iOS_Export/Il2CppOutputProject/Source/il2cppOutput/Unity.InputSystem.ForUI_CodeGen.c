@@ -38,7 +38,9 @@ extern void InputSystemProvider_OnRightClickPerformed_m95A053882BE8785111FC67233
 extern void InputSystemProvider_OnScrollWheelPerformed_mEA2FBB206D964015CCF762FA2BC8C75193F88E36 (void);
 extern void InputSystemProvider_RegisterFixedActions_m4C2CA19FE8FD85658B1C78FBACD4D459EF7BF10B (void);
 extern void InputSystemProvider_UnregisterFixedActions_mB077AF4ABC124DBB7505807E5EF62BC03658327C (void);
+extern void InputSystemProvider_FindActionAndRegisterCallback_m12DEA98953CA577FDB59B16C380D406703507CE8 (void);
 extern void InputSystemProvider_RegisterActions_mE12FE41FF3E5248E0804E1C67FD297041EC4699C (void);
+extern void InputSystemProvider_UnregisterAction_mA1FE8ADAC5AF822287AC98C53CB8384DCE22454B (void);
 extern void InputSystemProvider_UnregisterActions_m5EBE4FD1FAF87C2DD977809D8FA850944BED6B94 (void);
 extern void InputSystemProvider_SelectInputActionAsset_mE2D69DEC9392B64292563D7D8FB8E332856CB904 (void);
 extern void InputSystemProvider__ctor_mAD0ACD0FD13335A66C2F60AA9D5DAFD7D9C5775E (void);
@@ -46,7 +48,7 @@ extern void Actions__cctor_m53FB77B02ADA0CC1D896B61377466B15993D7782 (void);
 extern void U3CU3Ec__cctor_m23871B7E94A81DCA5B54632B239F65BF95C2FD3E (void);
 extern void U3CU3Ec__ctor_m6BD3143DCD50739AFCB2155BC88628BBCC8AEACE (void);
 extern void U3CU3Ec_U3CUpdateU3Eb__33_0_mBB86435D4D8C58687960D1F7C09025E26EEE652A (void);
-static Il2CppMethodPointer s_methodPointers[39] = 
+static Il2CppMethodPointer s_methodPointers[41] = 
 {
 	InputSystemProvider__cctor_m1B2BFA7F3942CE7D68EEC2A06652C6C735660EF4,
 	InputSystemProvider_Bootstrap_mF57FB7E3DF3C1AB59A2D4822BEC6ECEEA8C0FC59,
@@ -79,7 +81,9 @@ static Il2CppMethodPointer s_methodPointers[39] =
 	InputSystemProvider_OnScrollWheelPerformed_mEA2FBB206D964015CCF762FA2BC8C75193F88E36,
 	InputSystemProvider_RegisterFixedActions_m4C2CA19FE8FD85658B1C78FBACD4D459EF7BF10B,
 	InputSystemProvider_UnregisterFixedActions_mB077AF4ABC124DBB7505807E5EF62BC03658327C,
+	InputSystemProvider_FindActionAndRegisterCallback_m12DEA98953CA577FDB59B16C380D406703507CE8,
 	InputSystemProvider_RegisterActions_mE12FE41FF3E5248E0804E1C67FD297041EC4699C,
+	InputSystemProvider_UnregisterAction_mA1FE8ADAC5AF822287AC98C53CB8384DCE22454B,
 	InputSystemProvider_UnregisterActions_m5EBE4FD1FAF87C2DD977809D8FA850944BED6B94,
 	InputSystemProvider_SelectInputActionAsset_mE2D69DEC9392B64292563D7D8FB8E332856CB904,
 	InputSystemProvider__ctor_mAD0ACD0FD13335A66C2F60AA9D5DAFD7D9C5775E,
@@ -88,53 +92,55 @@ static Il2CppMethodPointer s_methodPointers[39] =
 	U3CU3Ec__ctor_m6BD3143DCD50739AFCB2155BC88628BBCC8AEACE,
 	U3CU3Ec_U3CUpdateU3Eb__33_0_mBB86435D4D8C58687960D1F7C09025E26EEE652A,
 };
-static const int32_t s_InvokerIndices[39] = 
+static const int32_t s_InvokerIndices[41] = 
 {
-	28971,
-	28971,
-	17931,
-	17914,
-	18321,
-	18321,
-	18321,
-	18321,
-	18321,
-	14055,
-	12439,
-	17819,
-	18013,
-	24749,
-	14003,
-	25190,
-	12050,
-	11783,
-	9138,
-	13963,
-	24779,
-	14578,
-	14578,
-	14578,
-	3902,
-	14578,
-	14578,
-	14578,
-	14578,
-	18321,
-	18321,
-	18321,
-	18321,
-	18321,
-	18321,
-	28971,
-	28971,
-	18321,
-	5461,
+	31266,
+	31266,
+	19201,
+	19183,
+	19632,
+	19632,
+	19632,
+	19632,
+	19632,
+	15044,
+	13301,
+	19080,
+	19289,
+	26688,
+	14992,
+	27158,
+	12876,
+	12595,
+	9749,
+	14950,
+	26718,
+	15603,
+	15603,
+	15603,
+	4117,
+	15603,
+	15603,
+	15603,
+	15603,
+	19632,
+	19632,
+	6373,
+	19632,
+	6855,
+	19632,
+	19632,
+	19632,
+	31266,
+	31266,
+	19632,
+	5800,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_InputSystem_ForUI_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_InputSystem_ForUI_CodeGenModule = 
 {
 	"Unity.InputSystem.ForUI.dll",
-	39,
+	41,
 	s_methodPointers,
 	0,
 	NULL,

@@ -32,6 +32,11 @@
     // if we are using metal display link we will delay actual unity-side resizing to happen before rendering
     if (_shouldRecreateView && !GetAppController().unityUsesMetalDisplayLink)
     {
+        // recreateRenderingSurface expects layer's drawableSize to be set to proper value
+        //   and updateLayerDrawableSizeFromBounds does exactly that
+        // note that normally we go through recreateRenderingSurfaceIfNeeded
+        //   which does call updateLayerDrawableSizeFromBounds
+        [self updateLayerDrawableSizeFromBounds];
         [self updateUnityBackbufferSize];
         [self recreateRenderingSurface];
     }

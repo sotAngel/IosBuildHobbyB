@@ -6,7 +6,7 @@
 #include "Unity/ObjCRuntime.h"
 #include "UI/Keyboard.h"
 
-extern bool _skipPresent;
+#import <Metal/Metal.h>
 
 @implementation UnityView
 {
@@ -44,20 +44,35 @@ extern bool _skipPresent;
 // CAMetalDisplayLink: will be called from onUpdateDrawableSize, called in all "something view related changed" callbacks
 // CADisplayLink: we will call it from the display link callback, to not touch drawableSize while we are potentially rendering to drawable
 //   using old extents
-- (BOOL)updateLayerDrawableSizeFromBounds:(CAMetalLayer*)layer
+- (void)updateLayerDrawableSizeFromBounds
 {
-    const CGSize size  = self.bounds.size;
-    const float  scale = self.contentScaleFactor;
-    const CGSize systemRenderSize = CGSizeMake(::roundf(size.width * scale), ::roundf(size.height * scale));
+    if (![self.layer isKindOfClass: [CAMetalLayer class]])
+    {
+        // UnityView either has CAMetalLayer backing, when running on Metal, or CALayer, when running in 'nographics' mode
+        return;
+    }
 
-    if (systemRenderSize.width <= 0 || systemRenderSize.width <= 0)
-        return NO;
+    CAMetalLayer* metalLayer = (CAMetalLayer*)self.layer;
+    @synchronized(metalLayer)
+    {
+        const CGSize size  = self.bounds.size;
+        const float  scale = self.contentScaleFactor;
+        const CGSize systemRenderSize = CGSizeMake(::roundf(size.width * scale), ::roundf(size.height * scale));
 
-    if (systemRenderSize.width == layer.drawableSize.width && systemRenderSize.height == layer.drawableSize.height)
-        return NO;
-
-    layer.drawableSize = systemRenderSize;
-    return YES;
+        if (systemRenderSize.width <= 0 || systemRenderSize.height <= 0)
+        {
+            _shouldRecreateView = NO;
+        }
+        else if (systemRenderSize.width == metalLayer.drawableSize.width && systemRenderSize.height == metalLayer.drawableSize.height)
+        {
+            _shouldRecreateView = NO;
+        }
+        else
+        {
+            metalLayer.drawableSize = systemRenderSize;
+            _shouldRecreateView = YES;
+        }
+    }
 }
 
 - (void)onUpdateDrawableSize
@@ -65,13 +80,7 @@ extern bool _skipPresent;
     // when using metal display link, update drawable size immediately so that we are getting callback with correct size
     // when using old display link we will do this on frame start along with updating proxy textures (so that they all agree)
     if(GetAppController().unityUsesMetalDisplayLink)
-    {
-        CAMetalLayer* metalLayer = (CAMetalLayer*)self.layer;
-        @synchronized(metalLayer)
-        {
-            _shouldRecreateView = [self updateLayerDrawableSizeFromBounds: metalLayer];
-        }
-    }
+        [self updateLayerDrawableSizeFromBounds];
 }
 
 // this reports "backbuffer" update to unity: this should be done right before player loop
@@ -155,13 +164,7 @@ extern bool _skipPresent;
     // when using metal display link, update drawable size immediately so that we are getting callback with correct size
     // when using old display link we will do this on frame start along with updating proxy textures (so that they all agree)
     if(!GetAppController().unityUsesMetalDisplayLink)
-    {
-        CAMetalLayer* metalLayer = (CAMetalLayer*)self.layer;
-        @synchronized(metalLayer)
-        {
-            _shouldRecreateView = [self updateLayerDrawableSizeFromBounds: metalLayer];
-        }
-    }
+        [self updateLayerDrawableSizeFromBounds];
 
     [self updateUnityBackbufferSize];
 
@@ -207,45 +210,23 @@ extern bool _skipPresent;
             .metalFramebufferOnly   = UnityMetalFramebufferOnly(),
             .metalMemorylessDepth   = UnityMetalMemorylessDepth(),
             .disableDepthAndStencil = UnityDisableDepthAndStencilBuffers(),
-            .useCVTextureCache      = 0,
         };
 
         APP_CONTROLLER_RENDER_PLUGIN_METHOD_ARG(onBeforeMainDisplaySurfaceRecreate, &params);
         [GetMainDisplay() recreateSurface: params];
-
-        // actually poke unity about updated back buffer and notify that extents were changed
-        UnityReportBackbufferChange(GetMainDisplaySurface()->unityColorBuffer, GetMainDisplaySurface()->unityDepthBuffer);
         APP_CONTROLLER_RENDER_PLUGIN_METHOD(onAfterMainDisplaySurfaceRecreate);
 
         // TODO: it should be done better
-        if (   controller.engineLoadState >= kUnityEngineLoadStateAppReady && !controller.unityUsesMetalDisplayLink
+        if (   controller.engineLoadState >= kUnityEngineLoadStateAppReady && !GetAppController().unityUsesMetalDisplayLink
             && (_viewIsRotating || UnityIsPaused()))
         {
-            // seems like ios sometimes got confused about abrupt swap chain destroy
-            // draw 2 times to fill "both" buffers (we assume double buffering)
-            // present only once to make sure correct image goes to CA
-            // if we are calling this from inside repaint, second draw and present will be done automatically
-            _skipPresent = true;
-
-            // we may be asked to recreate surface while paused (in the background)
-            //   like changing device orientation while showing some system dialog
-            // in this case we still want to redraw contents to avoid view stretching
-            const bool wasPaused = UnityIsPaused();
-
-            // please note that we still need to pretend we did come from displaylink to make sure vsync magic works
-            // NOTE: unity does handle "draw frame with exact same timestamp" just fine
-            UnityDisplayLinkCallback(controller.unityDisplayLink.timestamp);
+            UnityDisplayLinkCallback(GetAppController().unityDisplayLink.timestamp);
             UnityRepaint();
 
-            // if we are inside actual repaint: we are done (second draw and present will be done automatically)
-            // otherwise we need the second repaint, actualy doing present this time
-            _skipPresent = false;
-
-            if (_viewIsRotating || wasPaused)
-            {
-                UnityDisplayLinkCallback(GetAppController().unityDisplayLink.timestamp);
-                UnityRepaint();
-            }
+            id<MTLCommandBuffer> cb = [UnityGetMetalCommandQueue() commandBuffer];
+            cb.label = @"Present";
+            [[DisplayManager Instance] presentWith:cb];
+            [cb commit];
         }
     }
 
@@ -357,23 +338,6 @@ CGRect ComputeSafeArea(UIView* view)
     float insetLeft = insets.left, insetBottom = insets.bottom, insetTop = insets.top;
     float insetHeight = insetBottom + insetTop;
     float insetWidth = insetLeft + insets.right;
-
-#if PLATFORM_IOS && !PLATFORM_VISIONOS
-    // pre-iOS 15 there is a bug with safeAreaInsets when coupled with the way unity handles forced orientation
-    // when we create/show new ViewController with fixed orientation, safeAreaInsets include status bar always
-    // alas, we did not find a good way to work around that (this can be seen even in View Debugging: Safe Area would have status bar accounted for)
-    // we know for sure that status bar height is 20 (at least on ios16 or older), so we can check if the safe area
-    //   includes inset of this size while status bar should be hidden in that case we reset top inset and keep
-    //   bottom one (might include home button swipe line,etc.).
-    if (@available(iOS 15, *))
-    {
-        // everything works as expected
-    }
-    else if (view.window.windowScene.statusBarManager.statusBarHidden && fabsf(insetTop - 20) < 1e-6f)
-    {
-        insetHeight -= insetTop;
-    }
-#endif
 
     // Unity uses bottom left as the origin
     screenRect = CGRectOffset(screenRect, insetLeft, insetBottom);

@@ -16,7 +16,7 @@ struct OnDemandResourcesRequestData
 };
 
 
-extern "C" OnDemandResourcesRequestData* UnityOnDemandResourcesCreateRequest(NSSet * tags, OnDemandResourcesRequestCompleteHandler handler, void* handlerData)
+UNITY_EXPORT extern "C" OnDemandResourcesRequestData* UnityOnDemandResourcesCreateRequest(NSSet * tags, OnDemandResourcesRequestCompleteHandler handler, void* handlerData)
 {
     OnDemandResourcesRequestData* data = new OnDemandResourcesRequestData();
     data->request = [[NSBundleResourceRequest alloc] initWithTags: tags];
@@ -29,24 +29,24 @@ extern "C" OnDemandResourcesRequestData* UnityOnDemandResourcesCreateRequest(NSS
     return data;
 }
 
-extern "C" void UnityOnDemandResourcesRelease(OnDemandResourcesRequestData* data)
+UNITY_EXPORT extern "C" void UnityOnDemandResourcesRelease(OnDemandResourcesRequestData* data)
 {
     [data->request endAccessingResources];
     delete data;
 }
 
-extern "C" float UnityOnDemandResourcesGetProgress(OnDemandResourcesRequestData* data)
+UNITY_EXPORT extern "C" float UnityOnDemandResourcesGetProgress(OnDemandResourcesRequestData* data)
 {
     return data->request.progress.fractionCompleted;
 }
 
-extern "C" float UnityOnDemandResourcesGetLoadingPriority(OnDemandResourcesRequestData* data)
+UNITY_EXPORT extern "C" float UnityOnDemandResourcesGetLoadingPriority(OnDemandResourcesRequestData* data)
 {
     float priority = (float)data->request.loadingPriority;
     return priority;
 }
 
-extern "C" void UnityOnDemandResourcesSetLoadingPriority(OnDemandResourcesRequestData* data, float priority)
+UNITY_EXPORT extern "C" void UnityOnDemandResourcesSetLoadingPriority(OnDemandResourcesRequestData* data, float priority)
 {
     if (priority < 0.0f)
         priority = 0.0f;
@@ -57,7 +57,7 @@ extern "C" void UnityOnDemandResourcesSetLoadingPriority(OnDemandResourcesReques
         data->request.loadingPriority = (double)priority;
 }
 
-extern "C" NSString* UnityOnDemandResourcesGetResourcePath(OnDemandResourcesRequestData * data, const char* resource)
+UNITY_EXPORT extern "C" NSString* UnityOnDemandResourcesGetResourcePath(OnDemandResourcesRequestData * data, const char* resource)
 {
     NSString* path = [[data->request bundle] pathForResource: [NSString stringWithUTF8String: resource] ofType: nil];
     return path;
@@ -71,7 +71,7 @@ struct OnDemandResourcesRequestData
 };
 
 
-extern "C" OnDemandResourcesRequestData* UnityOnDemandResourcesCreateRequest(NSSet * tags, OnDemandResourcesRequestCompleteHandler handler, void* handlerData)
+UNITY_EXPORT extern "C" OnDemandResourcesRequestData* UnityOnDemandResourcesCreateRequest(NSSet * tags, OnDemandResourcesRequestCompleteHandler handler, void* handlerData)
 {
     OnDemandResourcesRequestData* data = new OnDemandResourcesRequestData();
     if (handler)
@@ -79,26 +79,26 @@ extern "C" OnDemandResourcesRequestData* UnityOnDemandResourcesCreateRequest(NSS
     return data;
 }
 
-extern "C" void UnityOnDemandResourcesRelease(OnDemandResourcesRequestData* data)
+UNITY_EXPORT extern "C" void UnityOnDemandResourcesRelease(OnDemandResourcesRequestData* data)
 {
     delete data;
 }
 
-extern "C" float UnityOnDemandResourcesGetProgress(OnDemandResourcesRequestData* data)
+UNITY_EXPORT extern "C" float UnityOnDemandResourcesGetProgress(OnDemandResourcesRequestData* data)
 {
     return 1.0f;
 }
 
-extern "C" float UnityOnDemandResourcesGetLoadingPriority(OnDemandResourcesRequestData* data)
+UNITY_EXPORT extern "C" float UnityOnDemandResourcesGetLoadingPriority(OnDemandResourcesRequestData* data)
 {
     return 0.5;
 }
 
-extern "C" void UnityOnDemandResourcesSetLoadingPriority(OnDemandResourcesRequestData* data, float priority)
+UNITY_EXPORT extern "C" void UnityOnDemandResourcesSetLoadingPriority(OnDemandResourcesRequestData* data, float priority)
 {
 }
 
-extern "C" NSString* UnityOnDemandResourcesGetResourcePath(OnDemandResourcesRequestData * data, const char* resource)
+UNITY_EXPORT extern "C" NSString* UnityOnDemandResourcesGetResourcePath(OnDemandResourcesRequestData * data, const char* resource)
 {
     return [NSString stringWithUTF8String: resource];
 }

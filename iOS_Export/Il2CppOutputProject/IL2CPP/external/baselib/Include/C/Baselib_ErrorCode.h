@@ -39,6 +39,8 @@ typedef enum Baselib_ErrorCode
     Baselib_ErrorCode_AddressUnreachable,
     Baselib_ErrorCode_AddressFamilyNotSupported,
     Baselib_ErrorCode_Disconnected,
+    Baselib_ErrorCode_InvalidSocketType,
+    Baselib_ErrorCode_InvalidAddressFamily,
 
     // FileIO
     Baselib_ErrorCode_InvalidPathname = 0x05000000,

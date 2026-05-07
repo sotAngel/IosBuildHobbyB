@@ -17,10 +17,8 @@ extern void XRSettings_get_supportedDevices_m9ABC69D1044484DF7ED2B236AFCCD8BF107
 extern void XRSettings_get_stereoRenderingMode_mD66918C11E2216B1F8FA76934F79D5F85BC303FC (void);
 extern void XRSettings_get_eyeTextureDesc_Injected_m2B01F9A50CE1E88530044A5D342C1AE151BA17B5 (void);
 extern void XRSettings_get_loadedDeviceName_Injected_mFC2246F4C766B02173926CAD75142172713EB70C (void);
-extern void XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52 (void);
 extern void XRDevice_InvokeDeviceLoaded_mBE2198DE44A72E2F5059566C46B9907D82782790 (void);
-extern void XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE (void);
-static Il2CppMethodPointer s_methodPointers[13] = 
+static Il2CppMethodPointer s_methodPointers[11] = 
 {
 	XRSettings_get_enabled_mC22ABF5BF7D835DAB861A1FA384DBB8904D15E70,
 	XRSettings_get_isDeviceActive_m0C8A5F7EC76EF392020137915E4DD8E75EBDD6B8,
@@ -32,31 +30,27 @@ static Il2CppMethodPointer s_methodPointers[13] =
 	XRSettings_get_stereoRenderingMode_mD66918C11E2216B1F8FA76934F79D5F85BC303FC,
 	XRSettings_get_eyeTextureDesc_Injected_m2B01F9A50CE1E88530044A5D342C1AE151BA17B5,
 	XRSettings_get_loadedDeviceName_Injected_mFC2246F4C766B02173926CAD75142172713EB70C,
-	XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52,
 	XRDevice_InvokeDeviceLoaded_mBE2198DE44A72E2F5059566C46B9907D82782790,
-	XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE,
 };
-static const int32_t s_InvokerIndices[13] = 
+static const int32_t s_InvokerIndices[11] = 
 {
-	28820,
-	28820,
-	28858,
-	28858,
-	28915,
-	28883,
-	28883,
-	28858,
-	28274,
-	28274,
-	25898,
-	28323,
-	25676,
+	31093,
+	31093,
+	31135,
+	31135,
+	31205,
+	31161,
+	31161,
+	31135,
+	30509,
+	30509,
+	30558,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule = 
 {
 	"UnityEngine.VRModule.dll",
-	13,
+	11,
 	s_methodPointers,
 	0,
 	NULL,

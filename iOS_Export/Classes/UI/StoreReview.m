@@ -5,7 +5,7 @@
 + requestReview;
 @end
 
-bool UnityRequestStoreReview()
+UNITY_EXPORT bool UnityRequestStoreReview()
 {
     Class classSKStoreReviewController = NSClassFromString(@"SKStoreReviewController");
     if (!classSKStoreReviewController || ![classSKStoreReviewController respondsToSelector: @selector(requestReview)])

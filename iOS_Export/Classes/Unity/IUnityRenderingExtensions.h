@@ -8,6 +8,7 @@
 
 
 #include "IUnityGraphics.h"
+#include <stdbool.h>
 
 /*
     Low-level Native Plugin Rendering Extensions

@@ -3,8 +3,8 @@
 // This defines the compiler environment for clang based compilers. Please make sure to define all required features
 // (see VerifyCompilerEnvironment.h for reference)
 
-#if defined(__cplusplus) && __cplusplus < 201103L
-    #error "Baselib requires C++11 support"
+#if defined(__cplusplus) && __cplusplus < 201703L
+    #error "Baselib requires C++17 support"
 #endif
 
 #define COMPILER_CLANG 1

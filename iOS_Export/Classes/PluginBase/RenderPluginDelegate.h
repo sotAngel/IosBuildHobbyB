@@ -21,7 +21,6 @@ struct RenderingSurfaceParams;  // Unity/DisplayManager.h
 
 // this will be called before recreating main display surface (from [UnityView recreateRenderingSurface])
 // you can tweak params here.
-// use it for enabling CVTextureCache support and the likes
 - (void)onBeforeMainDisplaySurfaceRecreate:(struct RenderingSurfaceParams*)params;
 
 // this will be called right after recreating main display surface (from [UnityView recreateRenderingSurface])
@@ -33,7 +32,7 @@ struct RenderingSurfaceParams;  // Unity/DisplayManager.h
 // you can expect that frame contents are ready (though still in target resolution)
 // use it for anylizing/postprocessing rendered frame, taking screenshot and the like
 // you should use targetFB if it is not 0
-// otherwise use systemFB (covers case of intermediate fb not needed: no msaa, native res, no CVTextureCache involved)
+// otherwise use systemFB
 - (void)onFrameResolved;
 @end
 

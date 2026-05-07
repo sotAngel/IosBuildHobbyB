@@ -24,12 +24,12 @@
 #error Please use tvOS SDK 15.0 or newer
 #endif
 
-#if TARGET_OS_IOS && (!defined(__IPHONE_13_0) || __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_13_0)
-#error Please target iOS 13.0 or newer
+#if TARGET_OS_IOS && (!defined(__IPHONE_15_0) || __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_15_0)
+#error Please target iOS 15.0 or newer
 #endif
 
-#if TARGET_OS_TV && (!defined(__TVOS_13_0) || __TV_OS_VERSION_MIN_REQUIRED < __TVOS_13_0)
-#error Please target tvOS 13.0 or newer
+#if TARGET_OS_TV && (!defined(__TVOS_15_0) || __TV_OS_VERSION_MIN_REQUIRED < __TVOS_15_0)
+#error Please target tvOS 15.0 or newer
 #endif
 
 //------------------------------------------------------------------------------
@@ -201,7 +201,6 @@
 #define UNITY_USES_WEBCAM 0
 #define UNITY_USES_MICROPHONE 0
 #define UNITY_USES_REPLAY_KIT 0
-#define UNITY_USES_DYNAMIC_PLAYER_LIB 0
 #define UNITY_USES_LOCATION 0
 #define UNITY_USES_GLES 0
 #define UNITY_USES_IAD 0
@@ -214,6 +213,8 @@
 #define UNITY_DEVELOPER_BUILD 0
 #define USE_IL2CPP_PCH 0
 #define UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE 0
+
+#define UNITY_EXPORT __attribute__((visibility("default")))
 
 // we now support metal always everywhere, but we keep the define for native plugins using it
 #define UNITY_CAN_USE_METAL 1

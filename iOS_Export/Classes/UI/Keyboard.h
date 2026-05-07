@@ -39,8 +39,6 @@ KeyboardShowParam;
 - (void)keyboardWillHide:(NSNotification*)notification;
 - (void)keyboardDidHide:(NSNotification*)notification;
 - (void)keyboardDidChangeFrame:(NSNotification*)notification;
-
-- (void)positionInput:(CGRect)keyboardRect x:(float)x y:(float)y;
 #endif
 
 // on older devices initial keyboard creation might be slow, so it is good to init in on initial loading.

@@ -10,13 +10,20 @@
 
 #import <Metal/Metal.h>
 
-extern bool _skipPresent;
 extern bool _didResignActive;
 
 static int _renderingAPI = 0;
 static void SelectRenderingAPIImpl();
 
+
 @implementation UnityAppController (Rendering)
+
+#if !PLATFORM_VISIONOS
+- (BOOL)usingCompositorLayer
+{
+    return NO;
+}
+#endif
 
 - (void)createCADisplayLink
 {
@@ -60,15 +67,10 @@ static void SelectRenderingAPIImpl();
         [self createCADisplayLink];
 }
 
-- (void)destroyCADisplayLink
+- (void)destroyDisplayLink
 {
     [_displayLink invalidate];
     _displayLink = nil;
-}
-
-- (void)destroyDisplayLink
-{
-    [self destroyCADisplayLink];
 
 #if UNITY_USES_METAL_DISPLAY_LINK
     if (@available(iOS 17.0, tvOS 17.0, *))
@@ -79,20 +81,61 @@ static void SelectRenderingAPIImpl();
 #endif
 }
 
+- (void)pauseDisplayLink
+{
+    _displayLink.paused = YES;
+#if UNITY_USES_METAL_DISPLAY_LINK
+    if (@available(iOS 17.0, tvOS 17.0, *))
+        _metalDisplayLink.paused = YES;
+#endif
+}
+- (void)unpauseDisplayLink
+{
+    _displayLink.paused = NO;
+#if UNITY_USES_METAL_DISPLAY_LINK
+    if (@available(iOS 17.0, tvOS 17.0, *))
+        _metalDisplayLink.paused = NO;
+#endif
+}
+
+
 - (void)repaintDisplayLink
 {
-    if (!_didResignActive)
+    if (self.usingCompositorLayer == NO)
     {
         UnityDisplayLinkCallback(_displayLink.timestamp);
         [self repaint];
+    }
+    else
+    {
+        [self repaintCompositorLayer];
     }
 }
 
 #if UNITY_USES_METAL_DISPLAY_LINK
 - (void)metalDisplayLink:(CAMetalDisplayLink*)link needsUpdate:(CAMetalDisplayLinkUpdate*)update
 {
+    // we have found an issue on some devices in iOS handling of metal display link
+    // [NSAttributedString initWithData: options: documentAttributes: error:]
+    //   will load webkit on the first call which, in turn, will call metal display link callback
+    //   (most likely because it takes so slow)
+    // When NSAttributedString is used in plugin (called from unity player loop)
+    //   this results in a recursive [metalDisplayLink: needsUpdate:] call
+    // While Unity playerloop returns immediately, our trampoline rendering implementation
+    //   is not "ready" for it, and we will get a crash
+    // While this is purely apple iOS bug, we still want to work around it since
+    // 1. It is hard for users to track down the crash (it will crash in unrelated code)
+    // 2. It is hard for users to fix it (since they need to fix plugins logic considerably to use other means for HTML string)
+    // thus we try to catch this case here: if nextDrawable is still set, we did not yet ended previous frame
+    //   which is only possible if the recursive call was made, so we just ignore this frame.
+    // It will result in metal debug driver logging GPU Timeout Errors, but everything works fine
+    UnityDisplaySurfaceMTL* displaySurface = (UnityDisplaySurfaceMTL*)_mainDisplay.surface;
+    if(displaySurface->swapchain.nextDrawable != nil)
+        return;
+
     UnityDisplayLinkCallback(0);
-    ((UnityDisplaySurfaceMTL*)_mainDisplay.surface)->nextDrawable = update.drawable;
+
+    displaySurface->swapchain.nextDrawable = update.drawable;
     [self repaint];
 }
 #endif
@@ -105,6 +148,7 @@ static void SelectRenderingAPIImpl();
 #if UNITY_SUPPORT_ROTATION
     [self checkOrientationRequest];
 #endif
+
     [_unityView recreateRenderingSurfaceIfNeeded];
     [_unityView processKeyboard];
     UnityDeliverUIEvents();
@@ -121,13 +165,31 @@ static void SelectRenderingAPIImpl();
     if(UnityIsPaused())
     {
         if(self.unityUsesMetalDisplayLink)
-            UnityRenderWithoutPlayerLoop();
+            UnityRenderWithoutPlayerLoopWithBackbuffer(GetMainDisplaySurface()->unityColorBuffer, GetMainDisplaySurface()->unityDepthBuffer);
     }
     else
     {
         UnityRepaint();
     }
+
+    id<MTLCommandBuffer> cb = [UnityGetMetalCommandQueue() commandBuffer];
+    cb.label = @"Present";
+    [[DisplayManager Instance] presentWith:cb];
+    [cb commit];
+
+#if !PLATFORM_VISIONOS
+    if (UnityResolutionScalingFixedDPIFactorChanged())
+        _unityView.contentScaleFactor = UnityScreenScaleFactor([UIScreen mainScreen]);
+#endif
+
+    UnityCheckUnloadAndQuit();
 }
+
+#if !PLATFORM_VISIONOS
+- (void)repaintCompositorLayer
+{
+}
+#endif
 
 - (void)callbackGfxInited
 {
@@ -136,34 +198,12 @@ static void SelectRenderingAPIImpl();
     [self advanceEngineLoadState: kUnityEngineLoadStateRenderingInitialized];
 
     [self shouldAttachRenderDelegate];
+    [_unityView updateLayerDrawableSizeFromBounds];
     [_unityView updateUnityBackbufferSize];
     [_unityView recreateRenderingSurface];
     [_renderDelegate mainDisplayInited: _mainDisplay.surface];
 
     _mainDisplay.surface->allowScreenshot = 1;
-}
-
-- (void)callbackPresent:(const UnityFrameStats*)frameStats
-{
-    if (_skipPresent)
-        return;
-
-    // metal needs special processing, because in case of airplay we need extra command buffers to present non-main screen drawables
-    if (UnitySelectedRenderingAPI() == apiMetal)
-    {
-        [[DisplayManager Instance].mainDisplay present];
-#if !PLATFORM_VISIONOS
-        [[DisplayManager Instance] enumerateNonMainDisplaysWithBlock:^(DisplayConnection* conn) {
-            PreparePresentNonMainScreenMTL((UnityDisplaySurfaceMTL*)conn.surface);
-        }];
-#endif
-    }
-    else
-    {
-        [[DisplayManager Instance] present];
-    }
-
-    Profiler_FramePresent(frameStats);
 }
 
 - (void)callbackFramerateChange:(int)targetFPS
@@ -197,10 +237,7 @@ static void SelectRenderingAPIImpl();
     }
     else
     {
-        if (@available(iOS 15.0, tvOS 15.0, *))
             _displayLink.preferredFrameRateRange = CAFrameRateRangeMake(targetFPS, targetFPS, targetFPS);
-        else
-            _displayLink.preferredFramesPerSecond = targetFPS;
     }
 }
 
@@ -219,17 +256,16 @@ static void SelectRenderingAPIImpl();
 @end
 
 
-extern "C" void UnityGfxInitedCallback()
+UNITY_EXPORT extern "C" void UnityGfxInitedCallback()
 {
     [GetAppController() callbackGfxInited];
 }
 
-extern "C" void UnityPresentContextCallback(struct UnityFrameStats const* unityFrameStats)
+UNITY_EXPORT extern "C" void UnityPresentContextCallback()
 {
-    [GetAppController() callbackPresent: unityFrameStats];
 }
 
-extern "C" void UnityFramerateChangeCallback(int targetFPS)
+UNITY_EXPORT extern "C" void UnityFramerateChangeCallback(int targetFPS)
 {
     [GetAppController() callbackFramerateChange: targetFPS];
 }
@@ -253,24 +289,24 @@ static void SelectRenderingAPIImpl()
     }
 }
 
-extern "C" NSBundle*            UnityGetMetalBundle()       { return _MetalBundle; }
-extern "C" MTLDeviceRef         UnityGetMetalDevice()       { return _MetalDevice; }
-extern "C" MTLCommandQueueRef   UnityGetMetalCommandQueue() { return _MetalCommandQueue; }
-extern "C" int                  UnitySelectedRenderingAPI() { return _renderingAPI; }
-extern "C" void                 UnitySelectRenderingAPI()   { SelectRenderingAPIImpl(); }
+UNITY_EXPORT extern "C" NSBundle*            UnityGetMetalBundle()       { return _MetalBundle; }
+UNITY_EXPORT extern "C" MTLDeviceRef         UnityGetMetalDevice()       { return _MetalDevice; }
+UNITY_EXPORT extern "C" MTLCommandQueueRef   UnityGetMetalCommandQueue() { return _MetalCommandQueue; }
+UNITY_EXPORT extern "C" int                  UnitySelectedRenderingAPI() { return _renderingAPI; }
+UNITY_EXPORT extern "C" void                 UnitySelectRenderingAPI()   { SelectRenderingAPIImpl(); }
 
 // deprecated and no longer used by unity itself (will soon be removed)
-extern "C" MTLCommandQueueRef   UnityGetMetalDrawableCommandQueue() { return UnityGetMetalCommandQueue(); }
+UNITY_EXPORT extern "C" MTLCommandQueueRef   UnityGetMetalDrawableCommandQueue() { return UnityGetMetalCommandQueue(); }
 
 
-extern "C" UnityRenderBufferHandle  UnityBackbufferColor()      { return GetMainDisplaySurface()->unityColorBuffer; }
-extern "C" UnityRenderBufferHandle  UnityBackbufferDepth()      { return GetMainDisplaySurface()->unityDepthBuffer; }
+UNITY_EXPORT extern "C" UnityRenderBufferHandle  UnityBackbufferColor()      { return GetMainDisplaySurface()->unityColorBuffer; }
+UNITY_EXPORT extern "C" UnityRenderBufferHandle  UnityBackbufferDepth()      { return GetMainDisplaySurface()->unityDepthBuffer; }
 
-extern "C" void                 DisplayManagerEndFrameRendering() { [[DisplayManager Instance] endFrameRendering]; }
+UNITY_EXPORT extern "C" void                 DisplayManagerEndFrameRendering() { [[DisplayManager Instance] endFrameRendering]; }
 
-extern "C" void                 UnityPrepareScreenshot()    { UnitySetRenderTarget(GetMainDisplaySurface()->unityColorBuffer, GetMainDisplaySurface()->unityDepthBuffer); }
+UNITY_EXPORT extern "C" void                 UnityPrepareScreenshot()    { UnitySetRenderTarget(GetMainDisplaySurface()->unityColorBuffer, GetMainDisplaySurface()->unityDepthBuffer); }
 
-extern "C" void UnityRepaint()
+UNITY_EXPORT extern "C" void UnityRepaint()
 {
     @autoreleasepool
     {
@@ -278,7 +314,7 @@ extern "C" void UnityRepaint()
         if (UnityIsBatchmode())
             UnityBatchPlayerLoop();
         else
-            UnityPlayerLoop();
+            UnityPlayerLoopWithBackbuffer(GetMainDisplaySurface()->unityColorBuffer, GetMainDisplaySurface()->unityDepthBuffer);
         Profiler_FrameEnd();
     }
 }

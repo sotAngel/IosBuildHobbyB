@@ -15,7 +15,7 @@ extern "C" void UnitySetExecuteMachHeader(const decltype(_mh_execute_header)* he
     sExecuteHeader = header;
 }
 
-extern "C" const decltype(_mh_execute_header) * UnityGetExecuteMachHeader() {
+UNITY_EXPORT extern "C" const decltype(_mh_execute_header) * UnityGetExecuteMachHeader() {
     return sExecuteHeader;
 }
 

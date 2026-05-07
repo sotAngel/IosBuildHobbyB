@@ -38,12 +38,12 @@ void HideActivityIndicator()
     }
 }
 
-extern "C" void UnityStartActivityIndicator()
+UNITY_EXPORT extern "C" void UnityStartActivityIndicator()
 {
     ShowActivityIndicator(UnityGetGLView());
 }
 
-extern "C" void UnityStopActivityIndicator()
+UNITY_EXPORT extern "C" void UnityStopActivityIndicator()
 {
     HideActivityIndicator();
 }

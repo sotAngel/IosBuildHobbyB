@@ -47,9 +47,6 @@ void    UnityInitApplicationGraphics(void);
 void    UnityCleanup(void);
 void    UnityLoadApplication(void);
 void    UnityLoadApplicationFromSceneLessState(void);
-void    UnityPlayerLoop(void);              // normal player loop
-void    UnityBatchPlayerLoop(void);         // batch mode like player loop, without rendering (usable for background processing)
-void    UnityRenderWithoutPlayerLoop(void); // just re-renders, without actually running player loop
 void    UnitySetPlayerFocus(int focused);   // send OnApplicationFocus() message to scripts
 void    UnityLowMemory(void);
 void    UnityPause(int pause);
@@ -62,6 +59,19 @@ void    UnityDeliverUIEvents(void);         // unity processing impacting UI wil
 void    UnityWaitForFrame();
 
 void    UnityInputProcess(void);            // no longer used, will be removed soon
+
+// player loop handling:
+// normal player loop
+void    UnityPlayerLoopWithBackbuffer(UnityRenderBufferHandle color, UnityRenderBufferHandle depth);
+// just render, without actually running player loop (used for CAMetalDisplayLink callback when unity is paused)
+void    UnityRenderWithoutPlayerLoopWithBackbuffer(UnityRenderBufferHandle color, UnityRenderBufferHandle depth);
+// batchmode player loop: no rendering to view (useful for background processing)
+void    UnityBatchPlayerLoop(void);
+// checks if we need to quit or unload unity; needs to happen after we are fully done with the current frame
+void    UnityCheckUnloadAndQuit(void);
+// these are deprecated (we do not call them anymore from the trampoline, but we keep them around for the possible plugins usage)
+void    UnityPlayerLoop(void) __attribute__((deprecated("Use UnityPlayerLoopWithBackbuffer instead of UnityPlayerLoop")));
+void    UnityRenderWithoutPlayerLoop(void) __attribute__((deprecated("Use UnityRenderWithoutPlayerLoopWithBackbuffer instead of UnityRenderWithoutPlayerLoop")));
 
 
 // rendering
@@ -80,7 +90,6 @@ int     UnityIsCaptureScreenshotRequested(void);
 void    UnityCaptureScreenshot(void);
 void    UnitySendMessage(const char* obj, const char* method, const char* msg);
 void    UnityUpdateMuteState(int mute);
-void    UnityUpdateAudioOutputState(void);
 int     UnityShouldMuteOtherAudioSources(void);
 int     UnityShouldPrepareForIOSRecording(void);
 int     UnityIsAudioManagerAvailableAndEnabled(void);
@@ -121,6 +130,7 @@ void    UnityReportSafeAreaChange(float x, float y, float w, float h);
 void    UnityReportBackbufferChange(UnityRenderBufferHandle colorBB, UnityRenderBufferHandle depthBB);
 #if !PLATFORM_VISIONOS
 float   UnityCalculateScalingFactorFromTargetDPI(UIScreen* screen);
+int     UnityResolutionScalingFixedDPIFactorChanged(void);
 #endif
 void    UnityReportDisplayCutouts(const float* x, const float* y, const float* width, const float* height, int count);
 
@@ -278,7 +288,7 @@ void            UnityGetNiceKeyname(int key, char* buffer, int maxLen);
 
 // UnityAppController+Rendering.mm
 void            UnityGfxInitedCallback(void);
-void            UnityPresentContextCallback(struct UnityFrameStats const* frameStats);
+void            UnityPresentContextCallback();
 void            UnityFramerateChangeCallback(int targetFPS);
 void            UnitySelectRenderingAPI(void);
 int             UnitySelectedRenderingAPI(void);
@@ -377,12 +387,6 @@ const char*     UnityDocumentsDir(void);
 const char*     UnityLibraryDir(void);
 const char*     UnityCachesDir(void);
 int             UnityUpdateNoBackupFlag(const char* path, int setFlag); // Returns 1 if successful, otherwise 0
-
-// Unity/WWWConnection.mm
-void*           UnityStartWWWConnectionGet(void* udata, const void* headerDict, const char* url);
-void*           UnityStartWWWConnectionPost(void* udata, const void* headerDict, const char* url, const void* data, unsigned length);
-void            UnityDestroyWWWConnection(void* connection);
-void            UnityShouldCancelWWW(const void* connection);
 
 // Unity/FullScreenVideoPlayer.mm
 int             UnityIsFullScreenPlaying(void);

@@ -22,7 +22,6 @@
 
 - (void)shouldShowWindow:(BOOL)show;
 - (void)requestRenderingResolution:(CGSize)res;
-- (void)present;
 
 #if !PLATFORM_VISIONOS
 @property (readonly, copy, nonatomic)   UIScreen*               screen;
@@ -41,13 +40,14 @@
 #if !PLATFORM_VISIONOS
 - (id)objectForKeyedSubscript:(id)key;
 - (BOOL)displayAvailable:(UIScreen*)targetScreen;
+- (void)prepareForFirstScene;
 - (void)updateDisplayListCacheInUnity;
 - (void)enumerateDisplaysWithBlock:(void (^)(DisplayConnection* conn))block;
 - (void)enumerateNonMainDisplaysWithBlock:(void (^)(DisplayConnection* conn))block;
 #endif
 
 - (void)startFrameRendering;
-- (void)present;
+- (void)presentWith:(id<MTLCommandBuffer>)cb;
 - (void)endFrameRendering;
 
 + (void)Initialize;
