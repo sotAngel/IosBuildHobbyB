@@ -1702,6 +1702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MediaPlayer__ctor_m806C3D0E9AA00255DBE24
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 68124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t32064D9F243A943405B3DD6E95BD62A106248B1C UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m07596FB606AFA5E596BD94D6588687FCC7639211 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1735,6 +1736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t32064D9F243A943405B3DD6E95BD6
 		return L_6;
 	}
 }
+// Method Definition Index: 68125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m1E3C951F736E805FE823C52C7FBFD45547418E6E (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t56F6E1CAE5B853FAA60E6CF0AF6770DA30B52EC9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1828,9 +1830,11 @@ IL2CPP_EXTERN_C void MonoScriptData_t32064D9F243A943405B3DD6E95BD62A106248B1C_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 68126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_source_mC801E3CFE5E7DF6E14A98DB72EE6504F1E56CF03 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:97>
 		int32_t L_0;
 		L_0 = VideoPlayer_AVPro_get_sourceAVPro_m6CD81A2FEB271972AAB6FB79041A6EDE06328EA6_inline(__this, NULL);
 		if (L_0)
@@ -1839,17 +1843,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_source_mC801E3C
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:98>
 		return (int32_t)(0);
 	}
 
 IL_000a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:99>
 		return (int32_t)(1);
 	}
 }
+// Method Definition Index: 68127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_source_m86CB4BB168852B40076488186F4CFF48A3ACB877 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:103>
 		int32_t L_0 = ___0_value;
 		if (L_0)
 		{
@@ -1857,61 +1865,80 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_source_m86CB4BB168
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:104>
 		VideoPlayer_AVPro_set_sourceAVPro_m9A2137A816F858E5E484A8A8E963FEB27BBA1982(__this, 0, NULL);
 		return;
 	}
 
 IL_000b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:106>
 		VideoPlayer_AVPro_set_sourceAVPro_m9A2137A816F858E5E484A8A8E963FEB27BBA1982(__this, 1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:107>
 		return;
 	}
 }
+// Method Definition Index: 68128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_sourceAVPro_m6CD81A2FEB271972AAB6FB79041A6EDE06328EA6 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:114>
 		int32_t L_0 = __this->___Source;
 		return L_0;
 	}
 }
+// Method Definition Index: 68129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_sourceAVPro_m9A2137A816F858E5E484A8A8E963FEB27BBA1982 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:115>
 		int32_t L_0 = ___0_value;
 		__this->___Source = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:115>
 		int32_t L_1 = ___0_value;
 		MediaPlayer_SetMediaSource_mF78CE5C14D569AB3BD8198EE38D3C647CB6ECFEB_inline(__this, L_1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:115>
 		return;
 	}
 }
+// Method Definition Index: 68130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MediaReference_t8FD65045987DB0F4D07210AD684E87212147E2C9* VideoPlayer_AVPro_get_clip_mB19C2B1A6AD3CE68B18A31A301A66690B2B3C040 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:120>
 		MediaReference_t8FD65045987DB0F4D07210AD684E87212147E2C9* L_0 = __this->___Clip;
 		return L_0;
 	}
 }
+// Method Definition Index: 68131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_clip_mAD419A5BF143935CD5FE3F657ED8E75821C7ED7F (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, MediaReference_t8FD65045987DB0F4D07210AD684E87212147E2C9* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:120>
 		MediaReference_t8FD65045987DB0F4D07210AD684E87212147E2C9* L_0 = ___0_value;
 		MediaPlayer_SetMediaReference_m50EB68C527BD943CD86E13F7759612D660B099D0(__this, L_0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:120>
 		MediaReference_t8FD65045987DB0F4D07210AD684E87212147E2C9* L_1 = ___0_value;
 		__this->___Clip = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Clip), (void*)L_1);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:120>
 		return;
 	}
 }
+// Method Definition Index: 68132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* VideoPlayer_AVPro_get_url_m7BE5DFFFEE094ECFE2B23040A6FA6770A88169AB (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:128>
 		MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* L_0 = __this->___path;
 		return L_0;
 	}
 }
+// Method Definition Index: 68133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_url_mED7678633E2DF53F7F21BD1701D2A8815F06610C (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:131>
 		MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* L_0 = ___0_value;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -1922,70 +1949,92 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_url_mED7678633E2DF
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:133>
 		__this->___Source = 1;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:134>
 		MediaPlayer_SetMediaSource_mF78CE5C14D569AB3BD8198EE38D3C647CB6ECFEB_inline(__this, 1, NULL);
 	}
 
 IL_0016:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:136>
 		MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* L_2 = ___0_value;
 		__this->___path = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___path), (void*)L_2);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:137>
 		MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* L_3 = ___0_value;
 		NullCheck(L_3);
 		String_t* L_4;
 		L_4 = MediaPath_get_Path_mC80493B71D701791E08048C2EFF60BE3C66775D7_inline(L_3, NULL);
 		__this->___Url = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Url), (void*)L_4);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:138>
 		MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* L_5 = ___0_value;
 		MediaPlayer_SetMediaPath_m97C60BD8E7F79BEF338D198B908EDAAB97A0503F(__this, L_5, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:139>
 		return;
 	}
 }
+// Method Definition Index: 68134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_playOnAwake_m5505445070752E2B1C648149B65C1F6E3E9C1368 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:144>
 		bool L_0 = __this->___PlayOnAwake;
 		return L_0;
 	}
 }
+// Method Definition Index: 68135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_playOnAwake_mDB1227719D150F584FDC6E4A7073A399502BBED6 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:144>
 		bool L_0 = ___0_value;
 		__this->___PlayOnAwake = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:144>
 		bool L_1 = ___0_value;
 		MediaPlayer_set_AutoStart_mA673BB388341CEFC621779605CDFEA358524AD0D_inline(__this, L_1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:144>
 		return;
 	}
 }
+// Method Definition Index: 68136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isLooping_mFDD7AE42535129C2BCEDC0E4E6464F64386DC286 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:148>
 		bool L_0 = __this->___IsLooping;
 		return L_0;
 	}
 }
+// Method Definition Index: 68137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_isLooping_mFF45CBBE52B9C64AFE439DCA41041D28817548D8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:148>
 		bool L_0 = ___0_value;
 		__this->___IsLooping = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:148>
 		bool L_1 = ___0_value;
 		MediaPlayer_set_Loop_mA7E10F992697A66D77803D96C023A3133FE09E71(__this, L_1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:148>
 		return;
 	}
 }
+// Method Definition Index: 68138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_playbackSpeed_m3968A090BD0333A734DA3F69971695DA437A1325 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:154>
 		float L_0 = __this->___PlaybackSpeed;
 		return L_0;
 	}
 }
+// Method Definition Index: 68139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_playbackSpeed_mD9FFED720C532745A14367F3125D3207E3447A23 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:157>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_canSetPlaybackSpeed_m46CAEB5BE5C2CBD7D252D3F409C1C0F5855908A6(__this, NULL);
 		if (L_0)
@@ -1994,57 +2043,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_playbackSpeed_mD9F
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:158>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:159>
 		float L_1 = ___0_value;
 		__this->___PlaybackSpeed = L_1;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:159>
 		float L_2 = ___0_value;
 		MediaPlayer_set_PlaybackRate_m29F58F8F2005AD090AF7366C981C3A909BF65410(__this, L_2, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:160>
 		return;
 	}
 }
+// Method Definition Index: 68140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* VideoPlayer_AVPro_get_targetMaterialRenderer_m64958E8BF5672154712932DDC7D5D10CC37249F9 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:165>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___TargetMaterialRenderer;
 		return L_0;
 	}
 }
+// Method Definition Index: 68141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetMaterialRenderer_m3E433CD5A9F7FAB6F44BF6FD9B0988119B451DB9 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:165>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_value;
 		__this->___TargetMaterialRenderer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TargetMaterialRenderer), (void*)L_0);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:165>
 		return;
 	}
 }
+// Method Definition Index: 68142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VideoPlayer_AVPro_get_targetMateralProperty_mB7BAFCE756253094B8862CDAD9DC9BA8EE0088A8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:173>
 		String_t* L_0 = __this->___TargetMateralProperty;
 		return L_0;
 	}
 }
+// Method Definition Index: 68143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetMateralProperty_m1ED28500670BA8C0FC37F14EB0CA15FA4B6D10D4 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:173>
 		String_t* L_0 = ___0_value;
 		__this->___TargetMateralProperty = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TargetMateralProperty), (void*)L_0);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:173>
 		return;
 	}
 }
+// Method Definition Index: 68144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* VideoPlayer_AVPro_get_targetMaterial_m87F86C45A59AE0E85E74A8433443E756D51E27B8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:179>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___TargetMaterial;
 		return L_0;
 	}
 }
+// Method Definition Index: 68145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetMaterial_m32AC1B34745F0E8B8B2DBFF86AB2569C74B48BB7 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2054,9 +2120,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetMaterial_m32
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:182>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_value;
 		__this->___TargetMaterial = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TargetMaterial), (void*)L_0);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:183>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_1 = __this->___displayUGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -2067,6 +2135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetMaterial_m32
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:184>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_3 = __this->___displayUGUI;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_value;
 		NullCheck(L_3);
@@ -2075,6 +2144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetMaterial_m32
 
 IL_0020:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:185>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_5 = __this->___applyToMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -2085,6 +2155,7 @@ IL_0020:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:186>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_7 = __this->___applyToMaterial;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_value;
 		NullCheck(L_7);
@@ -2093,9 +2164,11 @@ IL_0020:
 
 IL_0039:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:187>
 		return;
 	}
 }
+// Method Definition Index: 68146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_renderMode_m82E7C43775BCFDB64CD18E5EEF512BB670DD55E5 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2107,7 +2180,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_renderMode_m82E
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:202>
 		VideoPlayer_AVPro_LogAutomaticConversion_mDB61970A4F16B267AD1C20CD5208528EAF14DB0A(__this, _stringLiteralC96A05C0D7DB1873986DB07729E2F04C1C991C7F, _stringLiteralF49EF9CB038A4580C702B7024DD57CCAB57E6097, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:203>
 		int32_t L_0;
 		L_0 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		V_0 = L_0;
@@ -2146,34 +2221,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_renderMode_m82E
 
 IL_0037:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:206>
 		return (int32_t)(1);
 	}
 
 IL_0039:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:209>
 		return (int32_t)(2);
 	}
 
 IL_003b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:211>
 		return (int32_t)(3);
 	}
 
 IL_003d:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:213>
 		return (int32_t)(4);
 	}
 
 IL_003f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:215>
 		return (int32_t)(0);
 	}
 
 IL_0041:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:217>
 		return (int32_t)(1);
 	}
 }
+// Method Definition Index: 68147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_renderMode_mF06915222FE1FC0A6C066C1D4C2D8EF9E3637EDA (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2184,6 +2266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_renderMode_mF06915
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:222>
 		VideoPlayer_AVPro_LogAutomaticConversion_mDB61970A4F16B267AD1C20CD5208528EAF14DB0A(__this, _stringLiteralF49EF9CB038A4580C702B7024DD57CCAB57E6097, _stringLiteralC96A05C0D7DB1873986DB07729E2F04C1C991C7F, NULL);
 		int32_t L_0 = ___0_value;
 		switch (L_0)
@@ -2216,46 +2299,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_renderMode_mF06915
 
 IL_002b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:226>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 4, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:227>
 		return;
 	}
 
 IL_0033:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:229>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 3, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:230>
 		return;
 	}
 
 IL_003b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:232>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 5, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:233>
 		return;
 	}
 
 IL_0043:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:235>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:236>
 		return;
 	}
 
 IL_004b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:238>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 6, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:241>
 		return;
 	}
 }
+// Method Definition Index: 68148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:249>
 		int32_t L_0 = __this->___RenderMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 68149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:252>
 		int32_t L_0 = ___0_value;
 		__this->___RenderMode = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:254>
 		int32_t L_1 = __this->___currentRenderMode;
 		int32_t L_2;
 		L_2 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
@@ -2265,29 +2363,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_rendererMode_m59F8
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:256>
 		int32_t L_3;
 		L_3 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		__this->___currentRenderMode = L_3;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:257>
 		VideoPlayer_AVPro_CreateRendererComponents_m880FB3ED17F77973EF3B5EC6DD6134B3156A3251(__this, NULL);
 	}
 
 IL_0027:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:259>
 		return;
 	}
 }
+// Method Definition Index: 68150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_aspectRatio_m91E059CDB5C26504F9FAA9CEB002BBEB3C94286D (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:266>
 		int32_t L_0 = __this->___AspectRatio;
 		return L_0;
 	}
 }
+// Method Definition Index: 68151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_aspectRatio_m9F90142F9DBC7CEC0BDF03CD1A59B49FB08DBC96 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:269>
 		int32_t L_0 = ___0_value;
 		__this->___AspectRatio = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:270>
 		int32_t L_1;
 		L_1 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
@@ -2296,6 +2402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_aspectRatio_m9F901
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:271>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_2 = __this->___displayUGUI;
 		int32_t L_3 = ___0_value;
 		NullCheck(L_2);
@@ -2304,6 +2411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_aspectRatio_m9F901
 
 IL_001c:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:272>
 		int32_t L_4;
 		L_4 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		if ((!(((uint32_t)L_4) == ((uint32_t)3))))
@@ -2312,6 +2420,7 @@ IL_001c:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:273>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_5 = __this->___displayIMGUI;
 		int32_t L_6 = ___0_value;
 		NullCheck(L_5);
@@ -2321,16 +2430,20 @@ IL_001c:
 
 IL_0032:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:275>
 		return;
 	}
 }
+// Method Definition Index: 68152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_aspectRatioRenderTexture_mFC3BD502475EC711BEA081B6E1EA40BACD6F8BC7 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:285>
 		int32_t L_0 = __this->___AspectRatioRenderTexture;
 		return L_0;
 	}
 }
+// Method Definition Index: 68153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_aspectRatioRenderTexture_m814DF90367EB5970A23A31380E12196D99F955D5 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2342,8 +2455,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_aspectRatioRenderT
 	VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:289>
 		int32_t L_0 = ___0_value;
 		__this->___AspectRatioRenderTexture = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:290>
 		int32_t L_1;
 		L_1 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)5))))
@@ -2352,13 +2467,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_aspectRatioRenderT
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:293>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_2 = __this->___applyToTexture;
 		NullCheck(L_2);
 		VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_3;
 		L_3 = ResolveToRenderTexture_get_VideoResolveOptions_mFC07590AFF85819C0BF0C679B2C21A71F32C53F3_inline(L_2, NULL);
 		V_0 = L_3;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:294>
 		int32_t L_4 = ___0_value;
 		(&V_0)->___aspectRatio = L_4;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:295>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_5 = __this->___applyToTexture;
 		VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_6 = V_0;
 		NullCheck(L_5);
@@ -2367,6 +2485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_aspectRatioRenderT
 
 IL_0030:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:297>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_7 = __this->___applyToFarPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -2377,6 +2496,7 @@ IL_0030:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:298>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_9 = __this->___applyToFarPlane;
 		int32_t L_10 = ___0_value;
 		NullCheck(L_9);
@@ -2385,13 +2505,16 @@ IL_0030:
 
 IL_0049:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:299>
 		return;
 	}
 }
+// Method Definition Index: 68154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_audioOutputMode_m55D22BDB2A54DFB40CA9450C52ED15DC3B9FBA97 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:378>
 		int32_t L_0;
 		L_0 = VideoPlayer_AVPro_get_audioOutputModeAVPro_m4682BD1ED74BE6307A4B46AC93B352BA6FDA1855_inline(__this, NULL);
 		V_0 = L_0;
@@ -2422,19 +2545,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_audioOutputMode
 
 IL_001f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:381>
 		return (int32_t)(1);
 	}
 
 IL_0021:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:384>
 		return (int32_t)(2);
 	}
 
 IL_0023:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:386>
 		return (int32_t)(2);
 	}
 }
+// Method Definition Index: 68155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_audioOutputMode_mCC115036213D3800685B6709AAFA43AA93C70697 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2465,50 +2592,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_audioOutputMode_mC
 
 IL_0017:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:393>
 		VideoPlayer_AVPro_set_audioOutputModeAVPro_mF748187B454E3D789C1EC39CF43BE73388B797F7(__this, 0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:394>
 		return;
 	}
 
 IL_001f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:396>
 		VideoPlayer_AVPro_set_audioOutputModeAVPro_mF748187B454E3D789C1EC39CF43BE73388B797F7(__this, 1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:397>
 		return;
 	}
 
 IL_0027:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:400>
 		VideoPlayer_AVPro_set_audioOutputModeAVPro_mF748187B454E3D789C1EC39CF43BE73388B797F7(__this, 0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:403>
 		return;
 	}
 }
+// Method Definition Index: 68156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_audioOutputModeAVPro_m4682BD1ED74BE6307A4B46AC93B352BA6FDA1855 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:426>
 		int32_t L_0 = __this->___AudioOutputMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 68157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_audioOutputModeAVPro_mF748187B454E3D789C1EC39CF43BE73388B797F7 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:433>
 		int32_t L_0 = ___0_value;
 		__this->___AudioOutputMode = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:433>
 		OptionsApple_t496EC04E4BBDFCADE77190404AEE62DC514AC56E* L_1;
 		L_1 = MediaPlayer_get_PlatformOptions_iOS_mF7F885AA1449AAF8BDB53DF65C82A24C2502C954_inline(__this, NULL);
 		int32_t L_2 = ___0_value;
 		NullCheck(L_1);
 		OptionsApple_set_audioMode_mAA38355643217F6F6828C1C3EEEB34331F4FAD3A(L_1, L_2, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:433>
 		VideoPlayer_AVPro_CreateAudioComponents_m731C35847C9E214B3DC8EABAA3B7E9D3D8DECE84(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:433>
 		return;
 	}
 }
+// Method Definition Index: 68158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F VideoPlayer_AVPro_get_color_m29EE7B271B026BBB87A66D23E6CAFD250B8106F9 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:454>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___Colour;
 		return L_0;
 	}
 }
+// Method Definition Index: 68159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_color_m25490EA0D7806684E59918C171EBA4826382C67A (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2520,8 +2663,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_color_m25490EA0D78
 	VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:457>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
 		__this->___Colour = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:458>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_1 = __this->___displayIMGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -2532,6 +2677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_color_m25490EA0D78
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:459>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_3 = __this->___displayIMGUI;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_value;
 		NullCheck(L_3);
@@ -2541,6 +2687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_color_m25490EA0D78
 
 IL_0021:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:460>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_5 = __this->___applyToTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -2551,13 +2698,16 @@ IL_0021:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:462>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_7 = __this->___applyToTexture;
 		NullCheck(L_7);
 		VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_8;
 		L_8 = ResolveToRenderTexture_get_VideoResolveOptions_mFC07590AFF85819C0BF0C679B2C21A71F32C53F3_inline(L_7, NULL);
 		V_0 = L_8;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:463>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_value;
 		(&V_0)->___tint = L_9;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:464>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_10 = __this->___applyToTexture;
 		VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_11 = V_0;
 		NullCheck(L_10);
@@ -2567,6 +2717,7 @@ IL_0021:
 
 IL_004f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:466>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_12 = __this->___displayUGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -2577,6 +2728,7 @@ IL_004f:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:467>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_14 = __this->___displayUGUI;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = ___0_value;
 		NullCheck(L_14);
@@ -2586,6 +2738,7 @@ IL_004f:
 
 IL_0069:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:468>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_16 = __this->___applyToFarPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -2596,6 +2749,7 @@ IL_0069:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:469>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_18 = __this->___applyToFarPlane;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19 = ___0_value;
 		NullCheck(L_18);
@@ -2604,16 +2758,20 @@ IL_0069:
 
 IL_0082:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:470>
 		return;
 	}
 }
+// Method Definition Index: 68160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_fullScreen_m292D92466D1D932DF6EFC262CE1BC9D01C976E7A (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:478>
 		bool L_0 = __this->___Fullscreen;
 		return L_0;
 	}
 }
+// Method Definition Index: 68161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_fullScreen_m7FA3B392DC7FF63F4CA88603B75FC3277FBC58BE (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2623,8 +2781,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_fullScreen_m7FA3B3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:481>
 		bool L_0 = ___0_value;
 		__this->___Fullscreen = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:482>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_1 = __this->___displayIMGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -2635,6 +2795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_fullScreen_m7FA3B3
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:483>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_3 = __this->___displayIMGUI;
 		bool L_4 = ___0_value;
 		NullCheck(L_3);
@@ -2643,12 +2804,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_fullScreen_m7FA3B3
 
 IL_0020:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:484>
 		return;
 	}
 }
+// Method Definition Index: 68162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_volume_m45179D6F5FB1D3479FFD93A1BB7D98AF91329F76 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:493>
 		float L_0;
 		L_0 = VideoPlayer_AVPro_GetDirectAudioVolume_m98BDCD08B9DFC18F4157B316903B6E2EF35BBD20(__this, (uint16_t)0, NULL);
 		float L_1 = __this->___Volume;
@@ -2658,6 +2822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_volume_m45179D6F5
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:494>
 		float L_2;
 		L_2 = VideoPlayer_AVPro_GetDirectAudioVolume_m98BDCD08B9DFC18F4157B316903B6E2EF35BBD20(__this, (uint16_t)0, NULL);
 		__this->___Volume = L_2;
@@ -2665,10 +2830,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_volume_m45179D6F5
 
 IL_001c:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:495>
 		float L_3 = __this->___Volume;
 		return L_3;
 	}
 }
+// Method Definition Index: 68163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_volume_m6F84FC21E69E0626198432687B4F82C9776F9D7F (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2678,8 +2845,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_volume_m6F84FC21E6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:499>
 		float L_0 = ___0_value;
 		__this->___Volume = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:506>
 		int32_t L_1;
 		L_1 = VideoPlayer_AVPro_get_audioOutputModeAVPro_m4682BD1ED74BE6307A4B46AC93B352BA6FDA1855_inline(__this, NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
@@ -2699,6 +2868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_volume_m6F84FC21E6
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:509>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
 		L_4 = MediaPlayer_get_AudioSource_m410D3579438149FBFF41B737F66F17539BDC6A9B_inline(__this, NULL);
 		float L_5 = ___0_value;
@@ -2708,18 +2878,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_volume_m6F84FC21E6
 
 IL_0029:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:511>
 		float L_6 = ___0_value;
 		VideoPlayer_AVPro_SetDirectAudioVolume_m30EF5B3C946DF590D2FEE08B25039C53F8FB6846(__this, (uint16_t)0, L_6, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:512>
 		return;
 	}
 }
+// Method Definition Index: 68164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_muted_m9201D611D306AC01EA4C0390E785FD652464E25E (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:519>
 		bool L_0 = __this->___Muted;
 		return L_0;
 	}
 }
+// Method Definition Index: 68165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_muted_m88A970EF3BC137518BBA363B39B22143E76A115E (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2729,10 +2904,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_muted_m88A970EF3BC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:522>
 		bool L_0 = ___0_value;
 		__this->___Muted = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:523>
 		bool L_1 = ___0_value;
 		VirtualActionInvoker1< bool >::Invoke(9, __this, L_1);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:531>
 		int32_t L_2;
 		L_2 = VideoPlayer_AVPro_get_audioOutputModeAVPro_m4682BD1ED74BE6307A4B46AC93B352BA6FDA1855_inline(__this, NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
@@ -2752,6 +2930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_muted_m88A970EF3BC
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:532>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5;
 		L_5 = MediaPlayer_get_AudioSource_m410D3579438149FBFF41B737F66F17539BDC6A9B_inline(__this, NULL);
 		bool L_6 = ___0_value;
@@ -2761,34 +2940,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_muted_m88A970EF3BC
 
 IL_0030:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:534>
 		return;
 	}
 }
+// Method Definition Index: 68166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* VideoPlayer_AVPro_get_audioSource_mD99468EF5FFA536E8C8B1BD9E3705DD0F2656F94 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:539>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AudioSourceE;
 		return L_0;
 	}
 }
+// Method Definition Index: 68167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_audioSource_m6D938F237AE25E666B1F2729CA629F963060DCF7 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:539>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = ___0_value;
 		__this->___AudioSourceE = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioSourceE), (void*)L_0);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:539>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1 = ___0_value;
 		MediaPlayer_SetAudioSource_m66C40527F8BB5583EBE63F11FA149DDAC927D6F0(__this, L_1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:539>
 		return;
 	}
 }
+// Method Definition Index: 68168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D VideoPlayer_AVPro_get_uvRect_m2019125C47CEEE90DA1411D602D499FF8C59C4F0 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:546>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = __this->___UVRect;
 		return L_0;
 	}
 }
+// Method Definition Index: 68169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_uvRect_mD9CC75DADD136676A1C687085C1D272C97840A98 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2798,8 +2987,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_uvRect_mD9CC75DADD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:549>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = ___0_value;
 		__this->___UVRect = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:550>
 		int32_t L_1;
 		L_1 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
@@ -2818,6 +3009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_uvRect_mD9CC75DADD
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:551>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_4 = __this->___displayUGUI;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_5;
 		L_5 = VideoPlayer_AVPro_get_uvRect_m2019125C47CEEE90DA1411D602D499FF8C59C4F0_inline(__this, NULL);
@@ -2827,9 +3019,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_uvRect_mD9CC75DADD
 
 IL_002e:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:552>
 		return;
 	}
 }
+// Method Definition Index: 68170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_get_audioTrackCount_m00D3F2EA2A6E3C1CF71852593EF4297CF963ABED (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2839,6 +3033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_get_audioTrackCoun
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:561>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		if (!L_0)
@@ -2847,6 +3042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_get_audioTrackCoun
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:561>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		NullCheck(L_1);
@@ -2860,15 +3056,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_get_audioTrackCoun
 
 IL_001a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:561>
 		return (uint16_t)0;
 	}
 }
+// Method Definition Index: 68171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_audioTrackCount_m7070BB8E865AF6F76879225DFBB5B6FA732D6831 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:561>
 		return;
 	}
 }
+// Method Definition Index: 68172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_clockTime_mC4F1CF7BD44AD9288317F173832103D34FBB7CD8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2881,6 +3081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_clockTime_mC4F1C
 	int32_t V_1 = 0;
 	float V_2 = 0.0f;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:570>
 		bool L_0;
 		L_0 = MediaPlayer_get_UseResampler_m889BFBE683DD30406908AC8B7B862A8AD3DB7454_inline(__this, NULL);
 		if (!L_0)
@@ -2897,6 +3098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_clockTime_mC4F1C
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:571>
 		Resampler_t0EB1CF2AF535A9459DEAD26A39B81914493D99D8* L_2;
 		L_2 = MediaPlayer_get_FrameResampler_m80964CB71EDF60E1107493F5478AA203D1779DA0_inline(__this, NULL);
 		NullCheck(L_2);
@@ -2907,6 +3109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_clockTime_mC4F1C
 
 IL_001d:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:572>
 		RuntimeObject* L_4;
 		L_4 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		if (!L_4)
@@ -2915,12 +3118,14 @@ IL_001d:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:577>
 		RuntimeObject* L_5;
 		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		NullCheck(L_5);
 		PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* L_6;
 		L_6 = InterfaceFuncInvoker0< PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* >::Invoke(16, IMediaInfo_t16F9FEB4C3B0458D8D90DF7555487872FA4585D0_il2cpp_TypeInfo_var, L_5);
 		V_0 = L_6;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:578>
 		PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* L_7 = V_0;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -2934,36 +3139,45 @@ IL_001d:
 		int32_t L_12;
 		L_12 = PlaybackQualityStats_get_SkippedFrames_m3BF20608B162FB544EA4441BF84C15932CD4260E_inline(L_11, NULL);
 		V_1 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_8, L_10)), L_12));
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:579>
 		PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* L_13 = V_0;
 		NullCheck(L_13);
 		float L_14;
 		L_14 = PlaybackQualityStats_get_PerfectFramesT_m71B6DF0504F43C3DF10D560BED7C2B51939DE68C_inline(L_13, NULL);
 		V_2 = ((float)il2cpp_codegen_subtract((1.0f), L_14));
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:580>
 		int32_t L_15 = V_1;
 		float L_16 = V_2;
 		int32_t L_17 = V_1;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:581>
 		RuntimeObject* L_18;
 		L_18 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		NullCheck(L_18);
 		float L_19;
 		L_19 = InterfaceFuncInvoker0< float >::Invoke(5, IMediaInfo_t16F9FEB4C3B0458D8D90DF7555487872FA4585D0_il2cpp_TypeInfo_var, L_18);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:582>
 		return ((double)((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)(((float)L_15)/L_16)), ((float)L_17))), ((float)il2cpp_codegen_cast_double_to_int<int64_t>(((double)((10000000.0)/((double)L_19))))))));
 	}
 
 IL_0075:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:584>
 		return (-1.0);
 	}
 }
+// Method Definition Index: 68173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_clockTime_m2C467D6C645C388950A2A3D68F879ED6AB965323 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:586>
 		return;
 	}
 }
+// Method Definition Index: 68174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_externalReferenceTime_mA451B2D16EE8F5EB7EF872E83C78128406C020D1 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:592>
 		BaseMediaPlayer_tFA078F6B054890E45F61CE4D873B42D52C0B8104* L_0 = ((MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6*)__this)->____baseMediaPlayer;
 		if (!L_0)
 		{
@@ -2971,6 +3185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_externalReferenc
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:592>
 		BaseMediaPlayer_tFA078F6B054890E45F61CE4D873B42D52C0B8104* L_1 = ((MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6*)__this)->____baseMediaPlayer;
 		NullCheck(L_1);
 		double L_2;
@@ -2980,15 +3195,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_externalReferenc
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:592>
 		return (-1.0);
 	}
 }
+// Method Definition Index: 68175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_externalReferenceTime_m668B837087B5DEC6611800D4B618A5E2911BD272 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:592>
 		return;
 	}
 }
+// Method Definition Index: 68176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t VideoPlayer_AVPro_get_frame_m3B461510840FC217975B493976DA1E6E54514C4D (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2998,6 +3217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t VideoPlayer_AVPro_get_frame_m3B461510
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:596>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		if (!L_0)
@@ -3006,6 +3226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t VideoPlayer_AVPro_get_frame_m3B461510
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:596>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_1);
@@ -3016,9 +3237,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t VideoPlayer_AVPro_get_frame_m3B461510
 
 IL_001a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:596>
 		return ((int64_t)(-1));
 	}
 }
+// Method Definition Index: 68177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_frame_m7ED9B481A877C61FEB674B19B4A8588B980D3B20 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3028,6 +3251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_frame_m7ED9B481A87
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:596>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_canSetTime_m26FF5424AD79A88608FDC6A85156776D0D4EE3A8(__this, NULL);
 		if (!L_0)
@@ -3044,6 +3268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_frame_m7ED9B481A87
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:596>
 		RuntimeObject* L_2;
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		int64_t L_3 = ___0_value;
@@ -3053,9 +3278,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_frame_m7ED9B481A87
 
 IL_0022:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:596>
 		return;
 	}
 }
+// Method Definition Index: 68178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t VideoPlayer_AVPro_get_frameCount_m4DB4477D523CBD593E509AFA796C126D5AED917B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3065,6 +3292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t VideoPlayer_AVPro_get_frameCount_m4D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:600>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		if (!L_0)
@@ -3073,6 +3301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t VideoPlayer_AVPro_get_frameCount_m4D
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:600>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		NullCheck(L_1);
@@ -3083,15 +3312,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t VideoPlayer_AVPro_get_frameCount_m4D
 
 IL_001a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:600>
 		return ((int64_t)0);
 	}
 }
+// Method Definition Index: 68179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_frameCount_m592FC834470AC2724FB5D0433BE6CFEB48C89C74 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:600>
 		return;
 	}
 }
+// Method Definition Index: 68180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_frameRate_m48EEB4BA09497F6EAF4F33AB7A0ABE348B0DD2B3 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3101,6 +3334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_frameRate_m48EEB4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:604>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		if (!L_0)
@@ -3109,6 +3343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_frameRate_m48EEB4
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:604>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		NullCheck(L_1);
@@ -3119,15 +3354,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_frameRate_m48EEB4
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:604>
 		return (-1.0f);
 	}
 }
+// Method Definition Index: 68181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_frameRate_m6577D8926E6EECC54C9D70E8C278845E18720AA8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:604>
 		return;
 	}
 }
+// Method Definition Index: 68182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_height_mDFE9473193005460E9C1C588276105D10267C8AE (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3137,6 +3376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_height_mDFE947
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:608>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		if (!L_0)
@@ -3145,6 +3385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_height_mDFE947
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:608>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		NullCheck(L_1);
@@ -3155,15 +3396,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_height_mDFE947
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:608>
 		return 0;
 	}
 }
+// Method Definition Index: 68183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_height_m253347FD7343F6466810033E6DC84DE24E293C26 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:608>
 		return;
 	}
 }
+// Method Definition Index: 68184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPaused_mE1C16EBC53001C4A32E72D04B07A251053FE39A2 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3173,6 +3418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPaused_mE1C16EBC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:612>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		if (!L_0)
@@ -3181,6 +3427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPaused_mE1C16EBC
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:612>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_1);
@@ -3191,15 +3438,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPaused_mE1C16EBC
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:612>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_isPaused_mAC8C05ABCDD87DA98C0E3B200C238F5681BC4E86 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:612>
 		return;
 	}
 }
+// Method Definition Index: 68186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPlaying_m2B0BE22755DC113663ED3409B09989967850A61A (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3209,6 +3460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPlaying_m2B0BE22
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:616>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		if (!L_0)
@@ -3217,6 +3469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPlaying_m2B0BE22
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:616>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_1);
@@ -3227,15 +3480,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPlaying_m2B0BE22
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:616>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_isPlaying_m40756792C708EE76858EAEA7883D50D6B9A3FCA8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:616>
 		return;
 	}
 }
+// Method Definition Index: 68188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPrepared_m8D041F8DF06E8B7364556AAE540BD3B6F8408A70 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3246,6 +3503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPrepared_m8D041F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:620>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -3255,6 +3513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPrepared_m8D041F
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:620>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_1);
@@ -3265,15 +3524,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_isPrepared_m8D041F
 
 IL_0013:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:620>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_isPrepared_m6D3555230A783409B0BF57CDF1605867841B6016 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:620>
 		return;
 	}
 }
+// Method Definition Index: 68190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_length_m0008EE8B6FC892C2B6294D6026DE8D0022062376 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3283,6 +3546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_length_m0008EE8B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:624>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		if (!L_0)
@@ -3291,6 +3555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_length_m0008EE8B
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:624>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		NullCheck(L_1);
@@ -3301,15 +3566,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_length_m0008EE8B
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:624>
 		return (-1.0);
 	}
 }
+// Method Definition Index: 68191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_length_m626FF0350B0E639C4DF8933A458358110E6A304A (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:624>
 		return;
 	}
 }
+// Method Definition Index: 68192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* VideoPlayer_AVPro_get_texture_m5F30F761998F2DF639A2B3F32C011A245FAB76B4 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3319,6 +3588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:630>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(13, __this);
 		if (!L_0)
@@ -3327,6 +3597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:630>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(13, __this);
 		NullCheck(L_1);
@@ -3337,15 +3608,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4
 
 IL_0015:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:630>
 		return (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL;
 	}
 }
+// Method Definition Index: 68193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_texture_m7830FF8698E7BD1E2F69BDFCABE5F69205854CA9 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:631>
 		return;
 	}
 }
+// Method Definition Index: 68194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_time_m33521894E3B4565D8E1FAE4F87043C22500DBD53 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3355,6 +3630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_time_m33521894E3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:638>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		if (!L_0)
@@ -3363,6 +3639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_time_m33521894E3
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:638>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_1);
@@ -3373,9 +3650,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoPlayer_AVPro_get_time_m33521894E3
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:638>
 		return (-1.0);
 	}
 }
+// Method Definition Index: 68195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_time_m066F9087D127C9E3E8CB843D7BB4CF937F1539ED (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3385,6 +3664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_time_m066F9087D127
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:641>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_canSetTime_m26FF5424AD79A88608FDC6A85156776D0D4EE3A8(__this, NULL);
 		if (!L_0)
@@ -3401,6 +3681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_time_m066F9087D127
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:642>
 		RuntimeObject* L_2;
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		double L_3 = ___0_value;
@@ -3410,9 +3691,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_time_m066F9087D127
 
 IL_001c:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:643>
 		return;
 	}
 }
+// Method Definition Index: 68196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_width_m4C3874AC783A19356EC8CA256C023E03BA5A1990 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3422,6 +3705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_width_m4C3874A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:648>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		if (!L_0)
@@ -3430,6 +3714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_width_m4C3874A
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:648>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		NullCheck(L_1);
@@ -3440,15 +3725,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_width_m4C3874A
 
 IL_0014:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:648>
 		return 0;
 	}
 }
+// Method Definition Index: 68197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_width_m23D6F596C6D71CCE2AA597CD2D0E3394F2908891 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:648>
 		return;
 	}
 }
+// Method Definition Index: 68198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_targetCameraAlpha_mE5054BB5BE60C863D0A1F514FA1AAE53677258FF (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -3457,6 +3746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_targetCameraAlpha
 	try
 	{
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:658>
 			int32_t L_0;
 			L_0 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 			V_0 = L_0;
@@ -3495,6 +3785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_get_targetCameraAlpha
 
 IL_002a_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:661>
 			DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_2 = __this->___displayUGUI;
 			NullCheck(L_2);
 			Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
@@ -3506,6 +3797,7 @@ IL_002a_1:
 
 IL_003d_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:663>
 			DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_5 = __this->___displayIMGUI;
 			NullCheck(L_5);
 			Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
@@ -3517,6 +3809,7 @@ IL_003d_1:
 
 IL_0050_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:665>
 			ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_8 = __this->___applyToMesh;
 			NullCheck(L_8);
 			Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9;
@@ -3534,6 +3827,7 @@ IL_0050_1:
 
 IL_006d_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:667>
 			ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_13 = __this->___applyToMaterial;
 			NullCheck(L_13);
 			Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14;
@@ -3548,6 +3842,7 @@ IL_006d_1:
 
 IL_0085_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:669>
 			ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_17 = __this->___applyToFarPlane;
 			NullCheck(L_17);
 			float L_18;
@@ -3558,10 +3853,12 @@ IL_0085_1:
 
 IL_0093_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:671>
 			ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_19 = __this->___applyToTexture;
 			NullCheck(L_19);
 			VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_20;
 			L_20 = ResolveToRenderTexture_get_VideoResolveOptions_mFC07590AFF85819C0BF0C679B2C21A71F32C53F3_inline(L_19, NULL);
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:672>
 			Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21 = L_20.___tint;
 			float L_22 = L_21.___a;
 			V_1 = L_22;
@@ -3570,6 +3867,7 @@ IL_0093_1:
 
 IL_00ab_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:674>
 			goto IL_00b6;
 		}
 	}
@@ -3586,6 +3884,8 @@ IL_00ab_1:
 CATCH_00ad:
 	{
 		RuntimeObject* L_23 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:675>
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:675>
 		V_1 = (0.0f);
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00bc;
@@ -3593,15 +3893,18 @@ CATCH_00ad:
 
 IL_00b6:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:676>
 		return (0.0f);
 	}
 
 IL_00bc:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:677>
 		float L_24 = V_1;
 		return L_24;
 	}
 }
+// Method Definition Index: 68199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCameraAlpha_mE37E79750F253BFDC1A829C7B06260A5B0529019 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 V_0;
@@ -3611,6 +3914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCameraAlpha_
 	try
 	{
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:682>
 			int32_t L_0;
 			L_0 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 			V_1 = L_0;
@@ -3649,6 +3953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCameraAlpha_
 
 IL_002a_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:685>
 			DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_2 = __this->___displayUGUI;
 			DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_3 = __this->___displayUGUI;
 			NullCheck(L_3);
@@ -3671,11 +3976,13 @@ IL_002a_1:
 			Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_13), L_5, L_8, L_11, L_12, NULL);
 			NullCheck(L_2);
 			VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_2, L_13);
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:686>
 			goto IL_01cf_1;
 		}
 
 IL_0070_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:688>
 			DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_14 = __this->___displayIMGUI;
 			DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_15 = __this->___displayIMGUI;
 			NullCheck(L_15);
@@ -3698,11 +4005,14 @@ IL_0070_1:
 			Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_25), L_17, L_20, L_23, L_24, NULL);
 			NullCheck(L_14);
 			DisplayIMGUI_set_Color_m905F2C37BA53DD1BA2A4741E0E9B2222BF466C5B_inline(L_14, L_25, NULL);
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:689>
 			goto IL_01cf_1;
 		}
 
 IL_00b6_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:691>
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:692>
 			ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_26 = __this->___applyToMesh;
 			NullCheck(L_26);
 			Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_27;
@@ -3749,11 +4059,14 @@ IL_00b6_1:
 			Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_45), L_33, L_38, L_43, L_44, NULL);
 			NullCheck(L_28);
 			Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_28, L_45, NULL);
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:693>
 			goto IL_01cf_1;
 		}
 
 IL_0124_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:695>
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:696>
 			ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_46 = __this->___applyToMaterial;
 			NullCheck(L_46);
 			Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_47;
@@ -3788,25 +4101,31 @@ IL_0124_1:
 			Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_61), L_51, L_55, L_59, L_60, NULL);
 			NullCheck(L_47);
 			Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_47, L_61, NULL);
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:697>
 			goto IL_01cf_1;
 		}
 
 IL_017b_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:699>
 			ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_62 = __this->___applyToFarPlane;
 			float L_63 = ___0_value;
 			NullCheck(L_62);
 			ApplyToFarPlane_set_Alpha_m54169AE98C39EDFF2920C78BDE91D999E6956CFD(L_62, L_63, NULL);
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:700>
 			goto IL_01cf_1;
 		}
 
 IL_0189_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:702>
 			ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_64 = __this->___applyToTexture;
 			NullCheck(L_64);
 			VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_65;
 			L_65 = ResolveToRenderTexture_get_VideoResolveOptions_mFC07590AFF85819C0BF0C679B2C21A71F32C53F3_inline(L_64, NULL);
 			V_0 = L_65;
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:703>
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:704>
 			VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_66 = V_0;
 			Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_67 = L_66.___tint;
 			float L_68 = L_67.___r;
@@ -3821,6 +4140,7 @@ IL_0189_1:
 			memset((&L_76), 0, sizeof(L_76));
 			Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_76), L_68, L_71, L_74, L_75, NULL);
 			(&V_0)->___tint = L_76;
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:705>
 			ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_77 = __this->___applyToTexture;
 			VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_78 = V_0;
 			NullCheck(L_77);
@@ -3829,6 +4149,7 @@ IL_0189_1:
 
 IL_01cf_1:
 		{
+			//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:708>
 			goto IL_01d4;
 		}
 	}
@@ -3845,15 +4166,19 @@ IL_01cf_1:
 CATCH_01d1:
 	{
 		RuntimeObject* L_79 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:709>
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:709>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_01d4;
 	}
 
 IL_01d4:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:710>
 		return;
 	}
 }
+// Method Definition Index: 68200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* VideoPlayer_AVPro_get_targetTexture_m8CE40B6A8D699F13FC1FCC5F7F5AD9635F325F56 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3863,6 +4188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:719>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_0 = __this->___applyToTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3873,6 +4199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:720>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_2 = __this->___applyToTexture;
 		NullCheck(L_2);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3;
@@ -3882,9 +4209,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 
 IL_0019:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:721>
 		return (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL;
 	}
 }
+// Method Definition Index: 68201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetTexture_mC77CF3D0FD7DD8E50ED1534061E7FCE72E23DE94 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3894,6 +4223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetTexture_mC77
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:723>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_0 = __this->___applyToTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3904,6 +4234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetTexture_mC77
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:723>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_2 = __this->___applyToTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = ___0_value;
 		NullCheck(L_2);
@@ -3912,9 +4243,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetTexture_mC77
 
 IL_0019:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:723>
 		return;
 	}
 }
+// Method Definition Index: 68202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* VideoPlayer_AVPro_get_targetCamera_m5A39F989C4C21A4E23A2E4D68D11FF0081857C2B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3924,6 +4257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:731>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_0 = __this->___applyToFarPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3934,6 +4268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:731>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_2 = __this->___applyToFarPlane;
 		NullCheck(L_2);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
@@ -3943,9 +4278,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 
 IL_0019:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:731>
 		return (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
 	}
 }
+// Method Definition Index: 68203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCamera_m688BA70F6761487FD5A658AC27F8CC0F32CEA06B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3955,6 +4292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCamera_m688B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:732>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_0 = __this->___applyToFarPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3965,6 +4303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCamera_m688B
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:732>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_2 = __this->___applyToFarPlane;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = ___0_value;
 		NullCheck(L_2);
@@ -3973,12 +4312,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCamera_m688B
 
 IL_0019:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:732>
 		return;
 	}
 }
+// Method Definition Index: 68204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetDirectAudioVolume_mDD26FE32E888E00EBF692572301205E2584C72D6 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:739>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_isPrepared_m8D041F8DF06E8B7364556AAE540BD3B6F8408A70(__this, NULL);
 		if (!L_0)
@@ -3987,23 +4329,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetDirectAudioV
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:739>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:739>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_canSetDirectAudioVolume_m0691F54682C0CA78419439F4C0594DE16B3C7850 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:739>
 		return;
 	}
 }
+// Method Definition Index: 68206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetPlaybackSpeed_m46CAEB5BE5C2CBD7D252D3F409C1C0F5855908A6 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:745>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_isPrepared_m8D041F8DF06E8B7364556AAE540BD3B6F8408A70(__this, NULL);
 		if (!L_0)
@@ -4012,23 +4360,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetPlaybackSpee
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:745>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:745>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_canSetPlaybackSpeed_m3E6B4469717C7AD3675078E753B44316B497B6E5 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:745>
 		return;
 	}
 }
+// Method Definition Index: 68208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetSkipOnDrop_mA6788A93034892A2EB7CA929391AC8A74178AAB9 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:752>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_isPrepared_m8D041F8DF06E8B7364556AAE540BD3B6F8408A70(__this, NULL);
 		if (!L_0)
@@ -4037,23 +4391,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetSkipOnDrop_m
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:752>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:752>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_canSetSkipOnDrop_m5917B01C12EECDAF14BDD144D2931556EAC9EB14 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:752>
 		return;
 	}
 }
+// Method Definition Index: 68210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetTime_m26FF5424AD79A88608FDC6A85156776D0D4EE3A8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:757>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_isPrepared_m8D041F8DF06E8B7364556AAE540BD3B6F8408A70(__this, NULL);
 		if (!L_0)
@@ -4062,23 +4422,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetTime_m26FF54
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:757>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:757>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_canSetTime_m2506E8F042E59F7CD32D75D5F29A4AE30A0DF740 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:757>
 		return;
 	}
 }
+// Method Definition Index: 68212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetTimeUpdateMode_mE52CEC0180616AD55D8B1BD88701D014D8A24A74 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:762>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_isPrepared_m8D041F8DF06E8B7364556AAE540BD3B6F8408A70(__this, NULL);
 		if (!L_0)
@@ -4087,23 +4453,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canSetTimeUpdateMo
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:762>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:762>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_canSetTimeUpdateMode_mFEDD707F5556FDFE50CF1B8112351FBF3EC0922C (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:762>
 		return;
 	}
 }
+// Method Definition Index: 68214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canStep_mEB4376EBCE320994DBC86D1314204B8FE4C70B93 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:766>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_isPrepared_m8D041F8DF06E8B7364556AAE540BD3B6F8408A70(__this, NULL);
 		if (!L_0)
@@ -4112,32 +4484,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_canStep_mEB4376EBC
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:766>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:766>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_canStep_mC1B1E36E1EECAD0DDBC89FDF029284068B23CBF6 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:766>
 		return;
 	}
 }
+// Method Definition Index: 68216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_controlledAudioTrackCount_m697717257AAC35693E50455CD2AC48EDAE04D73D (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:772>
 		return 1;
 	}
 }
+// Method Definition Index: 68217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_controlledAudioTrackCount_m887206A7F86D4951F3BC001C784633A37C2D298B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:772>
 		return;
 	}
 }
+// Method Definition Index: 68218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_pixelAspectRationDenominator_m6B546DF8159F2B88D30398F9C7A0BDA041F31240 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4148,16 +4529,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_pixelAspectRat
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:781>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral0AC28A5A064D950C96DC61A84ED6877456C7E47C, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:781>
 		return 1;
 	}
 }
+// Method Definition Index: 68219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_pixelAspectRationDenominator_mD1EF275EAC95584D239FA2DE757841C4C15563CE (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:781>
 		return;
 	}
 }
+// Method Definition Index: 68220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_pixelAspectRationNumerator_m2CC98E6516F232278791A0CDC5402FAE3396C232 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4168,16 +4554,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_get_pixelAspectRat
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:786>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral3DE33C470D791D35DE7812227F74BC004C694ED8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:786>
 		return 1;
 	}
 }
+// Method Definition Index: 68221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_pixelAspectRationNumerator_mC10E5E2C2013DBC7C7033B697C8D1D17717AE797 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:786>
 		return;
 	}
 }
+// Method Definition Index: 68222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_skipOnDrop_m5D3DBABD3F4D14694E6CCA397BEFE4A36C14159F (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4188,10 +4579,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_skipOnDrop_m5D3DBA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:791>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral0BF5AC9167A245D65EC26B03241E44F0B19E4A7A, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:791>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_skipOnDrop_mF899A0413C892BA5B17559E54BB8FAB12A677742 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4202,10 +4596,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_skipOnDrop_mF899A0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:791>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral0BF5AC9167A245D65EC26B03241E44F0B19E4A7A, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:791>
 		return;
 	}
 }
+// Method Definition Index: 68224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_targetCamera3DLayout_m00CFC91C45CB65D90EF78652E2E8A4B66E7491CE (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4216,10 +4613,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_targetCamera3DL
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:796>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral5CDEBEF2F1E9189F72D4F6C3718B5EFE939EADAC, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:796>
 		return 0;
 	}
 }
+// Method Definition Index: 68225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCamera3DLayout_m5DF33B5F1F1CDD01DB65B4CD1812A3A55507BD14 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4230,10 +4630,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_targetCamera3DLayo
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:796>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral5CDEBEF2F1E9189F72D4F6C3718B5EFE939EADAC, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:796>
 		return;
 	}
 }
+// Method Definition Index: 68226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_timeReference_m686CEEC7518F4521FF05D8B2EDB702DFCC8FB2F7 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4244,10 +4647,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_timeReference_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:801>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral267B6AB723A2F4988E8CC2C0A1F9149898F48FDF, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:801>
 		return 0;
 	}
 }
+// Method Definition Index: 68227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_timeReference_mEF491DC68CAA86C2512FD01757DC9C70D678F9E0 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4258,10 +4664,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_timeReference_mEF4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:801>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral267B6AB723A2F4988E8CC2C0A1F9149898F48FDF, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:801>
 		return;
 	}
 }
+// Method Definition Index: 68228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_timeUpdateMode_mF1EC9BE82F8C2C9392B55EE9A6CB79145B11B685 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4272,10 +4681,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_timeUpdateMode_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:808>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral083C324186B69C1E16242AE51E2611C975BB28E3, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:808>
 		return (int32_t)(0);
 	}
 }
+// Method Definition Index: 68229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_timeUpdateMode_mFC339E25EE9321F72957DB0CAE7C887A475419D9 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4286,10 +4698,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_timeUpdateMode_mFC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:808>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral083C324186B69C1E16242AE51E2611C975BB28E3, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:808>
 		return;
 	}
 }
+// Method Definition Index: 68230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_WaitForFirstFrame_m2D0F8EC403FD54EB1457BBEFD06FB8C07366AFC0 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4300,10 +4715,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_WaitForFirstFrame_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:814>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral545B48C2F3BEB7E0936D5D9223D5A3F3B05E6E9A, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:814>
 		return (bool)1;
 	}
 }
+// Method Definition Index: 68231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_WaitForFirstFrame_m01D4E7461D01DBA6B702D8AFE34370EBF467B66E (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4314,10 +4732,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_set_WaitForFirstFrame_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:814>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral545B48C2F3BEB7E0936D5D9223D5A3F3B05E6E9A, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:814>
 		return;
 	}
 }
+// Method Definition Index: 68232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_prepareCompleted_m83A629B901BFD4865C45351212BF0BE4E4A254CE (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4360,6 +4781,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_prepareCompleted_m3245A8C2CD03AE84EA046BCC7A496E09E588DB43 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4402,6 +4824,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_started_m6C7DEFF00DE58DE42DC4B2E757059BEC5D198F55 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4444,6 +4867,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_started_m185502DE4D943CBB051497B3FF95D4716223FD9B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4486,6 +4910,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_errorReceived_m6E42F951706E2B1AB98504A361B4A049D3616633 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4528,6 +4953,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_errorReceived_m18399CBB267C2AD8B495034014D5A72A8EE4B09B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4570,6 +4996,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_seekCompleted_mEE95F782B019DF9E4F8E55748E01BD8EAF2E93B1 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4612,6 +5039,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_seekCompleted_m5BCFC72C12D8D2AE27B1ADD19B73F801B9470AB5 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4654,6 +5082,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_frameReady_m2D7FDFD8A0E7A4C57699556799B5DACCA89D7FE8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4696,6 +5125,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_frameReady_mD95DCA99F297D71AD8B3C17FAF06D5EF0DBFCC6C (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4738,6 +5168,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_loopPointReached_mCA32735AD30A613826055C2E49E3346D06F274CA (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4780,6 +5211,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_loopPointReached_mE827DFDC0C990EAE38D7CCF690B7999F58E347FB (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4822,6 +5254,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_frameDropped_mAF0156B92E368F30E4E47EEC4F707FC0116CAA0D (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4864,6 +5297,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_frameDropped_m845666FD7A071EEBAEFA6F53F02380EF110F1DF3 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4906,6 +5340,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_add_clockResyncOccurred_m7CDA71AB1D826D415913461F319E4D12262B8CE6 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4948,6 +5383,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_remove_clockResyncOccurred_m8F72799A85A9BB972033AEC2B043C38E6D741BF3 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4990,6 +5426,7 @@ IL_0007:
 		return;
 	}
 }
+// Method Definition Index: 68248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_EventCallbacks_mDA3D8BF5A0CF7A467E11CA8EC6A1A1C93EB48426 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* ___0_mediaPlayer, int32_t ___1_eventType, int32_t ___2_errorCode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5061,6 +5498,7 @@ IL_000e:
 
 IL_0019:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:847>
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_5 = __this->___prepareCompleted;
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_6 = L_5;
 		if (L_6)
@@ -5079,11 +5517,13 @@ IL_0024:
 		MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* L_7 = ___0_mediaPlayer;
 		NullCheck(G_B9_0);
 		EventHandler_Invoke_mE57B86B4D59684C73D03257A78EB26D3EA1AF7D9_inline(G_B9_0, ((VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*)CastclassClass((RuntimeObject*)L_7, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:848>
 		return;
 	}
 
 IL_0030:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:850>
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_8 = __this->___started;
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_9 = L_8;
 		if (L_9)
@@ -5102,11 +5542,13 @@ IL_003b:
 		MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* L_10 = ___0_mediaPlayer;
 		NullCheck(G_B12_0);
 		EventHandler_Invoke_mE57B86B4D59684C73D03257A78EB26D3EA1AF7D9_inline(G_B12_0, ((VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*)CastclassClass((RuntimeObject*)L_10, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:851>
 		return;
 	}
 
 IL_0047:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:853>
 		ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* L_11 = __this->___errorReceived;
 		ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* L_12 = L_11;
 		if (L_12)
@@ -5128,11 +5570,13 @@ IL_0052:
 		L_15 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_14), NULL);
 		NullCheck(G_B15_0);
 		ErrorEventHandler_Invoke_m9418C3C502DF5AA95DAE22713DBC899E75C66483_inline(G_B15_0, ((VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*)CastclassClass((RuntimeObject*)L_13, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF_il2cpp_TypeInfo_var)), L_15, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:854>
 		return;
 	}
 
 IL_006b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:856>
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_16 = __this->___seekCompleted;
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_17 = L_16;
 		if (L_17)
@@ -5151,11 +5595,13 @@ IL_0076:
 		MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* L_18 = ___0_mediaPlayer;
 		NullCheck(G_B18_0);
 		EventHandler_Invoke_mE57B86B4D59684C73D03257A78EB26D3EA1AF7D9_inline(G_B18_0, ((VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*)CastclassClass((RuntimeObject*)L_18, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:857>
 		return;
 	}
 
 IL_0082:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:859>
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_19 = __this->___loopPointReached;
 		if (!L_19)
 		{
@@ -5163,10 +5609,11 @@ IL_0082:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:861>
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_20 = __this->___loopPointReached;
 		NullCheck(L_20);
 		DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* L_21;
-		L_21 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(10, L_20);
+		L_21 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(9, L_20);
 		NullCheck(L_21);
 		if (!(((RuntimeArray*)L_21)->max_length))
 		{
@@ -5174,11 +5621,13 @@ IL_0082:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:862>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteralE75FFAEE97CE52541734A795AA146DBEF073B6E0, _stringLiteral42C0A9D35CB2D6A2C54318B421B64B9AD901F4D9, NULL);
 	}
 
 IL_00a8:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:864>
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_22 = __this->___frameDropped;
 		if (!L_22)
 		{
@@ -5186,10 +5635,11 @@ IL_00a8:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:866>
 		EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* L_23 = __this->___frameDropped;
 		NullCheck(L_23);
 		DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* L_24;
-		L_24 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(10, L_23);
+		L_24 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(9, L_23);
 		NullCheck(L_24);
 		if (!(((RuntimeArray*)L_24)->max_length))
 		{
@@ -5197,11 +5647,13 @@ IL_00a8:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:867>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteral3321DC942962008DA9B266A590D9EE6914BC2D71, _stringLiteral52A6D30BEAE028C8D8049BAD66E570320453D415, NULL);
 	}
 
 IL_00ce:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:869>
 		TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* L_25 = __this->___clockResyncOccurred;
 		if (!L_25)
 		{
@@ -5209,10 +5661,11 @@ IL_00ce:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:871>
 		TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* L_26 = __this->___clockResyncOccurred;
 		NullCheck(L_26);
 		DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* L_27;
-		L_27 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(10, L_26);
+		L_27 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(9, L_26);
 		NullCheck(L_27);
 		if (!(((RuntimeArray*)L_27)->max_length))
 		{
@@ -5220,11 +5673,13 @@ IL_00ce:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:872>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteralDDD5E613E0412DF2948D96EDA54EA42BCF18C548, _stringLiteral5611F83BA308B379CD1573E77FABCABFE759197B, NULL);
 	}
 
 IL_00f4:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:874>
 		FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* L_28 = __this->___frameReady;
 		if (!L_28)
 		{
@@ -5232,10 +5687,11 @@ IL_00f4:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:876>
 		FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* L_29 = __this->___frameReady;
 		NullCheck(L_29);
 		DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* L_30;
-		L_30 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(10, L_29);
+		L_30 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(9, L_29);
 		NullCheck(L_30);
 		if (!(((RuntimeArray*)L_30)->max_length))
 		{
@@ -5243,14 +5699,18 @@ IL_00f4:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:877>
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:878>
 		VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5(__this, _stringLiteralF44AE0ADE95371BFF231E91C4344975BA04E0509, _stringLiteral68F2F59F169AC68C5C7A1E2A768F6E210012559E, NULL);
 	}
 
 IL_011a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:882>
 		return;
 	}
 }
+// Method Definition Index: 68249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_EnableAudioTrack_m53660533C8A30E01F7CBA160ED246F94E5DFBD59 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, bool ___1_enabled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5267,6 +5727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_EnableAudioTrack_m5366
 	}
 	AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* V_0 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:898>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_0);
@@ -5278,19 +5739,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_EnableAudioTrack_m5366
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:900>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralE9636D4BC7F807A4EF78CE96E562D457290C151E, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:901>
 		return;
 	}
 
 IL_0018:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:904>
 		RuntimeObject* L_2;
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		NullCheck(L_2);
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_3;
 		L_3 = InterfaceFuncInvoker0< AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* >::Invoke(0, IAudioTracks_t8A3F2CDDD50C5D19774FF02BF9A47145CCF02FD8_il2cpp_TypeInfo_var, L_2);
 		V_0 = L_3;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:906>
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5;
@@ -5301,13 +5766,16 @@ IL_0018:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:908>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral754FBD1C92620B7A5F655AF8F0088ABBFF23B287, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:909>
 		return;
 	}
 
 IL_0037:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:912>
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_6 = V_0;
 		uint16_t L_7 = ___0_trackIndex;
 		NullCheck(L_6);
@@ -5324,11 +5792,13 @@ IL_0037:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:913>
 		return;
 	}
 
 IL_004c:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:915>
 		uint16_t L_11 = ___0_trackIndex;
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_12 = V_0;
 		NullCheck(L_12);
@@ -5340,6 +5810,7 @@ IL_004c:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:917>
 		uint16_t L_14 = ___0_trackIndex;
 		uint16_t L_15 = L_14;
 		RuntimeObject* L_16 = Box(il2cpp_defaults.uint16_class, &L_15);
@@ -5353,11 +5824,13 @@ IL_004c:
 		L_21 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralCA3C975484EA244DB53D263E394FDA61E1ACA815, L_16, L_20, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_21, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:918>
 		return;
 	}
 
 IL_0076:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:920>
 		RuntimeObject* L_22;
 		L_22 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_23 = V_0;
@@ -5367,14 +5840,17 @@ IL_0076:
 		L_25 = TrackCollection_1_get_Item_m7D9428FA6BE677AE40DC78635A1CC3A047ACB13D(L_23, L_24, TrackCollection_1_get_Item_m7D9428FA6BE677AE40DC78635A1CC3A047ACB13D_RuntimeMethod_var);
 		NullCheck(L_22);
 		InterfaceActionInvoker1< AudioTrack_t7274C80F7C9DA36A9B2FD682DFC19CFD1F3AD5A7* >::Invoke(2, IAudioTracks_t8A3F2CDDD50C5D19774FF02BF9A47145CCF02FD8_il2cpp_TypeInfo_var, L_22, L_25);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:921>
 		RuntimeObject* L_26;
 		L_26 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		bool L_27 = ___1_enabled;
 		NullCheck(L_26);
 		InterfaceActionInvoker1< bool >::Invoke(29, IMediaControl_t96AACB71233FD117D6CB428E3BADE6653D709FBF_il2cpp_TypeInfo_var, L_26, L_27);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:922>
 		return;
 	}
 }
+// Method Definition Index: 68250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_GetAudioChannelCount_m5DE5E0A31698AC228F1FAEC75C1459D432F0B4B2 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5388,12 +5864,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_GetAudioChannelCou
 	}
 	AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* V_0 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:932>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		NullCheck(L_0);
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_1;
 		L_1 = InterfaceFuncInvoker0< AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* >::Invoke(0, IAudioTracks_t8A3F2CDDD50C5D19774FF02BF9A47145CCF02FD8_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:933>
 		uint16_t L_2 = ___0_trackIndex;
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_3 = V_0;
 		NullCheck(L_3);
@@ -5405,6 +5883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_GetAudioChannelCou
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:935>
 		uint16_t L_5 = ___0_trackIndex;
 		uint16_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_defaults.uint16_class, &L_6);
@@ -5418,11 +5897,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoPlayer_AVPro_GetAudioChannelCou
 		L_12 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralCA3C975484EA244DB53D263E394FDA61E1ACA815, L_7, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_12, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:936>
 		return (uint16_t)0;
 	}
 
 IL_0037:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:938>
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_13 = V_0;
 		uint16_t L_14 = ___0_trackIndex;
 		NullCheck(L_13);
@@ -5434,6 +5915,7 @@ IL_0037:
 		return (uint16_t)((int32_t)(uint16_t)L_16);
 	}
 }
+// Method Definition Index: 68251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VideoPlayer_AVPro_GetAudioLanguageCode_m9CE79F48BABD402E6FFBF91677995362BB43E315 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5447,12 +5929,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VideoPlayer_AVPro_GetAudioLanguageC
 	}
 	AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* V_0 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:948>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		NullCheck(L_0);
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_1;
 		L_1 = InterfaceFuncInvoker0< AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* >::Invoke(0, IAudioTracks_t8A3F2CDDD50C5D19774FF02BF9A47145CCF02FD8_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:949>
 		uint16_t L_2 = ___0_trackIndex;
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_3 = V_0;
 		NullCheck(L_3);
@@ -5464,6 +5948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VideoPlayer_AVPro_GetAudioLanguageC
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:951>
 		uint16_t L_5 = ___0_trackIndex;
 		uint16_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_defaults.uint16_class, &L_6);
@@ -5477,11 +5962,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VideoPlayer_AVPro_GetAudioLanguageC
 		L_12 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralCA3C975484EA244DB53D263E394FDA61E1ACA815, L_7, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_12, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:952>
 		return (String_t*)NULL;
 	}
 
 IL_0037:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:954>
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_13 = V_0;
 		uint16_t L_14 = ___0_trackIndex;
 		NullCheck(L_13);
@@ -5493,9 +5980,11 @@ IL_0037:
 		return L_16;
 	}
 }
+// Method Definition Index: 68252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoPlayer_AVPro_GetAudioSampleRate_m7578FD30F5DB4D9F944CFF0B7B241421C396CC5B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:967>
 		AudioConfiguration_t4C8585EA98B6559B306B6FAD6A68088555394A5D L_0;
 		L_0 = AudioSettings_GetConfiguration_mDA005BAD9577EBBE375F6D6C040D7F110508C910(NULL);
 		int32_t L_1 = L_0.___sampleRate;
@@ -5515,25 +6004,31 @@ IL_0012:
 		return 0;
 	}
 }
+// Method Definition Index: 68253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_GetDirectAudioMute_m33DD62E285E92E264716215D60B2D8BAC4E4FEBD (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:981>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(8, __this);
 		return L_0;
 	}
 }
+// Method Definition Index: 68254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VideoPlayer_AVPro_GetDirectAudioVolume_m98BDCD08B9DFC18F4157B316903B6E2EF35BBD20 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:993>
 		float L_0;
 		L_0 = VirtualFuncInvoker0< float >::Invoke(6, __this);
 		return L_0;
 	}
 }
+// Method Definition Index: 68255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* VideoPlayer_AVPro_GetTargetSource_m7AED9029EFF329105C3325E02C5E38BDF34754D4 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1026>
 		OptionsApple_t496EC04E4BBDFCADE77190404AEE62DC514AC56E* L_0;
 		L_0 = MediaPlayer_get_PlatformOptions_iOS_mF7F885AA1449AAF8BDB53DF65C82A24C2502C954_inline(__this, NULL);
 		NullCheck(L_0);
@@ -5545,6 +6040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1037>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2;
 		L_2 = MediaPlayer_get_AudioSource_m410D3579438149FBFF41B737F66F17539BDC6A9B_inline(__this, NULL);
 		return L_2;
@@ -5552,9 +6048,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B
 
 IL_0015:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1039>
 		return (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL;
 	}
 }
+// Method Definition Index: 68256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_IsAudioTrackEnabled_m77105BEB98D0BA8ADD53E48385C7F50598B0973B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5569,12 +6067,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_IsAudioTrackEnabled_m7
 	AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* V_0 = NULL;
 	AudioTrack_t7274C80F7C9DA36A9B2FD682DFC19CFD1F3AD5A7* V_1 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1049>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		NullCheck(L_0);
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_1;
 		L_1 = InterfaceFuncInvoker0< AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* >::Invoke(0, IAudioTracks_t8A3F2CDDD50C5D19774FF02BF9A47145CCF02FD8_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1050>
 		uint16_t L_2 = ___0_trackIndex;
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_3 = V_0;
 		NullCheck(L_3);
@@ -5586,6 +6086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_IsAudioTrackEnabled_m7
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1052>
 		uint16_t L_5 = ___0_trackIndex;
 		uint16_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_defaults.uint16_class, &L_6);
@@ -5599,17 +6100,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_IsAudioTrackEnabled_m7
 		L_12 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralCA3C975484EA244DB53D263E394FDA61E1ACA815, L_7, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_12, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1053>
 		return (bool)0;
 	}
 
 IL_0037:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1055>
 		RuntimeObject* L_13;
 		L_13 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, __this);
 		NullCheck(L_13);
 		AudioTrack_t7274C80F7C9DA36A9B2FD682DFC19CFD1F3AD5A7* L_14;
 		L_14 = InterfaceFuncInvoker0< AudioTrack_t7274C80F7C9DA36A9B2FD682DFC19CFD1F3AD5A7* >::Invoke(1, IAudioTracks_t8A3F2CDDD50C5D19774FF02BF9A47145CCF02FD8_il2cpp_TypeInfo_var, L_13);
 		V_1 = L_14;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1056>
 		AudioTracks_t6A73CB5D4C2BC6FDA6F5C276B8DF23583601570F* L_15 = V_0;
 		uint16_t L_16 = ___0_trackIndex;
 		NullCheck(L_15);
@@ -5622,21 +6126,27 @@ IL_0037:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1057>
 		return (bool)1;
 	}
 
 IL_004f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1058>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 68257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Pause_m2F341D8332EF0F09E806C214EBFB24042E62EE6D (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1066>
 		MediaPlayer_Pause_m2E91F35FB4EB8D72723410A65589B9A0D1224E40(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1067>
 		return;
 	}
 }
+// Method Definition Index: 68258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Play_m7BADA2FF6A92B88462B72C525ADB2DF13F462D13 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5647,6 +6157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Play_m7BADA2FF6A92B884
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1074>
 		bool L_0;
 		L_0 = MediaPlayer_get_MediaOpened_mEA5CF9899DBDB3CDADD36C6962F10D06D3555071_inline(__this, NULL);
 		if (L_0)
@@ -5655,12 +6166,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Play_m7BADA2FF6A92B884
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1076>
 		bool L_1;
 		L_1 = MediaPlayer_OpenMedia_m4CAE9B697B077E290730B77438051CEAFCDFA022(__this, (bool)1, NULL);
 	}
 
 IL_0010:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1079>
 		int32_t L_2;
 		L_2 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		V_0 = L_2;
@@ -5699,6 +6212,7 @@ IL_0010:
 
 IL_003a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1082>
 		ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_4 = __this->___applyToMesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -5709,14 +6223,17 @@ IL_003a:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1082>
 		ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_6 = __this->___applyToMesh;
 		NullCheck(L_6);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_6, (bool)1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1083>
 		goto IL_00e0;
 	}
 
 IL_005b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1085>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_7 = __this->___applyToMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -5727,14 +6244,17 @@ IL_005b:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1085>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_9 = __this->___applyToMaterial;
 		NullCheck(L_9);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_9, (bool)1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1086>
 		goto IL_00e0;
 	}
 
 IL_0076:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1088>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_10 = __this->___displayUGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -5745,14 +6265,17 @@ IL_0076:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1088>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_12 = __this->___displayUGUI;
 		NullCheck(L_12);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_12, (bool)1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1089>
 		goto IL_00e0;
 	}
 
 IL_0091:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1091>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_13 = __this->___displayIMGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -5763,14 +6286,17 @@ IL_0091:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1091>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_15 = __this->___displayIMGUI;
 		NullCheck(L_15);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_15, (bool)1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1092>
 		goto IL_00e0;
 	}
 
 IL_00ac:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1094>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_16 = __this->___applyToFarPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -5781,14 +6307,17 @@ IL_00ac:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1094>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_18 = __this->___applyToFarPlane;
 		NullCheck(L_18);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_18, (bool)1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1095>
 		goto IL_00e0;
 	}
 
 IL_00c7:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1097>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_19 = __this->___applyToTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -5799,6 +6328,7 @@ IL_00c7:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1097>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_21 = __this->___applyToTexture;
 		NullCheck(L_21);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_21, (bool)1, NULL);
@@ -5806,30 +6336,41 @@ IL_00c7:
 
 IL_00e0:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1101>
 		MediaPlayer_Play_m1101F4D564F9DFB0DF29A2AA1C83A89E2B468066(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1102>
 		return;
 	}
 }
+// Method Definition Index: 68259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Prepare_mB7BA1D7AEC2C2A1943C1D3FCB8D6B75CB2474ED7 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1113>
 		MediaPlayer_Initialise_mD5619DDA607827C7354BE6542B28D73B3A332F49(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1114>
 		bool L_0;
 		L_0 = MediaPlayer_OpenMedia_m4CAE9B697B077E290730B77438051CEAFCDFA022(__this, (bool)0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1115>
 		return;
 	}
 }
+// Method Definition Index: 68260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetDirectAudioMute_mB8B2F73652846F56AE2D5FCEAC9D2DF59603717A (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, bool ___1_mute, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1124>
 		bool L_0 = ___1_mute;
 		VirtualActionInvoker1< bool >::Invoke(9, __this, L_0);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1125>
 		return;
 	}
 }
+// Method Definition Index: 68261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetDirectAudioVolume_m30EF5B3C946DF590D2FEE08B25039C53F8FB6846 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, float ___1_volume, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1134>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_canSetDirectAudioVolume_mDD26FE32E888E00EBF692572301205E2584C72D6(__this, NULL);
 		if (!L_0)
@@ -5838,18 +6379,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetDirectAudioVolume_m
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1136>
 		float L_1 = ___1_volume;
 		VirtualActionInvoker1< float >::Invoke(7, __this, L_1);
 	}
 
 IL_000f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1138>
 		return;
 	}
 }
+// Method Definition Index: 68262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetTargetAudioSource_mAB7A4E1EF2AF2F40D123AB20AB0181B9B1A2B0D5 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, uint16_t ___0_trackIndex, AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___1_source, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1160>
 		OptionsApple_t496EC04E4BBDFCADE77190404AEE62DC514AC56E* L_0;
 		L_0 = MediaPlayer_get_PlatformOptions_iOS_mF7F885AA1449AAF8BDB53DF65C82A24C2502C954_inline(__this, NULL);
 		NullCheck(L_0);
@@ -5861,15 +6406,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetTargetAudioSource_m
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1173>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = ___1_source;
 		MediaPlayer_SetAudioSource_m66C40527F8BB5583EBE63F11FA149DDAC927D6F0(__this, L_2, NULL);
 	}
 
 IL_0015:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1175>
 		return;
 	}
 }
+// Method Definition Index: 68263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_StepForward_m7A0B77E79FDF121EA44389DD6055AABD4509FDA3 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5880,6 +6428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_StepForward_m7A0B77E79
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1182>
 		bool L_0;
 		L_0 = VideoPlayer_AVPro_get_canStep_mEB4376EBCE320994DBC86D1314204B8FE4C70B93(__this, NULL);
 		if (L_0)
@@ -5888,29 +6437,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_StepForward_m7A0B77E79
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1183>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1184>
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker1< int32_t, float >::Invoke(25, IMediaControl_t96AACB71233FD117D6CB428E3BADE6653D709FBF_il2cpp_TypeInfo_var, L_1, (0.0f));
 		V_0 = L_2;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1185>
 		RuntimeObject* L_3;
 		L_3 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		InterfaceActionInvoker2< int32_t, float >::Invoke(22, IMediaControl_t96AACB71233FD117D6CB428E3BADE6653D709FBF_il2cpp_TypeInfo_var, L_3, ((int32_t)il2cpp_codegen_add(L_4, 1)), (0.0f));
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1186>
 		RuntimeObject* L_5;
 		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_5);
 		InterfaceActionInvoker2< int32_t, float >::Invoke(23, IMediaControl_t96AACB71233FD117D6CB428E3BADE6653D709FBF_il2cpp_TypeInfo_var, L_5, 1, (0.0f));
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1187>
 		return;
 	}
 }
+// Method Definition Index: 68264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Stop_m6FF61889A90D007A4BB50EC35EEB4D4F8C122596 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5922,6 +6477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Stop_m6FF61889A90D007A
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1194>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		if (L_0)
@@ -5930,11 +6486,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Stop_m6FF61889A90D007A
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1195>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1197>
 		int32_t L_1;
 		L_1 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		V_0 = L_1;
@@ -5973,6 +6531,7 @@ IL_0009:
 
 IL_0033:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1200>
 		ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_3 = __this->___applyToMesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -5983,14 +6542,17 @@ IL_0033:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1200>
 		ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_5 = __this->___applyToMesh;
 		NullCheck(L_5);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_5, (bool)0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1201>
 		goto IL_00d9;
 	}
 
 IL_0054:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1203>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_6 = __this->___applyToMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -6001,14 +6563,17 @@ IL_0054:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1203>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_8 = __this->___applyToMaterial;
 		NullCheck(L_8);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_8, (bool)0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1204>
 		goto IL_00d9;
 	}
 
 IL_006f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1206>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_9 = __this->___displayUGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -6019,14 +6584,17 @@ IL_006f:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1206>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_11 = __this->___displayUGUI;
 		NullCheck(L_11);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_11, (bool)0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1207>
 		goto IL_00d9;
 	}
 
 IL_008a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1209>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_12 = __this->___displayIMGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -6037,14 +6605,17 @@ IL_008a:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1209>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_14 = __this->___displayIMGUI;
 		NullCheck(L_14);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_14, (bool)0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1210>
 		goto IL_00d9;
 	}
 
 IL_00a5:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1212>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_15 = __this->___applyToFarPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -6055,14 +6626,17 @@ IL_00a5:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1212>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_17 = __this->___applyToFarPlane;
 		NullCheck(L_17);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_17, (bool)0, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1213>
 		goto IL_00d9;
 	}
 
 IL_00c0:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1215>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_18 = __this->___applyToTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -6073,6 +6647,7 @@ IL_00c0:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1215>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_20 = __this->___applyToTexture;
 		NullCheck(L_20);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_20, (bool)0, NULL);
@@ -6080,14 +6655,18 @@ IL_00c0:
 
 IL_00d9:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1219>
 		RuntimeObject* L_21;
 		L_21 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		NullCheck(L_21);
 		InterfaceActionInvoker2< int32_t, float >::Invoke(22, IMediaControl_t96AACB71233FD117D6CB428E3BADE6653D709FBF_il2cpp_TypeInfo_var, L_21, 0, (0.0f));
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1220>
 		MediaPlayer_Stop_m4B6033AADE42D88028A4CAC133E26147A1CE5035(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1221>
 		return;
 	}
 }
+// Method Definition Index: 68265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateAudioComponents_m731C35847C9E214B3DC8EABAA3B7E9D3D8DECE84 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6103,7 +6682,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateAudioComponents_
 	AudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0* G_B2_0 = NULL;
 	AudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0* G_B4_0 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1553>
 		VideoPlayer_AVPro_DestroyAudioOutputBehaviour_m4D7F91ADB33CB925D38E696E1390EDACFE6126A8(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1559>
 		int32_t L_0;
 		L_0 = VideoPlayer_AVPro_get_audioOutputModeAVPro_m4682BD1ED74BE6307A4B46AC93B352BA6FDA1855_inline(__this, NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
@@ -6112,11 +6693,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateAudioComponents_
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1562>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_1);
 		AudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0* L_2;
 		L_2 = GameObject_AddComponent_TisAudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0_m06D3B121F426926C01A02819CDBAAAA4C4160C7D(L_1, GameObject_AddComponent_TisAudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0_m06D3B121F426926C01A02819CDBAAAA4C4160C7D_RuntimeMethod_var);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1563>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_3);
@@ -6130,6 +6713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateAudioComponents_
 		G_B2_0 = L_2;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1565>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_5);
@@ -6142,6 +6726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateAudioComponents_
 
 IL_0037:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1569>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = V_0;
 		VideoPlayer_AVPro_set_audioSource_m6D938F237AE25E666B1F2729CA629F963060DCF7(__this, L_7, NULL);
 		G_B4_0 = G_B3_0;
@@ -6149,19 +6734,23 @@ IL_0037:
 
 IL_003e:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1571>
 		AudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0* L_8 = G_B4_0;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = V_0;
 		NullCheck(L_8);
 		AudioOutput_SetAudioSource_m991DA2B5AD676C623DBF72C9F7B41859278E4FEA(L_8, L_9, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1572>
 		NullCheck(L_8);
 		AudioOutput_set_Player_m4A0B9A6C5D774FB100B32AA46B5EC926EA012C11(L_8, __this, NULL);
 	}
 
 IL_004b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1574>
 		return;
 	}
 }
+// Method Definition Index: 68266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateRendererComponents_m880FB3ED17F77973EF3B5EC6DD6134B3156A3251 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6189,7 +6778,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateRendererComponen
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1583>
 		VideoPlayer_AVPro_DestroyRendererBehaviours_m1C50FED48148DA4ABC99885F7A5B82DA9FC95200(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1585>
 		int32_t L_0;
 		L_0 = VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline(__this, NULL);
 		V_1 = L_0;
@@ -6232,6 +6823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_CreateRendererComponen
 
 IL_0034:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1588>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
@@ -6246,6 +6838,7 @@ IL_0034:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1589>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_5);
@@ -6258,6 +6851,7 @@ IL_0034:
 
 IL_0059:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1591>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_7);
@@ -6269,17 +6863,21 @@ IL_0059:
 
 IL_006a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1592>
 		ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_9 = __this->___applyToMesh;
 		NullCheck(L_9);
 		ApplyToBase_set_Player_mA3119DFD97DF40A1B4EEEB301C8948106CDDA465(L_9, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1593>
 		ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_10 = __this->___applyToMesh;
 		__this->____renderModeComponent = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_10);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1594>
 		return;
 	}
 
 IL_0083:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1596>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_11);
@@ -6294,6 +6892,7 @@ IL_0083:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1597>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_14);
@@ -6306,6 +6905,7 @@ IL_0083:
 
 IL_00a8:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1599>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_16);
@@ -6317,12 +6917,15 @@ IL_00a8:
 
 IL_00b9:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1600>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_18 = __this->___applyToMaterial;
 		NullCheck(L_18);
 		ApplyToBase_set_Player_mA3119DFD97DF40A1B4EEEB301C8948106CDDA465(L_18, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1601>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_19 = __this->___applyToMaterial;
 		__this->____renderModeComponent = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_19);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1603>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
 		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_20);
@@ -6334,11 +6937,13 @@ IL_00b9:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1605>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_22 = V_0;
 		NullCheck(L_22);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_23;
 		L_23 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_22, NULL);
 		VideoPlayer_AVPro_set_targetMaterial_m32AC1B34745F0E8B8B2DBFF86AB2569C74B48BB7(__this, L_23, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1606>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_24 = __this->___applyToMaterial;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_25 = V_0;
 		NullCheck(L_25);
@@ -6346,11 +6951,13 @@ IL_00b9:
 		L_26 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_25, NULL);
 		NullCheck(L_24);
 		ApplyToMaterial_set_Material_mEAD30AEC5E36FECCC93BD76542117C3EDC90D238(L_24, L_26, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1608>
 		return;
 	}
 
 IL_0101:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1610>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___canvasObj;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
@@ -6361,13 +6968,16 @@ IL_0101:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1612>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral4E29654FD856F014EC0C07D5332AD3236C03C405, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1613>
 		return;
 	}
 
 IL_0119:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1615>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___canvasObj;
 		NullCheck(L_29);
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_30;
@@ -6381,6 +6991,7 @@ IL_0119:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1616>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___canvasObj;
 		NullCheck(L_32);
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_33;
@@ -6392,6 +7003,7 @@ IL_0119:
 
 IL_013e:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1618>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->___canvasObj;
 		NullCheck(L_34);
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_35;
@@ -6402,17 +7014,21 @@ IL_013e:
 
 IL_014f:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1619>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_36 = __this->___displayUGUI;
 		NullCheck(L_36);
 		DisplayUGUI_set_Player_mF563BCDFCF0C51391E30FFCA32E81F4D34ED3EC3(L_36, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1620>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_37 = __this->___displayUGUI;
 		__this->____renderModeComponent = L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_37);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1621>
 		return;
 	}
 
 IL_0168:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1623>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38;
 		L_38 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_38);
@@ -6427,6 +7043,7 @@ IL_0168:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1624>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41;
 		L_41 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_41);
@@ -6439,6 +7056,7 @@ IL_0168:
 
 IL_018d:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1626>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43;
 		L_43 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_43);
@@ -6450,22 +7068,27 @@ IL_018d:
 
 IL_019e:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1627>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_45 = __this->___displayIMGUI;
 		NullCheck(L_45);
 		DisplayIMGUI_set_Player_m551F749D9245C1B29D038D94E00FCD6F504A9CD4(L_45, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1628>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_46 = __this->___displayIMGUI;
 		__this->____renderModeComponent = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_46);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1629>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_47 = __this->___displayIMGUI;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		L_48 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		NullCheck(L_47);
 		DisplayIMGUI_set_Color_m905F2C37BA53DD1BA2A4741E0E9B2222BF466C5B_inline(L_47, L_48, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1630>
 		return;
 	}
 
 IL_01c7:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1632>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49;
 		L_49 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_49);
@@ -6480,6 +7103,7 @@ IL_01c7:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1633>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52;
 		L_52 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_52);
@@ -6492,6 +7116,7 @@ IL_01c7:
 
 IL_01ec:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1635>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54;
 		L_54 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_54);
@@ -6503,27 +7128,33 @@ IL_01ec:
 
 IL_01fd:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1636>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_56 = __this->___applyToFarPlane;
 		NullCheck(L_56);
 		ApplyToBase_set_Player_mA3119DFD97DF40A1B4EEEB301C8948106CDDA465(L_56, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1637>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_57 = __this->___applyToFarPlane;
 		__this->____renderModeComponent = L_57;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_57);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1638>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_58 = __this->___applyToFarPlane;
 		int32_t L_59;
 		L_59 = VideoPlayer_AVPro_get_aspectRatioRenderTexture_mFC3BD502475EC711BEA081B6E1EA40BACD6F8BC7_inline(__this, NULL);
 		NullCheck(L_58);
 		ApplyToFarPlane_set_VideoAspectRatio_mB5D055E88F97D2512F308503DE504AF70540EF5E(L_58, L_59, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1639>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_60 = __this->___applyToFarPlane;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_61;
 		L_61 = VideoPlayer_AVPro_get_color_m29EE7B271B026BBB87A66D23E6CAFD250B8106F9_inline(__this, NULL);
 		NullCheck(L_60);
 		ApplyToFarPlane_set_MainColor_mA46D5E1C8905B159AB9CFD081209C1DF1AB697B0(L_60, L_61, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1640>
 		return;
 	}
 
 IL_0238:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1642>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62;
 		L_62 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_62);
@@ -6538,6 +7169,7 @@ IL_0238:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1643>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65;
 		L_65 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_65);
@@ -6550,6 +7182,7 @@ IL_0238:
 
 IL_025d:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1645>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67;
 		L_67 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_67);
@@ -6561,37 +7194,46 @@ IL_025d:
 
 IL_026e:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1646>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_69 = __this->___applyToTexture;
 		NullCheck(L_69);
 		ResolveToRenderTexture_set_MediaPlayer_m2766CC9AA928338C46E2270633D96E6D44FB53C9(L_69, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1647>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_70 = __this->___applyToTexture;
 		__this->____renderModeComponent = L_70;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_70);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1648>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_71 = __this->___applyToTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_72 = __this->___TargetTexture;
 		NullCheck(L_71);
 		ResolveToRenderTexture_set_ExternalTexture_mE340F75AE0F94F1FAEE18E69154D04D9B6594DA0_inline(L_71, L_72, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1649>
 		return;
 	}
 
 IL_0298:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1651>
 		__this->____renderModeComponent = (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)(MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1652>
 		return;
 	}
 
 IL_02a0:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1654>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralB6FC367764E016D0E8360F6372064EEDE62498B7, NULL);
 	}
 
 IL_02aa:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1657>
 		return;
 	}
 }
+// Method Definition Index: 68267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyAudioOutputBehaviour_m4D7F91ADB33CB925D38E696E1390EDACFE6126A8 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6603,6 +7245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyAudioOutputBeha
 	}
 	AudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0* V_0 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1665>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -6614,6 +7257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyAudioOutputBeha
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1666>
 		AudioOutput_t543FCA25F7C08B67CDDF8025B105E93372EB78F0* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
@@ -6621,9 +7265,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyAudioOutputBeha
 
 IL_0015:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1669>
 		return;
 	}
 }
+// Method Definition Index: 68268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyRendererBehaviours_m1C50FED48148DA4ABC99885F7A5B82DA9FC95200 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6645,6 +7291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyRendererBehavio
 	ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* V_4 = NULL;
 	ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* V_5 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1677>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -6656,6 +7303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyRendererBehavio
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1678>
 		ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
@@ -6663,6 +7311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_DestroyRendererBehavio
 
 IL_0015:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1679>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_3);
@@ -6674,6 +7323,7 @@ IL_0015:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1680>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_5, NULL);
@@ -6681,6 +7331,7 @@ IL_0015:
 
 IL_002a:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1681>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___canvasObj;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -6701,6 +7352,7 @@ IL_002a:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1682>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_10 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_10, NULL);
@@ -6708,6 +7360,7 @@ IL_002a:
 
 IL_004c:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1683>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_11);
@@ -6719,6 +7372,7 @@ IL_004c:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1684>
 		DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* L_13 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_13, NULL);
@@ -6726,6 +7380,7 @@ IL_004c:
 
 IL_0061:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1685>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_14);
@@ -6737,6 +7392,7 @@ IL_0061:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1686>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_16 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_16, NULL);
@@ -6744,6 +7400,7 @@ IL_0061:
 
 IL_0077:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1687>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_17);
@@ -6755,6 +7412,7 @@ IL_0077:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1688>
 		ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* L_19 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_19, NULL);
@@ -6762,9 +7420,11 @@ IL_0077:
 
 IL_008d:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1689>
 		return;
 	}
 }
+// Method Definition Index: 68269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetOutputModeContextual_m13021C740693569B7F71E344F514014F45A8B6DC (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6784,7 +7444,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetOutputModeContextua
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_3 = NULL;
 	ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* V_4 = NULL;
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1705>
 		VideoPlayer_AVPro_DestroyRendererBehaviours_m1C50FED48148DA4ABC99885F7A5B82DA9FC95200(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1706>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -6807,12 +7469,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetOutputModeContextua
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1708>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_5;
 		L_5 = GameObject_AddComponent_TisDisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0_m5EE9F2440CD54109DBF4EB7B7E28B5A64FBA41C1(L_4, GameObject_AddComponent_TisDisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0_m5EE9F2440CD54109DBF4EB7B7E28B5A64FBA41C1_RuntimeMethod_var);
 		V_2 = L_5;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1709>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_6 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -6823,31 +7487,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_SetOutputModeContextua
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1711>
 		__this->____renderModeComponent = (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)(MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1712>
 		__this->___displayUGUI = (DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayUGUI), (void*)(DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1713>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 6, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1714>
 		return;
 	}
 
 IL_004e:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1716>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_8 = V_2;
 		__this->____renderModeComponent = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_8);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1717>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_9 = V_2;
 		__this->___displayUGUI = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayUGUI), (void*)L_9);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1718>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 2, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1719>
 		DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* L_10 = V_2;
 		NullCheck(L_10);
 		DisplayUGUI_set_Player_mF563BCDFCF0C51391E30FFCA32E81F4D34ED3EC3(L_10, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1720>
 		return;
 	}
 
 IL_006b:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1722>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_11);
@@ -6859,6 +7533,7 @@ IL_006b:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1724>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_13 = V_3;
 		NullCheck(L_13);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14;
@@ -6872,33 +7547,43 @@ IL_006b:
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1726>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_16);
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_17;
 		L_17 = GameObject_AddComponent_TisApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96_mE9A9B1BE683627E51BCDC21303910B478AD63E50(L_16, GameObject_AddComponent_TisApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96_mE9A9B1BE683627E51BCDC21303910B478AD63E50_RuntimeMethod_var);
 		V_4 = L_17;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1727>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_18 = V_4;
 		__this->____renderModeComponent = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)L_18);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1728>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_19 = V_4;
 		__this->___applyToMaterial = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___applyToMaterial), (void*)L_19);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1729>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1730>
 		ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* L_20 = V_4;
 		NullCheck(L_20);
 		ApplyToBase_set_Player_mA3119DFD97DF40A1B4EEEB301C8948106CDDA465(L_20, __this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1731>
 		return;
 	}
 
 IL_00b4:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1735>
 		__this->____renderModeComponent = (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderModeComponent), (void*)(MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1736>
 		VideoPlayer_AVPro_set_rendererMode_m59F81DE9E8595AC27FF07A0800E9C96FD56D9011(__this, 6, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1737>
 		return;
 	}
 }
+// Method Definition Index: 68270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_OutputModeSet_m698B4DBFD78C888AC3F0E5235F753E49BE2F978E (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6908,6 +7593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_OutputModeSet_m698B4DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1745>
 		ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* L_0 = __this->___applyToFarPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6970,6 +7656,7 @@ IL_004d:
 		return (bool)1;
 	}
 }
+// Method Definition Index: 68271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Start_m9A50DD969214B6F889DEEEBD8B0958A0B3B4C842 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6979,6 +7666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Start_m9A50DD969214B6F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1759>
 		bool L_0 = __this->____converted;
 		if (L_0)
 		{
@@ -7004,15 +7692,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Start_m9A50DD969214B6F
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1762>
 		VideoPlayer_AVPro_SetOutputModeContextual_m13021C740693569B7F71E344F514014F45A8B6DC(__this, NULL);
 	}
 
 IL_0024:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1764>
 		MediaPlayer_Start_mC7129C604CE89D4FE503FC55FF42981FEFF177B3(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1765>
 		return;
 	}
 }
+// Method Definition Index: 68272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Awake_m41BB6FA98085A47E934EB0A32FFCA5FCEBA04B62 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7022,6 +7714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Awake_m41BB6FA98085A47
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1773>
 		RuntimeObject* L_0;
 		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		if (L_0)
@@ -7030,6 +7723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Awake_m41BB6FA98085A47
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1775>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -7039,7 +7733,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Awake_m41BB6FA98085A47
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1777>
 		MediaPlayer_Initialise_mD5619DDA607827C7354BE6542B28D73B3A332F49(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1778>
 		RuntimeObject* L_2;
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11, __this);
 		if (!L_2)
@@ -7048,6 +7744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Awake_m41BB6FA98085A47
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1781>
 		bool L_3 = __this->___AutoOpening;
 		if (!L_3)
 		{
@@ -7055,6 +7752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Awake_m41BB6FA98085A47
 		}
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1783>
 		bool L_4;
 		L_4 = VideoPlayer_AVPro_get_playOnAwake_m5505445070752E2B1C648149B65C1F6E3E9C1368_inline(__this, NULL);
 		bool L_5;
@@ -7063,15 +7761,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_Awake_m41BB6FA98085A47
 
 IL_0032:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1786>
 		MediaPlayer_StartRenderCoroutine_m8C87C666ADFD4A9990505FD746FCF062FF5E4CDE(__this, NULL);
 	}
 
 IL_0038:
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1790>
 		MediaPlayer_Awake_mD2F030A4ACE4BFCFF63D737EA6C2173038092FC6(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1791>
 		return;
 	}
 }
+// Method Definition Index: 68273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_OnEnable_m1C9812E0C9EFB87807B78159109CECF1BC3A1F60 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7082,16 +7784,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_OnEnable_m1C9812E0C9EF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1796>
 		MediaPlayerEvent_t121509C282EF0611D2925165D8D101C0CDD759A8* L_0;
 		L_0 = MediaPlayer_get_Events_mC03BCDE15F4DD1621730080D407BDFEB4701962A(__this, NULL);
 		UnityAction_3_t030DCCB147A37115F1C7596C4AAA9D89F97C7A81* L_1 = (UnityAction_3_t030DCCB147A37115F1C7596C4AAA9D89F97C7A81*)il2cpp_codegen_object_new(UnityAction_3_t030DCCB147A37115F1C7596C4AAA9D89F97C7A81_il2cpp_TypeInfo_var);
 		UnityAction_3__ctor_m7C91BC66E7FAB384E7989EE1F26095E95EA5B3BC(L_1, __this, (intptr_t)((void*)VideoPlayer_AVPro_EventCallbacks_mDA3D8BF5A0CF7A467E11CA8EC6A1A1C93EB48426_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		MediaPlayerEvent_AddListener_mA7364D01750EEED48F9C0EA83BBF4A2FF9433358(L_0, L_1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1798>
 		MediaPlayer_OnEnable_mF1E865F6BEC5FA715F9DD52A6CCA74A57CA8EE88(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1799>
 		return;
 	}
 }
+// Method Definition Index: 68274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_OnDisable_m03E7B60704F05DDCDA199C13D117277AFC998EBA (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7102,30 +7808,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_OnDisable_m03E7B60704F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1804>
 		__this->___prepareCompleted = (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___prepareCompleted), (void*)(EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1805>
 		__this->___started = (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___started), (void*)(EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1806>
 		__this->___errorReceived = (ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___errorReceived), (void*)(ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1807>
 		__this->___seekCompleted = (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___seekCompleted), (void*)(EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1808>
 		__this->___loopPointReached = (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___loopPointReached), (void*)(EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1809>
 		__this->___frameDropped = (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___frameDropped), (void*)(EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1810>
 		__this->___clockResyncOccurred = (TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___clockResyncOccurred), (void*)(TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821*)NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1811>
 		MediaPlayerEvent_t121509C282EF0611D2925165D8D101C0CDD759A8* L_0;
 		L_0 = MediaPlayer_get_Events_mC03BCDE15F4DD1621730080D407BDFEB4701962A(__this, NULL);
 		UnityAction_3_t030DCCB147A37115F1C7596C4AAA9D89F97C7A81* L_1 = (UnityAction_3_t030DCCB147A37115F1C7596C4AAA9D89F97C7A81*)il2cpp_codegen_object_new(UnityAction_3_t030DCCB147A37115F1C7596C4AAA9D89F97C7A81_il2cpp_TypeInfo_var);
 		UnityAction_3__ctor_m7C91BC66E7FAB384E7989EE1F26095E95EA5B3BC(L_1, __this, (intptr_t)((void*)VideoPlayer_AVPro_EventCallbacks_mDA3D8BF5A0CF7A467E11CA8EC6A1A1C93EB48426_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		MediaPlayerEvent_RemoveListener_m9CDAB7BF72ABCA99D94ECF241AE84F099CF65F82(L_0, L_1, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1813>
 		MediaPlayer_OnDisable_mD957784A56F6D13F4C21E1F028F871464FDC9ECA(__this, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1814>
 		return;
 	}
 }
+// Method Definition Index: 68275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogAutomaticConversionSolution_m885E24B006EF0D698A82EEBC95D27E155650B124 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, String_t* ___0_value1, String_t* ___1_value2, String_t* ___2_solution, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7139,6 +7856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogAutomaticConversion
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1819>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -7165,9 +7883,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogAutomaticConversion
 		L_10 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_10, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1820>
 		return;
 	}
 }
+// Method Definition Index: 68276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogAutomaticConversion_mDB61970A4F16B267AD1C20CD5208528EAF14DB0A (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, String_t* ___0_value1, String_t* ___1_value2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7181,6 +7901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogAutomaticConversion
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1824>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -7203,9 +7924,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogAutomaticConversion
 		L_8 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_8, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1825>
 		return;
 	}
 }
+// Method Definition Index: 68277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogNoSimWarning_mF4B7C729C16316C686ED4548D425B608C26BB2F5 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, String_t* ___0_behaviourName, String_t* ___1_reason, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7217,15 +7940,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogNoSimWarning_mF4B7C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1829>
 		String_t* L_0 = ___0_behaviourName;
 		String_t* L_1 = ___1_reason;
 		String_t* L_2;
 		L_2 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral254E42BAB10F128D89F8021F7BD0F308BA5DD442, L_0, _stringLiteralB26033AF13ECB704BCE78883531BCC313CDDCE76, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_2, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1830>
 		return;
 	}
 }
+// Method Definition Index: 68278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogNoFunctionality_m8D6F071F37F4A347310E3A57C83537AF2233CB1B (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, String_t* ___0_behaviourName, String_t* ___1_reason, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7237,25 +7963,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro_LogNoFunctionality_m8D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1834>
 		String_t* L_0 = ___0_behaviourName;
 		String_t* L_1 = ___1_reason;
 		String_t* L_2;
 		L_2 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral17916A8D88A22F93961D44B216E38ECFC88753FE, L_0, _stringLiteral6E6A6ECDFC493200735059C2CC8A8FD544D05FE0, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_2, NULL);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:1835>
 		return;
 	}
 }
+// Method Definition Index: 68279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro__ctor_mA498D1699AE5E6D9E11F314D701BEC21CCE43079 (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:44>
 		__this->___PlaybackSpeed = (1.0f);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:57>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		__this->___Colour = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:60>
 		__this->___Fullscreen = (bool)1;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:63>
 		__this->___TargetCameraAlpha = (1.0f);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:74>
 		__this->___Volume = (1.0f);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:78>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1), (0.0f), (0.0f), (1.0f), (1.0f), NULL);
@@ -7264,6 +7999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro__ctor_mA498D1699AE5E6D
 		return;
 	}
 }
+// Method Definition Index: 68280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro__cctor_m20D2252A2BD49A9EAE53D7A2A40D6CFAE2AAB2D9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7273,6 +8009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_AVPro__cctor_m20D2252A2BD49A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:32>
 		((VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF_StaticFields*)il2cpp_codegen_static_fields_for(VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF_il2cpp_TypeInfo_var))->___controlledAudioTrackMaxCount = (uint16_t)((int32_t)64);
 		return;
 	}
@@ -7327,6 +8064,7 @@ void EventHandler_Invoke_mE57B86B4D59684C73D03257A78EB26D3EA1AF7D9_OpenGenericIn
 	NullCheck(___0_source);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_source);
 }
+// Method Definition Index: 68281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler__ctor_m43088889AE6C5A1B9FCFE7A5F1C2CFA96C4FF9C9 (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7379,17 +8117,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler__ctor_m43088889AE6C5A1B9FCF
 	}
 	__this->___extra_arg = (intptr_t)&EventHandler_Invoke_mE57B86B4D59684C73D03257A78EB26D3EA1AF7D9_Multicast;
 }
+// Method Definition Index: 68282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler_Invoke_mE57B86B4D59684C73D03257A78EB26D3EA1AF7D9 (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_source, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 68283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EventHandler_BeginInvoke_mE572FC0900673EBB81887ADABCE777295852F036 (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_source;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
+// Method Definition Index: 68284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler_EndInvoke_m03FEB561573DDFF16B90B767A3BCA6CEE4438471 (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7444,6 +8185,7 @@ void ErrorEventHandler_Invoke_m9418C3C502DF5AA95DAE22713DBC899E75C66483_OpenGene
 	NullCheck(___0_source);
 	GenericInterfaceActionInvoker1< String_t* >::Invoke(method, ___0_source, ___1_message);
 }
+// Method Definition Index: 68285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ErrorEventHandler__ctor_mDC481EE38AD30B0708F3050A979C855E73C5FCC6 (ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7496,11 +8238,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ErrorEventHandler__ctor_mDC481EE38AD30B0
 	}
 	__this->___extra_arg = (intptr_t)&ErrorEventHandler_Invoke_m9418C3C502DF5AA95DAE22713DBC899E75C66483_Multicast;
 }
+// Method Definition Index: 68286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ErrorEventHandler_Invoke_m9418C3C502DF5AA95DAE22713DBC899E75C66483 (ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*, String_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_source, ___1_message, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 68287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ErrorEventHandler_BeginInvoke_mB87F84D6CD76911C794B553A51091831D8BDE909 (ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, String_t* ___1_message, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7508,6 +8252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ErrorEventHandler_BeginInvoke_
 	__d_args[1] = ___1_message;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
+// Method Definition Index: 68288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ErrorEventHandler_EndInvoke_m4245E36545B5B0B4C56AF985EFDB0065546CCC0D (ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7562,6 +8307,7 @@ void FrameReadyEventHandler_Invoke_m8CE7558BCF7C17C294297C36ACC782CC43D013A3_Ope
 	NullCheck(___0_source);
 	GenericInterfaceActionInvoker1< int64_t >::Invoke(method, ___0_source, ___1_frameIdx);
 }
+// Method Definition Index: 68289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameReadyEventHandler__ctor_m9B3D992E565B480E3A99A2DF5080C00CBB630E83 (FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7614,11 +8360,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameReadyEventHandler__ctor_m9B3D992E56
 	}
 	__this->___extra_arg = (intptr_t)&FrameReadyEventHandler_Invoke_m8CE7558BCF7C17C294297C36ACC782CC43D013A3_Multicast;
 }
+// Method Definition Index: 68290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameReadyEventHandler_Invoke_m8CE7558BCF7C17C294297C36ACC782CC43D013A3 (FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, int64_t ___1_frameIdx, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*, int64_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_source, ___1_frameIdx, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 68291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FrameReadyEventHandler_BeginInvoke_mDCAAA69740669622F028F34287874B8B3ADCA0C0 (FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, int64_t ___1_frameIdx, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7626,6 +8374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FrameReadyEventHandler_BeginIn
 	__d_args[1] = Box(il2cpp_defaults.int64_class, &___1_frameIdx);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
+// Method Definition Index: 68292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameReadyEventHandler_EndInvoke_m09551514B72DB7E8BDC14A865694D9D599509DA2 (FrameReadyEventHandler_t17958490D0F762174CF9BFD60E594C2A6265CBAB* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7680,6 +8429,7 @@ void TimeEventHandler_Invoke_m16238CBBC1869591CC4682624ABCD0FF66A9B6A1_OpenGener
 	NullCheck(___0_source);
 	GenericInterfaceActionInvoker1< double >::Invoke(method, ___0_source, ___1_seconds);
 }
+// Method Definition Index: 68293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeEventHandler__ctor_m8ACC3979855728F5C6CEFB2A14833CB29CD4E033 (TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7732,11 +8482,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeEventHandler__ctor_m8ACC3979855728F5
 	}
 	__this->___extra_arg = (intptr_t)&TimeEventHandler_Invoke_m16238CBBC1869591CC4682624ABCD0FF66A9B6A1_Multicast;
 }
+// Method Definition Index: 68294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeEventHandler_Invoke_m16238CBBC1869591CC4682624ABCD0FF66A9B6A1 (TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, double ___1_seconds, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*, double, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_source, ___1_seconds, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 68295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeEventHandler_BeginInvoke_m6C38CC37868F0EA0A09A14EBE90CDDB0E9F28DE5 (TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, double ___1_seconds, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7744,6 +8496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeEventHandler_BeginInvoke_m
 	__d_args[1] = Box(il2cpp_defaults.double_class, &___1_seconds);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
+// Method Definition Index: 68296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeEventHandler_EndInvoke_m68A4303BB82F454D6312B60284F0A72622272E73 (TimeEventHandler_t9761E7E48AF97CDF20DFA80702B4F1AFFC3A4821* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7775,194 +8528,253 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeEventHandler_EndInvoke_m68A4303BB82F
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// Method Definition Index: 68128
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_sourceAVPro_m6CD81A2FEB271972AAB6FB79041A6EDE06328EA6_inline (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:114>
 		int32_t L_0 = __this->___Source;
 		return L_0;
 	}
 }
+// Method Definition Index: 62665
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MediaPlayer_SetMediaSource_mF78CE5C14D569AB3BD8198EE38D3C647CB6ECFEB_inline (MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* __this, int32_t ___0_source, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:46>
 		int32_t L_0 = ___0_source;
 		__this->____mediaSource = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:47>
 		return;
 	}
 }
+// Method Definition Index: 63370
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MediaPath_get_PathType_m3E9426DFEAB5AB0FAFA24023BB8AA853A7A49A0F_inline (MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/Interfaces.cs:520>
 		int32_t L_0 = __this->____pathType;
 		return L_0;
 	}
 }
+// Method Definition Index: 63372
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MediaPath_get_Path_mC80493B71D701791E08048C2EFF60BE3C66775D7_inline (MediaPath_t8AD36B2B518A8A90D83F7EB4F6533B9BFF9DC04F* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/Interfaces.cs:523>
 		String_t* L_0 = __this->____path;
 		return L_0;
 	}
 }
+// Method Definition Index: 62677
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MediaPlayer_set_AutoStart_mA673BB388341CEFC621779605CDFEA358524AD0D_inline (MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:74>
 		bool L_0 = ___0_value;
 		__this->____autoPlayOnStart = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:74>
 		return;
 	}
 }
+// Method Definition Index: 68148
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_rendererMode_m2F9E47CE976ED91CD2AD51489FA1AA1000F4AE94_inline (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:249>
 		int32_t L_0 = __this->___RenderMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 68706
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DisplayUGUI_set_ScaleMode_m2B63E5EFB037B8D32E1612DBA715419FB4419EA2_inline (DisplayUGUI_t6924998FE9E0BA75C7453F205C793E2CE1EC9FB0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/UnityUI/Runtime/DisplayUGUI.cs:81>
 		int32_t L_0 = ___0_value;
 		__this->____scaleMode = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/UnityUI/Runtime/DisplayUGUI.cs:81>
 		return;
 	}
 }
+// Method Definition Index: 62634
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DisplayIMGUI_set_ScaleMode_mC6F7E094425453AD820444A40ECFEB7FF2F41E2E_inline (DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs:49>
 		int32_t L_0 = ___0_value;
 		__this->____scaleMode = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs:50>
 		return;
 	}
 }
+// Method Definition Index: 63028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 ResolveToRenderTexture_get_VideoResolveOptions_mFC07590AFF85819C0BF0C679B2C21A71F32C53F3_inline (ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ResolveToRenderTexture.cs:47>
 		VideoResolveOptions_t73104FE43CA18A4DA1D13E543E8FA739A4B6A180 L_0 = __this->____options;
 		return L_0;
 	}
 }
+// Method Definition Index: 68156
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_audioOutputModeAVPro_m4682BD1ED74BE6307A4B46AC93B352BA6FDA1855_inline (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:426>
 		int32_t L_0 = __this->___AudioOutputMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 62813
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OptionsApple_t496EC04E4BBDFCADE77190404AEE62DC514AC56E* MediaPlayer_get_PlatformOptions_iOS_mF7F885AA1449AAF8BDB53DF65C82A24C2502C954_inline (MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_PlatformOptions.cs:1029>
 		OptionsApple_t496EC04E4BBDFCADE77190404AEE62DC514AC56E* L_0 = __this->____options_iOS;
 		return L_0;
 	}
 }
+// Method Definition Index: 62636
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DisplayIMGUI_set_Color_m905F2C37BA53DD1BA2A4741E0E9B2222BF466C5B_inline (DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs:63>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
 		__this->____color = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs:64>
 		return;
 	}
 }
+// Method Definition Index: 62644
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DisplayIMGUI_set_IsAreaFullScreen_m21F7A3B9D8CCF63A1B717EEC02D8D8C64B614820_inline (DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs:122>
 		bool L_0 = ___0_value;
 		__this->____isAreaFullScreen = L_0;
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs:123>
 		return;
 	}
 }
+// Method Definition Index: 62686
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* MediaPlayer_get_AudioSource_m410D3579438149FBFF41B737F66F17539BDC6A9B_inline (MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:155>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->____audioSource;
 		return L_0;
 	}
 }
+// Method Definition Index: 68168
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D VideoPlayer_AVPro_get_uvRect_m2019125C47CEEE90DA1411D602D499FF8C59C4F0_inline (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:546>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = __this->___UVRect;
 		return L_0;
 	}
 }
+// Method Definition Index: 62691
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MediaPlayer_get_UseResampler_m889BFBE683DD30406908AC8B7B862A8AD3DB7454_inline (MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:184>
 		bool L_0 = __this->____useResampler;
 		return L_0;
 	}
 }
+// Method Definition Index: 62697
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Resampler_t0EB1CF2AF535A9459DEAD26A39B81914493D99D8* MediaPlayer_get_FrameResampler_m80964CB71EDF60E1107493F5478AA203D1779DA0_inline (MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:196>
 		Resampler_t0EB1CF2AF535A9459DEAD26A39B81914493D99D8* L_0 = __this->____resampler;
 		return L_0;
 	}
 }
+// Method Definition Index: 63799
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Resampler_get_ElapsedTimeSinceBase_m19822F48CD8E12202F6BF6CA2873F676D9CFB515_inline (Resampler_t0EB1CF2AF535A9459DEAD26A39B81914493D99D8* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/Utils/Resampler.cs:71>
 		float L_0 = __this->____elapsedTimeSinceBase;
 		return L_0;
 	}
 }
+// Method Definition Index: 63404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlaybackQualityStats_get_DuplicateFrames_mEFAF6EA5C986F313E94B11498F5B718EAC5A0AA8_inline (PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/PlaybackQualityStats.cs:19>
 		int32_t L_0 = __this->___U3CDuplicateFramesU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 63406
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlaybackQualityStats_get_UnityDroppedFrames_m99B5308E1CED22816E47200C3034EC7639BCDD11_inline (PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/PlaybackQualityStats.cs:20>
 		int32_t L_0 = __this->___U3CUnityDroppedFramesU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 63402
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlaybackQualityStats_get_SkippedFrames_m3BF20608B162FB544EA4441BF84C15932CD4260E_inline (PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/PlaybackQualityStats.cs:18>
 		int32_t L_0 = __this->___U3CSkippedFramesU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 63408
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlaybackQualityStats_get_PerfectFramesT_m71B6DF0504F43C3DF10D560BED7C2B51939DE68C_inline (PlaybackQualityStats_tDAABE7EB8C2E4CC93A294AF665FAE35484DC34CC* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/PlaybackQualityStats.cs:21>
 		float L_0 = __this->___U3CPerfectFramesTU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 62635
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F DisplayIMGUI_get_Color_mB914171350E68404E794908AF4B7480E127F6B7F_inline (DisplayIMGUI_t11751C83F45196042C3ED50A4B7D0F5967E1ED84* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs:59>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____color;
 		return L_0;
 	}
 }
+// Method Definition Index: 62586
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ApplyToMesh_get_MeshRenderer_m9CBD6C0D2048D6B7EC294FB09E20E7718AD22211_inline (ApplyToMesh_tB1C4120A45FDE8CEDA238A7FACD3D7C50B30D218* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ApplyToMesh.cs:47>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->____renderer;
 		return L_0;
 	}
 }
+// Method Definition Index: 62570
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ApplyToMaterial_get_Material_mCE4938D54CA38B964E090059169CBA38B7A48DC5_inline (ApplyToMaterial_t09B61B035C353CFD5692C5FC18E5B440B7EF8D96* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ApplyToMaterial.cs:52>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->____material;
 		return L_0;
 	}
 }
+// Method Definition Index: 62535
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ApplyToFarPlane_get_Alpha_mF348845E69A9D49438151DC168F24C2461972F2B_inline (ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ApplyToFarPlane.cs:54>
 		float L_0 = __this->____alpha;
 		return L_0;
 	}
 }
+// Method Definition Index: 34851
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -7977,67 +8789,85 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
+// Method Definition Index: 63030
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ResolveToRenderTexture_get_ExternalTexture_m4568727F0B80A1EE3957DED3520FE612A47B64F8_inline (ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ResolveToRenderTexture.cs:60>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->____externalTexture;
 		return L_0;
 	}
 }
+// Method Definition Index: 63031
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ResolveToRenderTexture_set_ExternalTexture_mE340F75AE0F94F1FAEE18E69154D04D9B6594DA0_inline (ResolveToRenderTexture_t94724540C5651B92D0BE2619FB3E15E75D88B851* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ResolveToRenderTexture.cs:64>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___0_value;
 		__this->____externalTexture = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____externalTexture), (void*)L_0);
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ResolveToRenderTexture.cs:65>
 		return;
 	}
 }
+// Method Definition Index: 62537
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ApplyToFarPlane_get_Camera_m09C5E7B9CD440346C3DA27D1936F55FF9D92633A_inline (ApplyToFarPlane_t8F7ADEB20E7D478B493395C8386B705E89F88108* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/ApplyToFarPlane.cs:61>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->____camera;
 		return L_0;
 	}
 }
+// Method Definition Index: 68282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_Invoke_mE57B86B4D59684C73D03257A78EB26D3EA1AF7D9_inline (EventHandler_tF23166F9A5907413A644BB58CA6EAA80F6C74FB2* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_source, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 68286
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ErrorEventHandler_Invoke_m9418C3C502DF5AA95DAE22713DBC899E75C66483_inline (ErrorEventHandler_t716B53124FCE96E3575920981F86EEC0119B1C24* __this, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* ___0_source, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF*, String_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_source, ___1_message, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 63740
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AudioTrack_get_ChannelCount_m9166F8AE16F062C0B79C4F44C9C82B9D82332FFE_inline (AudioTrack_t7274C80F7C9DA36A9B2FD682DFC19CFD1F3AD5A7* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/Tracks.cs:202>
 		int32_t L_0 = __this->___U3CChannelCountU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 63694
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TrackBase_get_Language_m884A41A99D5F115C30D097CFCA3013F06E515E6C_inline (TrackBase_t5ACAB4713ACCBC93F73F7272103A21F79B84BDAE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Internal/Tracks.cs:44>
 		String_t* L_0 = __this->___U3CLanguageU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 62849
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OptionsApple_get_audioMode_mDB2BBA7ABEB97CE5F03AA359939CBE32074CB129_inline (OptionsApple_t496EC04E4BBDFCADE77190404AEE62DC514AC56E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_PlatformOptions.cs:244>
 		int32_t L_0 = __this->____audioMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 62746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MediaPlayer_get_MediaOpened_mEA5CF9899DBDB3CDADD36C6962F10D06D3555071_inline (MediaPlayer_t8060E71DC0573661F0F6AC68DD0DB9243CA924E6* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs:397>
 		bool L_0 = __this->____isMediaOpened;
 		return L_0;
 	}
 }
+// Method Definition Index: 34880
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
 {
 	{
@@ -8047,27 +8877,34 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
+// Method Definition Index: 68152
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VideoPlayer_AVPro_get_aspectRatioRenderTexture_mFC3BD502475EC711BEA081B6E1EA40BACD6F8BC7_inline (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:285>
 		int32_t L_0 = __this->___AspectRatioRenderTexture;
 		return L_0;
 	}
 }
+// Method Definition Index: 68158
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F VideoPlayer_AVPro_get_color_m29EE7B271B026BBB87A66D23E6CAFD250B8106F9_inline (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:454>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___Colour;
 		return L_0;
 	}
 }
+// Method Definition Index: 68134
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VideoPlayer_AVPro_get_playOnAwake_m5505445070752E2B1C648149B65C1F6E3E9C1368_inline (VideoPlayer_AVPro_tCE1D222685FF980A48A0B9A2842B9AE818427CEF* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:X:/Projects 2025/LoadingScenes/AVproToIos/Assets/AVProVideo/Extensions/VideoPlayer/Runtime/VideoPlayer_AVPro.cs:144>
 		bool L_0 = __this->___PlayOnAwake;
 		return L_0;
 	}
 }
+// Method Definition Index: 33582
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
 {
 	{

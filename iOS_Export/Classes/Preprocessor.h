@@ -203,7 +203,7 @@
 #define UNITY_USES_REPLAY_KIT 0
 #define UNITY_USES_LOCATION 0
 #define UNITY_USES_GLES 0
-#define UNITY_USES_IAD 0
+#define UNITY_USES_IAD 1
 
 //------------------------------------------------------------------------------
 //

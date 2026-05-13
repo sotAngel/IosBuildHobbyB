@@ -139,6 +139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 69021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE23DB29B39CBA7B7BE44FD885EA664B48863B396 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBE34BDDEE816D90C6899C1858ADDB04695A2350B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -164,6 +165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE23DB29B39CBA7B7BE44FD885EA66
 		return L_2;
 	}
 }
+// Method Definition Index: 69022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE4FD0357D81DAF29972CBCC2DCDD1EFA50986E1D (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t646E5D856A657B6EB30AB38A3CF3FADB77F69A26* __this, const RuntimeMethod* method) 
 {
 	{
