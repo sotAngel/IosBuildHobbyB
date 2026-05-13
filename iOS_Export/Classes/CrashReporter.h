@@ -11,11 +11,11 @@
 
 // Enable custom crash reporter to capture crashes. Crash logs will be available to scripts via
 // CrashReport API.
-#define ENABLE_CUSTOM_CRASH_REPORTER 1
+#define ENABLE_CUSTOM_CRASH_REPORTER 0
 
 // Enable submission of custom crash reports to Unity servers. This will enable custom crash
 // reporter.
-#define ENABLE_CRASH_REPORT_SUBMISSION 1
+#define ENABLE_CRASH_REPORT_SUBMISSION 0
 
 
 #if ENABLE_CRASH_REPORT_SUBMISSION && !ENABLE_CUSTOM_CRASH_REPORTER
