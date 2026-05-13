@@ -42,21 +42,21 @@ static Il2CppMethodPointer s_methodPointers[15] =
 };
 static const int32_t s_InvokerIndices[15] = 
 {
-	19133,
-	15250,
+	19109,
+	15236,
 	5221,
-	15250,
-	8200,
-	31266,
-	19289,
-	19376,
-	19289,
-	19133,
-	19133,
+	15236,
+	8195,
+	31233,
+	19265,
+	19352,
+	19265,
+	19109,
+	19109,
 	1546,
-	31266,
-	19632,
-	19632,
+	31233,
+	19608,
+	19608,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_TND_Upscaling_SGSR1_CodeGenModule;
 const Il2CppCodeGenModule g_TND_Upscaling_SGSR1_CodeGenModule = 
