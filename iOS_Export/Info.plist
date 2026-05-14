@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
     <key>CADisableMinimumFrameDuration</key>
     <false />
     <key>CADisableMinimumFrameDurationOnPhone</key>
@@ -11,7 +13,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>AVproToIos</string>
+    <string>Hobbyville Junior B</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
@@ -23,9 +25,9 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1.0</string>
+    <string>2</string>
     <key>CFBundleVersion</key>
-    <string>0</string>
+    <string>11</string>
     <key>LSRequiresIPhoneOS</key>
     <true />
     <key>UIApplicationSceneManifest</key>
@@ -70,8 +72,6 @@
     <string>UIStatusBarStyleDefault</string>
     <key>UISupportedInterfaceOrientations</key>
     <array>
-      <string>UIInterfaceOrientationPortrait</string>
-      <string>UIInterfaceOrientationPortraitUpsideDown</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
       <string>UIInterfaceOrientationLandscapeLeft</string>
     </array>
