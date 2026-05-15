@@ -5,13 +5,17 @@ echo "=== FINAL APP FRAMEWORK CHECK ==="
 echo "Current path:"
 pwd
 
+echo "CI_DERIVED_DATA_PATH:"
+echo "$CI_DERIVED_DATA_PATH"
+
 echo "Searching for built .app..."
 APP_PATH=$(find "$CI_DERIVED_DATA_PATH" -name "*.app" -type d | head -n 1)
 
 echo "APP_PATH=$APP_PATH"
 
 if [ -z "$APP_PATH" ]; then
-    echo "ERROR: No .app found."
+    echo "ERROR: No .app found after xcodebuild."
+    echo "This means the build may have failed before app packaging."
     exit 1
 fi
 
