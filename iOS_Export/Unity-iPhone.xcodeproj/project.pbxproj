@@ -30,7 +30,6 @@
 		1A22BC0AFE01EADB5B878017 /* UnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 864A7F8602F7096CE5937644 /* UnityInterface.h */; };
 		1CD4234A1829B6171985E914 /* FullScreenVideoPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E591B394E3B9E70466B37B7 /* FullScreenVideoPlayer.mm */; };
 		1E314D255969D760A250045A /* UnityViewControllerBase+visionOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4D6FD336AA1273230E3CAF /* UnityViewControllerBase+visionOS.h */; };
-		1EC64CC6AB3E9F4208CAFE92 /* AVProVideoForceSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C14A919C17A153C8555E5D /* AVProVideoForceSwift.swift */; };
 		2373E9E02BAA678F79EC8814 /* IUnityEventQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA0BE273F1825F1BE7B7B69 /* IUnityEventQueue.h */; };
 		24ACD66BBD719C5D9C2ACC50 /* AVProVideo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3788429D11961731866FBF /* AVProVideo.xcframework */; };
 		264C6113911720783FB14D5D /* UnityReplayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 26396104375BD009639E2AF3 /* UnityReplayKit.h */; };
@@ -77,9 +76,11 @@
 		6EFDFBBD1388F51433119270 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C1439DA92288F74DB18D0AF /* main.mm */; };
 		6F8A8CC81C6BB172A8523107 /* VideoPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB1CC5E9B4170C22555C2D0F /* VideoPlayer.mm */; };
 		707AF48FB127A96E75BBBD38 /* UnityView+tvOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F22295C787F3B56F475CE0D /* UnityView+tvOS.mm */; };
+		720D40BA9B885AF50B1B24CA /* AVProVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCE04CA4D597AE106EAA284 /* AVProVideo.framework */; };
 		74FD6CCF256F4E8A4D55FFB2 /* Il2CppOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63B33A2B4E66BC2927EB1FF /* Il2CppOptions.cpp */; };
 		75D613554FE45929CB85740D /* Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C543234E59154390162261 /* Keyboard.h */; };
 		763ED5D885EABF761B2FE262 /* LaunchScreen-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6444ABDD2799CC877EBAF7E /* LaunchScreen-iPad.storyboard */; };
+		77264671ADC49C5D71C5A334 /* AVProVideoForceSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D418C9701634F503F8012 /* AVProVideoForceSwift.swift */; };
 		77C0894FC16BA5631139FC8F /* StoreReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F2C6BDED1BC5D75C5916F /* StoreReview.m */; };
 		78B59F8C2DA390FBAEA51160 /* UnityFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D53B5BD2EFDCE044275DF0AF /* UnityFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C058CAE70F713F7AE4E6167 /* UnityScene.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6123A9B450B0AB9F525AD2 /* UnityScene.h */; };
@@ -107,6 +108,7 @@
 		A4E8229B1D9502E9F8C502D1 /* UnityWebRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77A48A2BB7401CA008A09B2F /* UnityWebRequest.mm */; };
 		A5C000FC7C551667F37C1347 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5201A6004A8A0023F5541676 /* CoreText.framework */; };
 		A7DB3A6F75E10B1E35E6ED05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		AB97412294D201DD38939DD9 /* AVProVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDCE04CA4D597AE106EAA284 /* AVProVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABDDC050A0AE51C5BEEC1AD4 /* Vector3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF8AA0F87DF629F3B65CCB8 /* Vector3.h */; };
 		AC59092CA77C69D6ED97B183 /* AppDelegateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5201A0F3E84F5492ABC002BC /* AppDelegateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC6B94F04710CA18194BE4B6 /* OnDemandResources.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCB9B0D9A6CEA2857C0AA9FA /* OnDemandResources.mm */; };
@@ -200,6 +202,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				9D25ABA5213FB47800354C27 /* UnityFramework.framework in Embed Frameworks */,
+				AB97412294D201DD38939DD9 /* AVProVideo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +384,7 @@
 		32794631EAE2A26E05869F6E /* Generics__105.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__105.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__105.cpp; sourceTree = SOURCE_ROOT; };
 		33021DBF5A5B60EF2C1D15AA /* NoGraphicsHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NoGraphicsHelper.mm; path = Classes/Unity/NoGraphicsHelper.mm; sourceTree = SOURCE_ROOT; };
 		3308B3043A951C59509F2A0A /* Generics__107.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__107.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__107.cpp; sourceTree = SOURCE_ROOT; };
+		333D418C9701634F503F8012 /* AVProVideoForceSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AVProVideoForceSwift.swift; path = Libraries/AVProVideo/AVProVideoForceSwift.swift; sourceTree = SOURCE_ROOT; };
 		3369FBBB1202A2D16B16FA7E /* mscorlib__21.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__21.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__21.cpp; sourceTree = SOURCE_ROOT; };
 		338C4897DA1522073BC5D19C /* UnityForwardDecls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityForwardDecls.h; path = Classes/Unity/UnityForwardDecls.h; sourceTree = SOURCE_ROOT; };
 		33C38F0EAAAD1FAB39DAF810 /* Generics__101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__101.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__101.cpp; sourceTree = SOURCE_ROOT; };
@@ -618,7 +622,6 @@
 		749E2B722F0B2B49039D8675 /* Generics__44.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__44.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__44.cpp; sourceTree = SOURCE_ROOT; };
 		74AA218A502DDA42FB55E28B /* AVProVideo.Extensions.UnityUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AVProVideo.Extensions.UnityUI.cpp; path = Il2CppOutputProject/Source/il2cppOutput/AVProVideo.Extensions.UnityUI.cpp; sourceTree = SOURCE_ROOT; };
 		74BC17515496D3F7111C4520 /* Generics__172.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__172.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__172.cpp; sourceTree = SOURCE_ROOT; };
-		74C14A919C17A153C8555E5D /* AVProVideoForceSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AVProVideoForceSwift.swift; path = Libraries/AVProVideo/AVProVideoForceSwift.swift; sourceTree = SOURCE_ROOT; };
 		74D741D9115D4857CCD09D41 /* Unity.RenderPipelines.Core.Runtime__3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.RenderPipelines.Core.Runtime__3.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.RenderPipelines.Core.Runtime__3.cpp; sourceTree = SOURCE_ROOT; };
 		7502C4262FF3B84C8792BB67 /* Generics__89.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__89.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__89.cpp; sourceTree = SOURCE_ROOT; };
 		751C18E5240C5C60C2D81A3D /* Generics__173.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__173.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__173.cpp; sourceTree = SOURCE_ROOT; };
@@ -1122,6 +1125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720D40BA9B885AF50B1B24CA /* AVProVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1365,10 +1369,10 @@
 			path = UserIdProviders;
 			sourceTree = "<group>";
 		};
-		3F8E44B2B1196E743DEC720F /* AVProVideo */ = {
+		3FD94E11BC5F49B2B4D19DC5 /* AVProVideo */ = {
 			isa = PBXGroup;
 			children = (
-				74C14A919C17A153C8555E5D /* AVProVideoForceSwift.swift */,
+				333D418C9701634F503F8012 /* AVProVideoForceSwift.swift */,
 			);
 			path = AVProVideo;
 			sourceTree = "<group>";
@@ -2340,7 +2344,7 @@
 				DAB61E49F0B27D71CDA3B02F /* lib_burst_generated.a */,
 				17B8DA4C2189239C555CC0EC /* lib_burst_generated.cpp */,
 				D8A1C72A0E8063A1000160D3 /* libiPhone-lib.a */,
-				3F8E44B2B1196E743DEC720F /* AVProVideo */,
+				3FD94E11BC5F49B2B4D19DC5 /* AVProVideo */,
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
@@ -2679,7 +2683,7 @@
 				6F8A8CC81C6BB172A8523107 /* VideoPlayer.mm in Sources */,
 				74FD6CCF256F4E8A4D55FFB2 /* Il2CppOptions.cpp in Sources */,
 				07BB80F4EACC2BC1ACE05752 /* RegisterFeatures.cpp in Sources */,
-				1EC64CC6AB3E9F4208CAFE92 /* AVProVideoForceSwift.swift in Sources */,
+				77264671ADC49C5D71C5A334 /* AVProVideoForceSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2734,7 +2738,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
@@ -2771,7 +2775,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
@@ -2949,7 +2953,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
@@ -3073,7 +3077,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
