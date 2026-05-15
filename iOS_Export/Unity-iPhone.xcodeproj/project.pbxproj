@@ -12,6 +12,7 @@
 		02E266F5EC37F510C1FC96A8 /* iPhone_Sensors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E962712F03732960A8B8D33 /* iPhone_Sensors.h */; };
 		030A68812E193A334BDD7087 /* iOSStepCounter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E23E0EB80EBE2A174954738 /* iOSStepCounter.mm */; };
 		03D511E658AE17A360EACBE2 /* LifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 797A8B83CAB5D0BA14B0C94C /* LifeCycleListener.mm */; };
+		060E4F92BE7988B7AEB9CD9E /* AVProVideoForceSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5954ECC92F23ACDBDCE4654 /* AVProVideoForceSwift.swift */; };
 		07BB80F4EACC2BC1ACE05752 /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46631CE85DA24538DC1E6004 /* RegisterFeatures.cpp */; };
 		08E9DFE0C9A08D68C79C7A29 /* UnityView+iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 23C8FECB25093E2986E91423 /* UnityView+iOS.mm */; };
 		08EF983F5B67771294B2BD67 /* InternalProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D738B38CD35A831824AE1D /* InternalProfiler.h */; };
@@ -68,7 +69,6 @@
 		5F7F88DF4BFAD6727306ACA5 /* ActivityIndicator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D1090A0C7074B4878ECB7 /* ActivityIndicator.mm */; };
 		63ACF7178776C648B96974EB /* baselib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD8D832DF5E49F3229DE515 /* baselib.a */; };
 		6412DCBAA9529A01D381C747 /* Filesystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5B58EA838E650B8EF348294 /* Filesystem.mm */; };
-		646643BC90674A517D50BDD5 /* AVProVideoForceSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9124AFF9C1C77BD39EE8B52 /* AVProVideoForceSwift.swift */; };
 		67A617E5FFD67C6B9FBA0A15 /* MetalHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49265D736859235BFB6D1FF6 /* MetalHelper.mm */; };
 		69ED3E404F037B21557B6831 /* VideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C5DFDBA7DBE2E98847911A /* VideoPlayer.h */; };
 		6B61720A8E04F94583982270 /* UnityViewControllerBase+tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 43835334F8F7D3225E515DE9 /* UnityViewControllerBase+tvOS.h */; };
@@ -845,6 +845,7 @@
 		B39436E255FF5376259080BE /* mscorlib__6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__6.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__6.cpp; sourceTree = SOURCE_ROOT; };
 		B44106D03DA333A3FDB45BC1 /* Il2CppCCTypeValuesTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppCCTypeValuesTable.c; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppCCTypeValuesTable.c; sourceTree = SOURCE_ROOT; };
 		B58EF12BF9B65BC74A92DC07 /* AppleRequiredReasonCSharpAPIs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = AppleRequiredReasonCSharpAPIs.txt; path = UnityFramework/AppleRequiredReasonCSharpAPIs.txt; sourceTree = SOURCE_ROOT; };
+		B5954ECC92F23ACDBDCE4654 /* AVProVideoForceSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AVProVideoForceSwift.swift; path = Libraries/AVProVideo/AVProVideoForceSwift.swift; sourceTree = SOURCE_ROOT; };
 		B5A89C2D3588C3D4F6F6AEE2 /* Generics__37.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__37.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__37.cpp; sourceTree = SOURCE_ROOT; };
 		B5B115736DBA9DCEB9738352 /* Timeline.Samples.TimeDilation_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Timeline.Samples.TimeDilation_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Timeline.Samples.TimeDilation_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		B65026F4E0A439EAE4490865 /* UnityEngine.IMGUIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.IMGUIModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -1033,7 +1034,6 @@
 		E8A3C67A913D9E240397EFB1 /* UnityEngine.UIElementsModule__4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIElementsModule__4.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__4.cpp; sourceTree = SOURCE_ROOT; };
 		E8FE5169998030224E7B0E0F /* Generics__94.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__94.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__94.cpp; sourceTree = SOURCE_ROOT; };
 		E903638A859FE0D761D74283 /* Generics__109.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__109.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__109.cpp; sourceTree = SOURCE_ROOT; };
-		E9124AFF9C1C77BD39EE8B52 /* AVProVideoForceSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AVProVideoForceSwift.swift; path = Libraries/AVProVideo/AVProVideoForceSwift.swift; sourceTree = SOURCE_ROOT; };
 		E95F69E8266F65D505F8448E /* UnityViewControllerBase+tvOS.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "UnityViewControllerBase+tvOS.mm"; path = "Classes/UI/UnityViewControllerBase+tvOS.mm"; sourceTree = SOURCE_ROOT; };
 		E997E8735A09F89C0365D60D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E9D324EE2C6711871A4F3906 /* GenericMethods__36.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__36.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__36.cpp; sourceTree = SOURCE_ROOT; };
@@ -1212,14 +1212,6 @@
 				D7246FFFD4BDACFF1F41569D /* InputSystem */,
 			);
 			path = com.unity.inputsystem;
-			sourceTree = "<group>";
-		};
-		0E6B40B8AAC5E95D734E8A6E /* AVProVideo */ = {
-			isa = PBXGroup;
-			children = (
-				E9124AFF9C1C77BD39EE8B52 /* AVProVideoForceSwift.swift */,
-			);
-			path = AVProVideo;
 			sourceTree = "<group>";
 		};
 		15E9C8A1C1489D5EB517C7CB /* PluginBase */ = {
@@ -2294,6 +2286,14 @@
 			path = Device;
 			sourceTree = "<group>";
 		};
+		BD5142AF857405F4F66BF195 /* AVProVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B5954ECC92F23ACDBDCE4654 /* AVProVideoForceSwift.swift */,
+			);
+			path = AVProVideo;
+			sourceTree = "<group>";
+		};
 		CC7FAE45704DBC1F78A01F2B /* lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -2340,7 +2340,7 @@
 				DAB61E49F0B27D71CDA3B02F /* lib_burst_generated.a */,
 				17B8DA4C2189239C555CC0EC /* lib_burst_generated.cpp */,
 				D8A1C72A0E8063A1000160D3 /* libiPhone-lib.a */,
-				0E6B40B8AAC5E95D734E8A6E /* AVProVideo */,
+				BD5142AF857405F4F66BF195 /* AVProVideo */,
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
@@ -2679,7 +2679,7 @@
 				6F8A8CC81C6BB172A8523107 /* VideoPlayer.mm in Sources */,
 				74FD6CCF256F4E8A4D55FFB2 /* Il2CppOptions.cpp in Sources */,
 				07BB80F4EACC2BC1ACE05752 /* RegisterFeatures.cpp in Sources */,
-				646643BC90674A517D50BDD5 /* AVProVideoForceSwift.swift in Sources */,
+				060E4F92BE7988B7AEB9CD9E /* AVProVideoForceSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2726,7 +2726,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -2765,7 +2765,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -2808,7 +2808,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2855,7 +2855,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2943,7 +2943,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -2986,7 +2986,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3067,7 +3067,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -3110,7 +3110,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "Super course system ltd";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
