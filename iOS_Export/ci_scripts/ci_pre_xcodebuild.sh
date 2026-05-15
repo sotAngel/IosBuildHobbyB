@@ -1,33 +1,32 @@
 #!/bin/sh
-set -e
 
-echo "=== AVPRO PRE-BUILD CHECK ==="
+echo "=== FINAL APP FRAMEWORK CHECK ==="
 
-PBXPROJECT="Unity-iPhone.xcodeproj/project.pbxproj"
-AVPRO_PATH="Frameworks/AVProVideo/Runtime/Plugins/iOS/AVProVideo.framework"
-
-echo "Current directory:"
+echo "Current path:"
 pwd
 
-echo "Checking AVPro framework folder..."
-if [ ! -d "$AVPRO_PATH" ]; then
-  echo "ERROR: AVProVideo.framework folder is missing:"
-  echo "$AVPRO_PATH"
-  exit 1
+echo "Searching for built .app..."
+APP_PATH=$(find "$CI_DERIVED_DATA_PATH" -name "*.app" -type d | head -n 1)
+
+echo "APP_PATH=$APP_PATH"
+
+if [ -z "$APP_PATH" ]; then
+    echo "ERROR: No .app found."
+    exit 1
 fi
 
-echo "Checking project.pbxproj for Embed Frameworks entry..."
-if ! grep -q "AVProVideo.framework in Embed Frameworks" "$PBXPROJECT"; then
-  echo "ERROR: AVProVideo.framework is NOT in Embed Frameworks."
-  echo "It may be linked, but it will not be copied into the final .app."
-  exit 1
+echo "Listing app Frameworks folder:"
+ls -la "$APP_PATH/Frameworks" || true
+
+echo "Checking AVProVideo.framework:"
+ls -la "$APP_PATH/Frameworks/AVProVideo.framework" || true
+
+echo "Checking AVProVideo binary:"
+if [ -f "$APP_PATH/Frameworks/AVProVideo.framework/AVProVideo" ]; then
+    echo "OK: AVProVideo binary exists in final app."
+else
+    echo "ERROR: AVProVideo binary is missing from final app."
+    exit 1
 fi
 
-echo "Checking CodeSignOnCopy..."
-if ! grep -q "CodeSignOnCopy" "$PBXPROJECT"; then
-  echo "ERROR: No CodeSignOnCopy found in project.pbxproj."
-  exit 1
-fi
-
-echo "AVPro pre-build check passed."
-echo "=== END AVPRO PRE-BUILD CHECK ==="
+echo "=== END FINAL APP FRAMEWORK CHECK ==="
